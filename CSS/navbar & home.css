@@ -3,7 +3,7 @@ body{
     overflow-y: hidden;
 }
 body{
-    background-image: url("Assert/3d-technology-geometric-black-background.jpg");
+    background-image: url("Assert/home/3d-technology-geometric-black-background.jpg");
     background-size: cover;
     background-position: center;
     border: 0;
@@ -202,3 +202,37 @@ section>section>div:nth-child(5){
     bottom: 34%;
     position: absolute;
 }
+
+/*social media section*/
+
+#fb{
+    width: 2vw;
+    height: 2vw;
+    right: 2vw;
+    top: 20vw;
+    position: absolute;
+}
+
+#inster{
+    width: 2vw;
+    height: 2vw;
+    right: 2vw;
+    top: 24vw;
+    position: absolute;
+}
+#github{
+    width: 2vw;
+    height: 2vw;
+    right: 2vw;
+    top: 28vw;
+    position: absolute;
+}
+
+#linkedin{
+    width: 2vw;
+    height: 2vw;
+    right: 2vw;
+    top: 32vw;
+    position: absolute;
+}
+
