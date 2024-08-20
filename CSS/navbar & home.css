@@ -251,3 +251,15 @@ section>section>div:nth-child(5){
     top: 42vw;
     position: absolute;
 }
+
+
+#profile{
+    width: 38vw;
+    height: 48vw;
+    border-radius: 40vw;
+    border-color: #0090F9;
+    transform: rotateY(150deg);
+    right: 8%;
+    bottom: 12%;
+    position: absolute;
+}
