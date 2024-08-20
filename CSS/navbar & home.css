@@ -128,23 +128,23 @@ section>section>div:nth-child(1){
 }
 section>section>div:nth-child(2){
     color: white;
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
     left: 10%;
-    top: 20%;
+    top: 17%;
     position: absolute;
 }
 
 section>section>div:nth-child(3){
     color: white;
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
     left: 10%;
-    top: 32%;
+    top: 30%;
     position: absolute;
 }
 
@@ -154,8 +154,8 @@ section>section>div:nth-child(4){
     font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
-    left: 31%;
-    top: 40%;
+    left: 35%;
+    top: 43%;
     position: absolute;
 }
 
@@ -166,7 +166,7 @@ section>section>div:nth-child(5){
     font-weight: 100;
     font-style: normal;
     left: 10%;
-    top: 51%;
+    top: 54%;
     position: absolute;
 
 }
@@ -183,7 +183,7 @@ section>section>div:nth-child(5){
     background: linear-gradient(to right, #00224d 1%,#0c9463 100%,#0c9463 100%);
     color: white;
     left: 10%;
-    bottom: 34%;
+    bottom: 30%;
     position: absolute;
 }
 
@@ -199,7 +199,7 @@ section>section>div:nth-child(5){
     background: linear-gradient(to right, #00224d 1%,#0c9463 100%,#0c9463 100%);
     color: white;
     left: 18%;
-    bottom: 34%;
+    bottom: 30%;
     position: absolute;
 }
 
@@ -209,7 +209,7 @@ section>section>div:nth-child(5){
     width: 2vw;
     height: 2vw;
     right: 2vw;
-    top: 20vw;
+    top: 18vw;
     position: absolute;
 }
 
@@ -217,14 +217,14 @@ section>section>div:nth-child(5){
     width: 2vw;
     height: 2vw;
     right: 2vw;
-    top: 24vw;
+    top: 22vw;
     position: absolute;
 }
 #github{
     width: 2vw;
     height: 2vw;
     right: 2vw;
-    top: 28vw;
+    top: 26vw;
     position: absolute;
 }
 
@@ -232,7 +232,7 @@ section>section>div:nth-child(5){
     width: 2vw;
     height: 2vw;
     right: 2vw;
-    top: 32vw;
+    top: 30vw;
     position: absolute;
 }
 
@@ -240,7 +240,7 @@ section>section>div:nth-child(5){
     width: 2vw;
     height: 4vw;
     right: 2vw;
-    top: 35vw;
+    top: 33vw;
     position: absolute;
 }
 #followme{
@@ -248,7 +248,7 @@ section>section>div:nth-child(5){
     color: white;
     transform: rotate(270deg);
     right: 0.3vw;
-    top: 42vw;
+    top: 40vw;
     position: absolute;
 }
 
@@ -256,11 +256,11 @@ section>section>div:nth-child(5){
 #profile{
     width: 38vw;
     height: 48vw;
-    border-radius: 40vw;
+    border-radius: 100vw;
     border-color: #0090F9;
     transform: rotateY(150deg);
     right: 8%;
-    bottom: 12%;
+    bottom: 15%;
     position: absolute;
 }
 
@@ -277,7 +277,7 @@ section>section>div:nth-child(5){
     position: absolute;
 }
 
-#behance>img{
+#behance>a>img{
     width: 2vw;
     height: 2vw;
     top: 15%;
@@ -297,7 +297,7 @@ section>section>div:nth-child(5){
     position: absolute;
 }
 
-#dribble>img{
+#dribble>a>img{
     width: 2vw;
     height: 2vw;
     top: 15%;
@@ -344,3 +344,23 @@ section>section>div:nth-child(5){
     right: 5%;
     position: absolute;
 }
+
+p{
+       color: white;
+       font-size: 1vw;
+       border-color: #0090F9;
+       font-family: "Klee One", cursive;
+       font-weight: 400;
+       font-style: normal;
+       left: 5%;
+       margin: auto;
+       position: absolute;
+   }
+
+ #arrow{
+     transform: rotate(270deg);
+     top: 75%;
+     left: 10%;
+     height: 3vw;
+     position: absolute;
+ }
