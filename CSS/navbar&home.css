@@ -1,0 +1,201 @@
+header{
+    width: 45%;
+    height: 2vw;
+    right: 0;
+    top: 0;
+
+
+    border: 2px solid #0090F9;
+    background-color: #625E5E;
+    margin: auto;
+    position: relative;
+    line-height: 2px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    background-image: url("Assert/3d-technology-geometric-black-background.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    margin: 0;
+}
+
+header>nav>ul>li:nth-child(1)>a{
+    color: whitesmoke;
+    font-size: x-small;
+    margin-left: 2px;
+    margin-right: 2px;
+    bottom: 1vw;
+    position: absolute;
+
+}
+
+
+header>nav>ul>li:nth-child(2)>a{
+    color: whitesmoke;
+    font-size: x-small;
+    margin: 0 45px;
+    bottom: 1vw;
+    position: absolute;
+}
+
+header>nav>ul>li:nth-child(3)>a{
+    color: whitesmoke;
+    font-size: x-small;
+    margin: 0 95px;
+    bottom: 1vw;
+    position: absolute;
+
+}
+
+header>nav>ul>li:nth-child(4)>a{
+    color: whitesmoke;
+    font-size: x-small;
+    margin: 0 145px;
+    bottom: 1vw;
+    position: absolute;
+
+}
+
+
+header>nav>div{
+    color: white;
+    font-size: 1.8vw;
+    margin: 0 265px;
+    bottom: 1vw;
+    position: absolute;
+
+}
+
+header>nav>ul>li:nth-child(5)>a{
+    color: whitesmoke;
+    font-size: x-small;
+    margin: 0 295px;
+    bottom: 1vw;
+    position: absolute;
+
+}
+
+
+header>nav>ul>li:nth-child(6)>a{
+    color: whitesmoke;
+    font-size: x-small;
+    margin: 0 375px;
+    bottom: 1vw;
+    position: absolute;
+
+}
+
+header>nav>ul>li:nth-child(7)>a{
+    color: whitesmoke;
+    font-size: x-small;
+    margin: 0 435px;
+    bottom: 1vw;
+    position: absolute;
+
+}
+
+header>nav>ul>li:nth-child(8)>a{
+    color: whitesmoke;
+    font-size: x-small;
+    margin: 0 495px;
+    bottom: 1vw;
+    position: absolute;
+
+}
+#massage{
+    width: 5vw;
+    height: 5vw;
+    border: #0090F9;
+    left: 10%;
+    top: 20%;
+    position: absolute;
+}
+section>section>div:nth-child(1){
+    color: white;
+    font-size: x-large;
+    left: 11.4%;
+    top: 23%;
+    position: absolute;
+}
+section>section>div:nth-child(2){
+    color: white;
+    font-size: 4vw;
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    left: 10%;
+    top: 20%;
+    position: absolute;
+}
+
+section>section>div:nth-child(3){
+    color: white;
+    font-size: 4vw;
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    left: 10%;
+    top: 32%;
+    position: absolute;
+}
+
+section>section>div:nth-child(4){
+    color: #0C9463;
+    font-size: 2.5vw;
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    left: 31%;
+    top: 40%;
+    position: absolute;
+}
+
+section>section>div:nth-child(5){
+    color: white;
+    font-size: x-large;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    left: 10%;
+    top: 51%;
+    position: absolute;
+
+}
+
+#cv{
+    width: 7vw;
+    height: 2vw;
+    border-color: #00224d;
+    border-radius: 5vw;
+    font-size: small;
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #00224d 1%,#0c9463 100%,#0c9463 100%);
+    color: white;
+    left: 10%;
+    bottom: 34%;
+    position: absolute;
+}
+
+#explore{
+    width: 5vw;
+    height: 2vw;
+    border-color:#00224d;
+    border-radius: 5vw;
+    font-size: small;
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #00224d 1%,#0c9463 100%,#0c9463 100%);
+    color: white;
+    left: 18%;
+    bottom: 34%;
+    position: absolute;
+}
