@@ -263,3 +263,84 @@ section>section>div:nth-child(5){
     bottom: 12%;
     position: absolute;
 }
+
+/*social media button section*/
+#behance{
+    width: 14vw;
+    height: 3vw;
+    background: linear-gradient(to right, #737373 0%,#0c9463 100%);
+    border-radius: 5px;
+    top: 90%;
+    right: 77%;
+    font-size: small;
+    color: white;
+    position: absolute;
+}
+
+#behance>img{
+    width: 2vw;
+    height: 2vw;
+    top: 15%;
+    right: 5%;
+    position: absolute;
+}
+
+#dribble{
+    width: 14vw;
+    height: 3vw;
+    background: linear-gradient(to right, #737373 0%,#0c9463 100%);
+    border-radius: 5px;
+    top: 90%;
+    right: 54%;
+    font-size: small;
+    color: white;
+    position: absolute;
+}
+
+#dribble>img{
+    width: 2vw;
+    height: 2vw;
+    top: 15%;
+    right: 5%;
+    position: absolute;
+}
+
+#tiktok{
+    width: 14vw;
+    height: 3vw;
+    background: linear-gradient(to right, #737373 0%,#0c9463 100%);
+    border-radius: 5px;
+    top: 90%;
+    right: 31%;
+    font-size: small;
+    color: white;
+    position: absolute;
+}
+
+#tiktok>img{
+    width: 2vw;
+    height: 2vw;
+    top: 15%;
+    right: 5%;
+    position: absolute;
+}
+
+#youtube{
+    width: 14vw;
+    height: 3vw;
+    background: linear-gradient(to right, #737373 0%,#0c9463 100%);
+    border-radius: 5px;
+    top: 90%;
+    right: 8%;
+    font-size: small;
+    color: white;
+    position: absolute;
+}
+
+#youtube>img{
+    width: 2vw;
+    height: 2vw;
+    top: 15%;
+    right: 5%;
+    position: absolute;
+}
