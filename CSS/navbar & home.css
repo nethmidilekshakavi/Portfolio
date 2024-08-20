@@ -236,3 +236,18 @@ section>section>div:nth-child(5){
     position: absolute;
 }
 
+#line{
+    width: 2vw;
+    height: 4vw;
+    right: 2vw;
+    top: 35vw;
+    position: absolute;
+}
+#followme{
+
+    color: white;
+    transform: rotate(270deg);
+    right: 0.3vw;
+    top: 42vw;
+    position: absolute;
+}
