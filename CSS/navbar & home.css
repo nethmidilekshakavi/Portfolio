@@ -1,3 +1,15 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    background-image: url("Assert/3d-technology-geometric-black-background.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    margin: 0;
+}
+
 header{
     width: 45%;
     height: 2vw;
@@ -12,17 +24,6 @@ header{
     line-height: 2px;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:20px;
-}
-body{
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-body{
-    background-image: url("Assert/3d-technology-geometric-black-background.jpg");
-    background-size: cover;
-    background-position: center;
-    border: 0;
-    margin: 0;
 }
 
 header>nav>ul>li:nth-child(1)>a{
@@ -81,7 +82,9 @@ header>nav>ul>li:nth-child(5)>a{
 
 }
 
-
+header>section{
+    position: relative;
+}
 header>nav>ul>li:nth-child(6)>a{
     color: whitesmoke;
     font-size: x-small;
