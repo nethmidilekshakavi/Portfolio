@@ -11,8 +11,8 @@ body{
 }
 
 header{
-    width: 45%;
-    height: 2vw;
+    width: 55%;
+    height: 2.5vw;
     right: 0;
     top: 0;
 
@@ -28,8 +28,8 @@ header{
 
 header>nav>ul>li:nth-child(1)>a{
     color: whitesmoke;
-    font-size: x-small;
-    margin-left: 2px;
+    font-size: small;
+    margin-left: -12px;
     margin-right: 2px;
     bottom: 1vw;
     position: absolute;
@@ -39,16 +39,16 @@ header>nav>ul>li:nth-child(1)>a{
 
 header>nav>ul>li:nth-child(2)>a{
     color: whitesmoke;
-    font-size: x-small;
-    margin: 0 45px;
+    font-size: small;
+    margin: 0 48px;
     bottom: 1vw;
     position: absolute;
 }
 
 header>nav>ul>li:nth-child(3)>a{
     color: whitesmoke;
-    font-size: x-small;
-    margin: 0 95px;
+    font-size: small;
+    margin: 0 111px;
     bottom: 1vw;
     position: absolute;
 
@@ -56,8 +56,8 @@ header>nav>ul>li:nth-child(3)>a{
 
 header>nav>ul>li:nth-child(4)>a{
     color: whitesmoke;
-    font-size: x-small;
-    margin: 0 145px;
+    font-size: small;
+    margin: 0 180px;
     bottom: 1vw;
     position: absolute;
 
@@ -67,7 +67,10 @@ header>nav>ul>li:nth-child(4)>a{
 header>nav>div{
     color: white;
     font-size: 1.8vw;
-    margin: 0 265px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 320px;
     bottom: 1vw;
     position: absolute;
 
@@ -75,8 +78,8 @@ header>nav>div{
 
 header>nav>ul>li:nth-child(5)>a{
     color: whitesmoke;
-    font-size: x-small;
-    margin: 0 295px;
+    font-size: small;
+    margin: 0 350px;
     bottom: 1vw;
     position: absolute;
 
@@ -87,8 +90,8 @@ header>section{
 }
 header>nav>ul>li:nth-child(6)>a{
     color: whitesmoke;
-    font-size: x-small;
-    margin: 0 375px;
+    font-size: small;
+    margin: 0 460px;
     bottom: 1vw;
     position: absolute;
 
@@ -96,8 +99,8 @@ header>nav>ul>li:nth-child(6)>a{
 
 header>nav>ul>li:nth-child(7)>a{
     color: whitesmoke;
-    font-size: x-small;
-    margin: 0 435px;
+    font-size: small;
+    margin: 0 540px;
     bottom: 1vw;
     position: absolute;
 
@@ -105,8 +108,8 @@ header>nav>ul>li:nth-child(7)>a{
 
 header>nav>ul>li:nth-child(8)>a{
     color: whitesmoke;
-    font-size: x-small;
-    margin: 0 495px;
+    font-size: small;
+    margin: 0 620px;
     bottom: 1vw;
     position: absolute;
 
@@ -387,3 +390,4 @@ p{
     top: 18%;
     position: absolute;
 }
+
