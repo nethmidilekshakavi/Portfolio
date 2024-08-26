@@ -25,6 +25,45 @@
         display: flex;
     }
 
+   /* card{
+        position: relative;
+    }
+
+
+
+    card::after, card::before{
+        --angle:0deg;
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: conic-gradient(from var(--angle),transparent 70%,#0090F9);
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        z-index: -1;
+        padding: 3px;
+        animation: 3s spin linear infinite;
+    }
+
+
+
+    @keyframes spin {
+
+
+        from {
+            --angle: 0deg;
+
+        } to{
+              --angle:360deg;
+
+          }
+    }
+    card::before{
+        filter: blur(1.5rm);
+        opacity: 0.5;
+    }*/
+
 </style>
 
 
@@ -86,22 +125,22 @@
 </section>
 
 <!--social media button section-->
-<div id="behance">
+<card id="behance">
     <a href=""><img src="Assert/home/icons8-behance-94.png"></a>
     <p >Behance <br> Follows 80</p>
-</div>
-<div id="dribble">
+</card>
+<card id="dribble">
     <a href=""><img src="Assert/home/icons8-dribble-69.png"></a>
     <p >Dribble <br> Follows 50</p>
-</div>
-<div id="tiktok">
+</card>
+<card id="tiktok">
     <img src="Assert/home/icons8-tiktok-50.png" >
     <p >TikTok <br> Follows 100</p>
-</div>
-<div id="youtube">
+</card>
+<card id="youtube">
     <img src="Assert/home/icons8-youtube-188.png" >
     <p >YouTube <br> Follows 50</p>
-</div>
+</card>
 
 <img id="arrow" src="Assert/home/icons8-arrow-50.png" >
 

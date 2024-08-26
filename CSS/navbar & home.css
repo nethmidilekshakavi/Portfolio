@@ -13,6 +13,7 @@ body{
 }
 
 
+/*
 {
     margin: 0;
     padding: 0;
@@ -20,10 +21,12 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+*/
 
 
 header>nav>a{
     position: relative;
+    /*left: 30%;*/
     font-size: small;
     font-weight: 500;
     font-family: "Klee One", cursive;
@@ -31,7 +34,7 @@ header>nav>a{
     color: lightyellow;
     text-decoration: none;
     padding: 8px 20px;
-    transition: .5s;
+    transition: .8s;
 }
 
 nav>a:hover{
@@ -232,8 +235,8 @@ section>section>div:nth-child(5){
 
 
 #profile{
-    width: 38vw;
-    height: 48vw;
+    width: 30vw;
+    height: 40vw;
     border-radius: 100vw;
     border-color: #0090F9;
     transform: rotateY(150deg);
@@ -347,7 +350,7 @@ p{
 #lightroom{
     width: 3vw;
     height: 3vw;
-    left: 60%;
+    left: 65%;
     top: 18%;
     position: absolute;
     text-decoration: none;
@@ -358,7 +361,7 @@ p{
 #figma{
     width: 3vw;
     height: 3vw;
-    left: 60%;
+    left: 65%;
     top: 70%;
     position: absolute;
     text-decoration: none;
