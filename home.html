@@ -13,16 +13,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" rel="stylesheet">
 <style>
 
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+
     body{
         background-image: url("Assert/home/3d-technology-geometric-black-background.jpg");
         background-size: cover;
         background-position: center;
+        justify-content: center;
+        align-items: center;
         border: 0;
         margin: 0;
+        top: 0;
+        display: flex;
     }
 
 
+header>nav>a{
+    position: relative;
+    font-size: small;
+    font-weight: 500;
+    color: lightyellow;
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: .5s;
+}
 
+nav>a:hover{
+    color: #0090F9;
+}
+nav>a>span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid #0090F9;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    opacity: 0;
+    transition: .5s;
+}
+nav>a:hover>span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
 
 
 </style>
@@ -33,21 +73,24 @@
 
 <!-------------------------------------------------------------navBar & Home------------------------------------------------------------>
 
-    <header>
+<header>
+
     <nav>
-        <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SKILLS</a></li>
-            <li><a href="">EDUCATION</a></li>
-            <li><a href="">ASSIGNMENT</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">GALLERY</a></li>
-            <li><a href="">CONTACT</a></li>
-        </ul>
-        <div>Kavi</div>
+
+           <a href="About.html">Home<span></span></a>
+           <a href="">About<span></span></a>
+           <a href="">Skills<span></span></a>
+            <a href="">Education<span></span></a>
+            <a href="">Assignment<span></span></a>
+            <a href="">Services<span></span></a>
+            <a href="">Gallery<span></span></a>
+            <a href="">Contact<span></span></a>
+
+        <!--<div>Kavi</div>-->
     </nav>
-    </header>
+</header>
+
+
         <section>
         <img id="massage" src="Assert/home/icons8-message-50.png" >
 

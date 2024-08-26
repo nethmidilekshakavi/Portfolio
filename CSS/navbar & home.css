@@ -10,8 +10,20 @@ body{
     margin: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+/*
+
 header{
-    width: 55%;
+    width: 100%;
     height: 2.5vw;
     right: 0;
     top: 0;
@@ -19,14 +31,45 @@ header{
 
     border: 2px solid #0090F9;
     background-color: #625E5E;
-    margin: auto;
+    margin: 0;
     position: relative;
     line-height: 2px;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:20px;
 }
 
-header>nav>ul>li:nth-child(1)>a{
+header>nav{
+    justify-content: center;
+    align-items: center;
+}
+
+header>nav>ul>li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background:linear-gradient(45deg,#0C9463,#0090F9);
+    border-radius: 8px;
+    padding: 0 20px;
+
+
+
+}
+
+nav>ul>li{
+    position: relative;
+    display: inline;
+    font-size: small;
+    font-weight: 500;
+    color: lightyellow;
+    text-decoration: none;
+    padding: 0 10px;
+
+}
+*/
+
+/*header>nav>ul>li:nth-child(1)>a{
     color: whitesmoke;
     font-size: small;
     margin-left: -12px;
@@ -113,7 +156,7 @@ header>nav>ul>li:nth-child(8)>a{
     bottom: 1vw;
     position: absolute;
 
-}
+}*/
 #massage{
     width: 5vw;
     height: 5vw;

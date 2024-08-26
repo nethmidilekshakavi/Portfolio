@@ -15,17 +15,28 @@ body{
 }
 
 section:nth-child(1)>h5{
-    color: white;
+    color: lightgoldenrodyellow;
     font-size: 1.5vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
     top: -3%;
-    left: 7%;
+    left: 18%;
     position: absolute;
 }
 
+section:nth-child(1)>h6{
+    color: #00224d;
+    font-size: 1.5vw;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+    top: -8%;
+    left: 6%;
+    position: absolute;
+}
 
 section:nth-child(1)>div {
     width: 1.3vw;
@@ -41,7 +52,7 @@ section:nth-child(2)>img:nth-child(1){
     width: 16vw;
     border-radius: 8%;
     left:10%;
-    top: 130%;
+    top: 120%;
     position: absolute;
 
 }
@@ -60,7 +71,7 @@ section:nth-child(2)>img:nth-child(2){
     color: white;
     font-size: 1.4vw;
     left: 45%;
-    top: 10vw;
+    top: 15vw;
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
