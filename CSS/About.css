@@ -21,20 +21,21 @@ section:nth-child(1)>h5{
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 0;
-    left: 3%;
+    top: -3%;
+    left: 7%;
     position: absolute;
 }
 
-section:nth-child(1)>div{
-    width: 2vw;
-    height: 2vw;
-    color: #0090F9;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
 
+section:nth-child(1)>div {
+    width: 1.3vw;
+    height: 1.3vw;
+    background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+    position: absolute;
+    left: 4%;
+    top: 11.5%;
+
+}
 section:nth-child(2)>img:nth-child(1){
     height: 18vw;
     width: 16vw;

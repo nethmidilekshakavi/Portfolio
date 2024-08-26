@@ -121,6 +121,8 @@ header>nav>ul>li:nth-child(8)>a{
     left: 10%;
     top: 20%;
     position: absolute;
+    border-radius: 10px;
+
 }
 section>section>div:nth-child(1){
     color: white;
