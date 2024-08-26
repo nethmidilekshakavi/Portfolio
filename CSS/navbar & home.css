@@ -2,6 +2,8 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+
 body{
     background-image: url("Assert/home/3d-technology-geometric-black-background.jpg");
     background-repeat: no-repeat;
@@ -11,152 +13,46 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-/*
-
-header{
-    width: 100%;
-    height: 2.5vw;
-    right: 0;
-    top: 0;
-
-
-    border: 2px solid #0090F9;
-    background-color: #625E5E;
+{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+header>nav>a{
     position: relative;
-    line-height: 2px;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius:20px;
-}
-
-header>nav{
-    justify-content: center;
-    align-items: center;
-}
-
-header>nav>ul>li{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 95px;
-    height: 100%;
-    background:linear-gradient(45deg,#0C9463,#0090F9);
-    border-radius: 8px;
-    padding: 0 20px;
-
-
-
-}
-
-nav>ul>li{
-    position: relative;
-    display: inline;
     font-size: small;
     font-weight: 500;
     color: lightyellow;
     text-decoration: none;
-    padding: 0 10px;
-
+    padding: 8px 20px;
+    transition: .5s;
 }
-*/
 
-/*header>nav>ul>li:nth-child(1)>a{
-    color: whitesmoke;
-    font-size: small;
-    margin-left: -12px;
-    margin-right: 2px;
-    bottom: 1vw;
+nav>a:hover{
+    color: #0090F9;
+}
+nav>a>span{
     position: absolute;
-
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid #0090F9;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    opacity: 0;
+    transition: .8s;
+}
+nav>a:hover>span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
 }
 
-
-header>nav>ul>li:nth-child(2)>a{
-    color: whitesmoke;
-    font-size: small;
-    margin: 0 48px;
-    bottom: 1vw;
-    position: absolute;
-}
-
-header>nav>ul>li:nth-child(3)>a{
-    color: whitesmoke;
-    font-size: small;
-    margin: 0 111px;
-    bottom: 1vw;
-    position: absolute;
-
-}
-
-header>nav>ul>li:nth-child(4)>a{
-    color: whitesmoke;
-    font-size: small;
-    margin: 0 180px;
-    bottom: 1vw;
-    position: absolute;
-
-}
-
-
-header>nav>div{
-    color: white;
-    font-size: 1.8vw;
-    font-family: "Matemasie", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0 320px;
-    bottom: 1vw;
-    position: absolute;
-
-}
-
-header>nav>ul>li:nth-child(5)>a{
-    color: whitesmoke;
-    font-size: small;
-    margin: 0 350px;
-    bottom: 1vw;
-    position: absolute;
-
-}
-
-header>section{
-    position: relative;
-}
-header>nav>ul>li:nth-child(6)>a{
-    color: whitesmoke;
-    font-size: small;
-    margin: 0 460px;
-    bottom: 1vw;
-    position: absolute;
-
-}
-
-header>nav>ul>li:nth-child(7)>a{
-    color: whitesmoke;
-    font-size: small;
-    margin: 0 540px;
-    bottom: 1vw;
-    position: absolute;
-
-}
-
-header>nav>ul>li:nth-child(8)>a{
-    color: whitesmoke;
-    font-size: small;
-    margin: 0 620px;
-    bottom: 1vw;
-    position: absolute;
-
-}*/
 #massage{
     width: 5vw;
     height: 5vw;
@@ -165,6 +61,9 @@ header>nav>ul>li:nth-child(8)>a{
     top: 20%;
     position: absolute;
     border-radius: 10px;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 
 }
 section>section>div:nth-child(1){
@@ -173,6 +72,9 @@ section>section>div:nth-child(1){
     left: 11.4%;
     top: 23%;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
 section>section>div:nth-child(2){
     color: white;
@@ -183,6 +85,7 @@ section>section>div:nth-child(2){
     left: 10%;
     top: 17%;
     position: absolute;
+
 }
 
 section>section>div:nth-child(3){
@@ -259,6 +162,9 @@ section>section>div:nth-child(5){
     right: 2vw;
     top: 18vw;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
 
 #inster{
@@ -267,6 +173,10 @@ section>section>div:nth-child(5){
     right: 2vw;
     top: 22vw;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
+
 }
 #github{
     width: 2vw;
@@ -274,7 +184,11 @@ section>section>div:nth-child(5){
     right: 2vw;
     top: 26vw;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
+
 
 #linkedin{
     width: 2vw;
@@ -282,7 +196,11 @@ section>section>div:nth-child(5){
     right: 2vw;
     top: 30vw;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
+
 
 #line{
     width: 2vw;
@@ -290,6 +208,9 @@ section>section>div:nth-child(5){
     right: 2vw;
     top: 33vw;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
 #followme{
 
@@ -298,6 +219,9 @@ section>section>div:nth-child(5){
     right: 0.3vw;
     top: 40vw;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
 
 
@@ -323,6 +247,7 @@ section>section>div:nth-child(5){
     font-size: small;
     color: white;
     position: absolute;
+
 }
 
 #behance>a>img{
@@ -331,6 +256,7 @@ section>section>div:nth-child(5){
     top: 15%;
     right: 5%;
     position: absolute;
+
 }
 
 #dribble{
@@ -418,6 +344,9 @@ p{
     left: 60%;
     top: 18%;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
 
 #figma{
@@ -426,13 +355,19 @@ p{
     left: 60%;
     top: 70%;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
 
 #Ps{
     width: 3vw;
     height: 3vw;
-    left: 89%;
+    left: 87%;
     top: 18%;
     position: absolute;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: .5s;
 }
 
