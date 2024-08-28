@@ -82,7 +82,7 @@ section>section>div:nth-child(1){
     transition: .5s;
 }
 section>section>div:nth-child(2){
-    color: white;
+    color: wheat;
     font-size: 5vw;
     font-family: "Klee One", cursive;
     font-weight: 400;
@@ -94,7 +94,7 @@ section>section>div:nth-child(2){
 }
 
 section>section>div:nth-child(3){
-    color: white;
+    color: wheat;
     font-size: 5vw;
     font-family: "Klee One", cursive;
     font-weight: 400;
@@ -128,7 +128,7 @@ section>section>div:nth-child(5){
 }
 
 #cv{
-    width: 7vw;
+    width: 8vw;
     height: 2vw;
     border-color: #00224d;
     border-radius: 5vw;
@@ -147,7 +147,7 @@ section>section>div:nth-child(5){
 
 
 #explore{
-    width: 5vw;
+    width: 6vw;
     height: 2vw;
     border-color:#00224d;
     border-radius: 5vw;
@@ -158,7 +158,7 @@ section>section>div:nth-child(5){
     font-style: normal;
     background: linear-gradient(to right, #00224d 1%,#0c9463 100%,#0c9463 100%);
     color: white;
-    left: 18%;
+    left: 19.5%;
     bottom: 30%;
     position: absolute;
 }
@@ -229,6 +229,9 @@ section>section>div:nth-child(5){
     top: 40vw;
     position: absolute;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     padding: 8px 20px;
     transition: .5s;
 }
