@@ -88,7 +88,20 @@
         */
 
 
-        #div01>header>nav>a{
+        #div01>header>nav>a:first-child {
+            position: relative;
+            left: 23%;
+            font-size: small;
+            font-weight: 500;
+            font-family: "Klee One", cursive;
+            font-style: normal;
+            color: lightyellow;
+            text-decoration: none;
+            padding: 8px 20px;
+            transition: .8s;
+
+        }
+        #div01>header>nav>a:nth-child(2){
             position: relative;
             left: 23%;
             font-size: small;
@@ -100,6 +113,87 @@
             padding: 8px 20px;
             transition: .8s;
         }
+
+        #div01>header>nav>a:nth-child(3){
+            position: relative;
+            left: 23%;
+            font-size: small;
+            font-weight: 500;
+            font-family: "Klee One", cursive;
+            font-style: normal;
+            color: lightyellow;
+            text-decoration: none;
+            padding: 8px 20px;
+            transition: .8s;
+        }
+
+        #div01>header>nav>a:nth-child(4){
+            position: relative;
+            left: 23%;
+            font-size: small;
+            font-weight: 500;
+            font-family: "Klee One", cursive;
+            font-style: normal;
+            color: lightyellow;
+            text-decoration: none;
+            padding: 8px 20px;
+            transition: .8s;
+        }
+
+        #div01>header>nav>a:nth-child(6){
+            position: relative;
+            left: 30%;
+            font-size: small;
+            font-weight: 500;
+            font-family: "Klee One", cursive;
+            font-style: normal;
+            color: lightyellow;
+            text-decoration: none;
+            padding: 8px 20px;
+            transition: .8s;
+        }
+
+        #div01>header>nav>a:nth-child(7){
+            position: relative;
+            left: 30%;
+            font-size: small;
+            font-weight: 500;
+            font-family: "Klee One", cursive;
+            font-style: normal;
+            color: lightyellow;
+            text-decoration: none;
+            padding: 8px 20px;
+            transition: .8s;
+        }
+
+        #div01>header>nav>a:nth-child(8){
+            position: relative;
+            left: 30%;
+            font-size: small;
+            font-weight: 500;
+            font-family: "Klee One", cursive;
+            font-style: normal;
+            color: lightyellow;
+            text-decoration: none;
+            padding: 8px 20px;
+            transition: .8s;
+        }
+
+        #div01>header>nav>a:nth-child(9){
+            position: relative;
+            left: 30%;
+            font-size: small;
+            font-weight: 500;
+            font-family: "Klee One", cursive;
+            font-style: normal;
+            color: lightyellow;
+            text-decoration: none;
+            padding: 8px 20px;
+            transition: .8s;
+        }
+
+
+
 
         nav>a:hover{
             color: #0090F9;
@@ -303,11 +397,11 @@
 
         #profile{
             width: 30vw;
-            height: 40vw;
-            border-radius: 100vw;
+            height: 34vw;
+            border-radius: 20vw;
             border-color: #0090F9;
             transform: rotateY(150deg);
-            right: 8%;
+            right: 12%;
             bottom: 15%;
             position: absolute;
         }
@@ -415,9 +509,9 @@
             position: absolute;
         }
         #lightroom{
-            width: 3vw;
-            height: 3vw;
-            left: 65%;
+            width: 2.5vw;
+            height: 2.5vw;
+            left: 58%;
             top: 18%;
             position: absolute;
             text-decoration: none;
@@ -426,9 +520,9 @@
         }
 
         #figma{
-            width: 3vw;
-            height: 3vw;
-            left: 65%;
+            width: 2.5vw;
+            height: 2.5vw;
+            left: 58%;
             top: 70%;
             position: absolute;
             text-decoration: none;
@@ -437,24 +531,39 @@
         }
 
         #Ps{
-            width: 3vw;
-            height: 3vw;
-            left: 87%;
+            width: 2.5vw;
+            height: 2.5vw;
+            left: 82%;
             top: 18%;
             position: absolute;
             text-decoration: none;
             padding: 8px 20px;
             transition: .5s;
+
         }
 
         #logo{
-            width: 4vw;
-            height: 4vw;
+            width: 3vw;
+            height: 3vw;
             position: absolute;
-            left: 18%;
+            left: 52%;
             top: 0;
         }
 
+       /* @keyframes logo-animation {
+
+        0%{
+            -webkit-transform :translateZ(0);
+            transform: translateZ(0);
+        }
+
+
+            100%{
+                -webkit-transform :translate3d(-1500px,0,0);
+                transform: translate3d(-1500px,0,0);
+            }
+
+        }*/
 
 
 /*
@@ -481,13 +590,12 @@
         <a href="About.html">About<span></span></a>
         <a href="Skills.html">Skills<span></span></a>
         <a href="">Education<span></span></a>
+        <img src="Assert/home/Screenshot_2.png" id="logo">
         <a href="">Assignment<span></span></a>
         <a href="">Services<span></span></a>
         <a href="">Gallery<span></span></a>
         <a href="">Contact<span></span></a>
 
-
-        <img src="Assert/home/Screenshot_2.png" id="logo">
     </nav>
 </header>
 
@@ -509,7 +617,7 @@
         <button id="explore">Explore <span></span></button>
 
         <!--home image section-->
-        <img id="profile" src="Assert/WhatsApp%20Image%202024-07-29%20at%2011.07.57_bdbb95ce.png">
+        <img id="profile" src="Assert/home/profile.png">
 
     </section>
 
