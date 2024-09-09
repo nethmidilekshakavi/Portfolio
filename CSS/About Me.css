@@ -1,6 +1,6 @@
 /*about*/
 
-#div02{
+.div02{
     height:47vw;
     width: 100%;
     background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
@@ -8,12 +8,12 @@
 
 }
 
-#section4>h6{
+.div02>#section4>h6{
     margin: 0;
     position: relative;
 }
 
-#section4>h5{
+.div02>#section4>h5{
     color: lightgoldenrodyellow;
     font-size: 1.2vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
@@ -25,7 +25,7 @@
     position: absolute;
 }
 
-#section4>h6{
+.div02>#section4>h6{
     color: #0C9463;
     font-size: 1.5vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
@@ -37,7 +37,7 @@
     position: absolute;
 }
 
-#section4>div {
+.div02>#section4>div {
     width: 1.3vw;
     height: 1.3vw;
     background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
@@ -48,7 +48,7 @@
 }
 
 
-#section5>img{
+.div02>#section5>img{
     height: 30vw;
     width: 30vw;
     border-radius: 60%;
@@ -58,13 +58,13 @@
 
 }
 
-#section5{
+.div02>#section5{
     width: 20vw;
     height: 47vw;
     background-color: #00224d;
 }
 
-#section6>div{
+.div02>#section6>div{
     color: grey;
     font-size: 2.5vw;
     font-family: "Klee One", cursive;
@@ -75,13 +75,12 @@
     position: absolute;
 }
 
-#about{
+.div02>#about{
 
     color: white;
     font-size: 1.3vw;
     left: 45%;
     top: 900px;
-
     font-weight: 400;
     font-style: normal;
 }
