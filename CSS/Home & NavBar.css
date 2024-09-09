@@ -1,7 +1,7 @@
 .div01{
     background-image: url("Assert/home/3d-technology-geometric-black-background.jpg");
     background-size: cover;
-    height:47vw;
+    height:100%;
     width: 100%;
 }
 
@@ -15,106 +15,106 @@ body{
 
 .div01>header>nav>a:first-child{
     position: relative;
-    left: 23%;
-    font-size: small;
+    left: 25%;
+    font-size: 8px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 3px 8px;
     transition: .8s;
 
 
 }
-.div01>header>nav>a:nth-child(2){
+header>nav>a:nth-child(2){
     position: relative;
-    left: 23%;
-    font-size: small;
+    left: 25%;
+    font-size: 8px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 3px 8px;
     transition: .8s;
 }
 
 .div01>header>nav>a:nth-child(3){
     position: relative;
-    left: 23%;
-    font-size: small;
+    left: 25%;
+    font-size: 8px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 3px 8px;
     transition: .8s;
 }
 
-.div01>header>nav>a:nth-child(4){
+header>nav>a:nth-child(4){
     position: relative;
-    left: 23%;
-    font-size: small;
+    left: 25%;
+    font-size: 8px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 3px 8px;
     transition: .8s;
 }
 
-.div01>header>nav>a:nth-child(6){
-    position: relative;
-    left: 30%;
-    font-size: small;
-    font-weight: 500;
-    font-family: "Klee One", cursive;
-    font-style: normal;
-    color: lightyellow;
-    text-decoration: none;
-    padding: 8px 20px;
-    transition: .8s;
-}
-
-.div01>header>nav>a:nth-child(7){
+header>nav>a:nth-child(6){
     position: relative;
     left: 30%;
-    font-size: small;
+    font-size: 8px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 3px 8px;
     transition: .8s;
 }
 
-.div01>header>nav>a:nth-child(8){
+header>nav>a:nth-child(7){
     position: relative;
     left: 30%;
-    font-size: small;
+    font-size: 8px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 3px 8px;
     transition: .8s;
 }
 
-.div01>header>nav>a:nth-child(9){
+header>nav>a:nth-child(8){
     position: relative;
     left: 30%;
-    font-size: small;
+    font-size: 8px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 8px 20px;
+    padding: 3px 8px;
+    transition: .8s;
+}
+
+header>nav>a:nth-child(9){
+    position: relative;
+    left: 30%;
+    font-size: 8px;
+    font-weight: 500;
+    font-family: "Klee One", cursive;
+    font-style: normal;
+    color: lightyellow;
+    text-decoration: none;
+    padding: 3px 8px;
     transition: .8s;
 }
 
@@ -144,7 +144,7 @@ nav>a:hover>span{
     width: 5vw;
     height: 5vw;
     border: #0090F9;
-    left: 10%;
+    left: 8%;
     top: 20%;
     position: absolute;
     border-radius: 10px;
@@ -155,8 +155,8 @@ nav>a:hover>span{
 }
 #section1>#section2>div:nth-child(1){
     color: white;
-    font-size: x-large;
-    left: 11.4%;
+    font-size: small;
+    left: 9.5%;
     top: 23%;
     position: absolute;
     text-decoration: none;
@@ -199,7 +199,7 @@ nav>a:hover>span{
 
 #section1>#section2>div:nth-child(5){
     color: white;
-    font-size: x-large;
+    font-size: smaller;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -214,7 +214,7 @@ nav>a:hover>span{
     height: 2vw;
     border-color: #00224d;
     border-radius: 5vw;
-    font-size: small;
+    font-size: 7px;
     font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
@@ -233,7 +233,7 @@ nav>a:hover>span{
     height: 2vw;
     border-color:#00224d;
     border-radius: 5vw;
-    font-size: small;
+    font-size: 7px;
     font-family: "Klee One", cursive;
     box-shadow: 10px 10px 10px #0090F9;
     font-weight: 400;
@@ -250,7 +250,7 @@ nav>a:hover>span{
 #fb{
     width: 2vw;
     height: 2vw;
-    right: 2vw;
+    right: 0;
     top: 18vw;
     position: absolute;
     text-decoration: none;
@@ -261,7 +261,7 @@ nav>a:hover>span{
 #inster{
     width: 2vw;
     height: 2vw;
-    right: 2vw;
+    right: 0;
     top: 22vw;
     position: absolute;
     text-decoration: none;
@@ -272,7 +272,7 @@ nav>a:hover>span{
 #github{
     width: 2vw;
     height: 2vw;
-    right: 2vw;
+    right: 0;
     top: 26vw;
     position: absolute;
     text-decoration: none;
@@ -284,7 +284,7 @@ nav>a:hover>span{
 #linkedin{
     width: 2vw;
     height: 2vw;
-    right: 2vw;
+    right: 0;
     top: 30vw;
     position: absolute;
     text-decoration: none;
@@ -296,7 +296,7 @@ nav>a:hover>span{
 #line{
     width: 2vw;
     height: 4vw;
-    right: 2vw;
+    right: 0;
     top: 33vw;
     position: absolute;
     text-decoration: none;
@@ -307,12 +307,13 @@ nav>a:hover>span{
 
     color: white;
     transform: rotate(270deg);
-    right: 0.3vw;
+    right: -1.7vw;
     top: 40vw;
     position: absolute;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
+    font-size: 8px;
     font-style: normal;
     padding: 8px 20px;
     transition: .5s;
@@ -336,7 +337,7 @@ nav>a:hover>span{
     height: 3vw;
     background: linear-gradient(to right, #737373 0%,#0c9463 100%);
     border-radius: 5px;
-    top: 90%;
+    top: 88%;
     right: 77%;
     font-size: small;
     color: white;
@@ -358,7 +359,7 @@ nav>a:hover>span{
     height: 3vw;
     background: linear-gradient(to right, #737373 0%,#0c9463 100%);
     border-radius: 5px;
-    top: 90%;
+    top: 88%;
     right: 54%;
     font-size: small;
     color: white;
@@ -378,7 +379,7 @@ nav>a:hover>span{
     height: 3vw;
     background: linear-gradient(to right, #737373 0%,#0c9463 100%);
     border-radius: 5px;
-    top: 90%;
+    top: 88%;
     right: 31%;
     font-size: small;
     color: white;
@@ -398,7 +399,7 @@ nav>a:hover>span{
     height: 3vw;
     background: linear-gradient(to right, #737373 0%,#0c9463 100%);
     border-radius: 5px;
-    top: 90%;
+    top: 88%;
     right: 8%;
     font-size: small;
     color: white;
@@ -470,28 +471,28 @@ p{
     width: 3vw;
     height: 3vw;
     position: absolute;
-    left: 48%;
+    left: 49.5%;
     top: 0;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------*/
 
 
+@media screen and (max-width: 768px) {
+    .div01 {
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
 
-/* @keyframes logo-animation {
+    #profile {
+        top: 10%;
+        left: 30%;
+    }
 
- 0%{
-     -webkit-transform :translateZ(0);
-     transform: translateZ(0);
- }
+    .div01>header {
+        display: none;
+    }
+}
 
-
-     100%{
-         -webkit-transform :translate3d(-1500px,0,0);
-         transform: translate3d(-1500px,0,0);
-     }
-
- }*/
-
-
-
-/*
