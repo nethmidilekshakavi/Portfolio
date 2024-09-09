@@ -1,19 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>About</title>
+  <meta charset="UTF-8">
+  <title>Web Site</title>
 
-  <link rel="stylesheet" href="CSS/About.css">
+  <link rel="stylesheet" href="CSS/navbar%20&%20home.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" rel="stylesheet">
   <style>
+
+
+
+    body{
+      overflow-y: scroll;
+      overflow-x: hidden;
+      margin: 0;
+    }
+
+
+    /*about*/
+
+    #div02{
+      background-color: #0C9463;
+      background-size: cover;
+      height:47vw;
+      width: 100%;
+    }
+    #section4>h6{
+      margin: 0;
+      position: relative;
+    }
+
+    #section4>h5{
+      color: lightgoldenrodyellow;
+      font-size: 1.2vw;
+      font-family: "Edu VIC WA NT Beginner", cursive;
+      font-optical-sizing: auto;
+      font-weight: 0;
+      font-style: normal;
+      top: -100%;
+      left: 21%;
+
+    }
+
+    #section4>h6{
+      color: #0C9463;
+      font-size: 1.5vw;
+      font-family: "Edu VIC WA NT Beginner", cursive;
+      font-optical-sizing: auto;
+      font-weight: 0;
+      font-style: normal;
+      top: 104%;
+      left: 9%;
+
+    }
+
+    #section4>div {
+      width: 1.3vw;
+      height: 1.3vw;
+      background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+
+      left: 7%;
+      top: 105%;
+
+    }
+
+
+    #section5>img{
+      height: 30vw;
+      width: 30vw;
+      border-radius: 60%;
+      left: 8%;
+      top: 120%;
+
+
+    }
+
+    #section5{
+      width: 20vw;
+      height: 47vw;
+      background-color: #00224d;
+    }
+
+    #section6>div{
+      color: grey;
+      font-size: 2.5vw;
+      font-family: "Klee One", cursive;
+      font-weight: 400;
+      left: -2%;
+
+      transform: rotate(270deg);
+
+    }
+
+    #about{
+
+      color: white;
+      font-size: 1.3vw;
+      left: 45%;
+
+      font-weight: 400;
+      font-style: normal;
+    }
+
+
+
 
 
 
@@ -24,9 +120,11 @@
 <body>
 
 
+<!----------------------------------------------------------------About--------------------------------------------------------->
 
-  <!--wadan section-->
-  <section>
+<div id="div02">
+  <!--!--wadan section-->
+  <section id="section4">
     <h6>Nelson Mandela -</h6>
     <h5>
       "The greatest glory in living lies not in never falling,
@@ -36,27 +134,29 @@
   </section>
 
 
-  <!--About me images section-->
-  <section>
-    <img src="Assert/About/WhatsApp%20Image%202024-07-24%20at%2014.48.14_48fca683.jpg" width="180" height="180">
-    <img src="Assert/About/WhatsApp%20Image%202024-08-21%20at%2010.52.39_be03e441.jpg">
+  <!--About me images section&ndash;&gt;-->
+  <section id="section5">
+    <img src="Assert/About/WhatsApp Image 2024-08-21 at 10.52.39_be03e441.jpg">
   </section>
 
+  <section id="section6">
+    <div>ABOUT ME</div>
+  </section>
 
-    <!--About me para section-->
-    <p id="about">My name is Nethmi Dileksha Kavindi, a 21-year-old full-stack <br>developer from Sri Lanka, studying Software Engineering at IJSE.
-      <br> In my second semester, I am eager to learn new technologies and <br> improve my skills.
+  <!--About me para section-->
+  <p id="about">My name is Nethmi Dileksha Kavindi, a 21-year-old full-stack <br>developer from Sri Lanka, studying Software Engineering at IJSE.
+    <br> In my second semester, I am eager to learn new technologies and <br> improve my skills.
 
-      <br><br><br><br><br>
+    <br><br><br><br><br>
 
-      At IJSE, I gained a strong foundation in software engineering and <br>   programming. I developed web applications, including a site for a
-      <br>  local business that improved their online presence and sales, <br> teaching me the value of teamwork, communication, and attention
-      <br> to
-      detail.
-    </p>
+    At IJSE, I gained a strong foundation in software engineering and <br>   programming. I developed web applications, including a site for a
+    <br>  local business that improved their online presence and sales, <br> teaching me the value of teamwork, communication, and attention
+    <br> to
+    detail.
+  </p>
 
 
-
+</div>
 
 
 </body>
