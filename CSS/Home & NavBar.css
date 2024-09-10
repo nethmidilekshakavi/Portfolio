@@ -494,5 +494,10 @@ p{
     .div01>header {
         display: none;
     }
+
+    #more{
+        display: flex;
+    }
+
 }
 
