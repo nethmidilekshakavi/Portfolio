@@ -1,0 +1,46 @@
+#section13{
+    height:47vw;
+    width: 100%;
+    background: linear-gradient(to right, #00224d 0%, #0C9463 100%);
+    background-size: cover;
+}
+
+#section14>h6{
+    margin: 0;
+}
+
+#section14>div{
+    width: 1.3vw;
+    height: 1.3vw;
+    background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+    left: 7%;
+    top: 415%;
+    position: absolute;
+    margin: 0;
+}
+
+#section14>h5{
+    color: lightgoldenrodyellow;
+    font-size: 1.2vw;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+    top: 411%;
+    left: 23%;
+    position: absolute;
+
+}
+
+#section14>h6{
+    color: #0C9463;
+    font-size: 1.5vw;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+    top: 414.5%;
+    left: 9%;
+    position: absolute;
+
+}
