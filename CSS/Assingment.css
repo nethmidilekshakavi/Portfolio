@@ -3,6 +3,8 @@
     width: 100%;
     background: linear-gradient(to right, #00224d 0%, #0C9463 100%);
     background-size: cover;
+    display: grid;
+    color: #d9d9d9;
 }
 
 #section14>h6{
@@ -44,3 +46,17 @@
     position: absolute;
 
 }
+
+#section13>card{
+    width: 200px;
+    height: 150px;
+    background-color: #d9d9d9;
+    opacity: 0.2;
+    top: 437%;
+    left: 10%;
+    padding: 20px;
+    color: #00224d;
+    position: absolute;
+}
+
+
