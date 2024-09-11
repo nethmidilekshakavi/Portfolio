@@ -12,7 +12,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 313%;
+    top: 306%;
     left: 22%;
     position: absolute;
 
@@ -26,7 +26,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 309%;
+    top: 302%;
     left: 9%;
     position: absolute;
 
@@ -38,7 +38,7 @@
     height: 1.3vw;
     background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
     left: 7%;
-    top: 317%;
+    top: 310%;
     position: absolute;
     margin: 0;
 }
@@ -72,59 +72,54 @@
             left: 48%;
             position: absolute;
 
-        }*/
+       }*/
 
 
-#section10>div:nth-child(2){
-    width: 23px;
-    height: 23px;
+.section10>div:nth-child(2){
+    width: 13px;
+    height: 13px;
     border-radius: 100%;
-    border: #0090F9 2px solid;
     background-color: #0C9463;
     left: 48.3%;
-    top: 335%;
+    top: 330%;
     position: absolute;
 }
 
 
-#section10>div:nth-child(3){
-    width: 23px;
-    height: 23px;
+.section10>div:nth-child(3){
+    width: 13px;
+    height: 13px;
     border-radius: 100%;
-    border: #0090F9 2px solid;
     background-color: #0C9463;
     left: 48.3%;
-    top: 355%;
+    top: 350%;
     position: absolute;
 }
-#section10>div:nth-child(4){
-    width: 23px;
-    height: 23px;
+.section10>div:nth-child(4){
+    width: 13px;
+    height: 13px;
     border-radius: 100%;
-    border: #0090F9 2px solid;
     background-color: #0C9463;
     left: 48.3%;
-    top: 375%;
+    top: 370%;
     position: absolute;
 }
-#section10>div:nth-child(5){
-    width: 23px;
-    height: 23px;
+.section10>div:nth-child(5){
+    width: 13px;
+    height: 13px;
     border-radius: 100%;
-    border: #0090F9 2px solid;
     background-color: #0C9463;
     left: 48.3%;
-    top: 395%;
+    top: 390%;
     position: absolute;
 }
-#section10>div:nth-child(1){
-    width: 5px;
-    height: 525px;
+.section10>div:nth-child(1){
+    width: 2.5px;
+    height: 35vw;
     background-color: #00224d;
     border-radius: 20%;
-    border: #0090F9 solid 2px;
     left: 48.9%;
-    top: 330%;
+    top: 324%;
     position: absolute;
 }
 
@@ -133,7 +128,7 @@
     font-size: 1.5vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     color: #d9d9d9;
-    top: 335%;
+    top: 329%;
     position: absolute;
 }
 #section12>div:nth-child(1){
@@ -141,7 +136,7 @@
     font-size: 1vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     color: #d9d9d9;
-    top: 340%;
+    top: 334%;
     position: absolute;
 
 
@@ -151,7 +146,7 @@
     font-size: 1.5vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     color: #d9d9d9;
-    top: 355%;
+    top: 350%;
     position: absolute;
 }
 
@@ -160,7 +155,7 @@
     font-size: 1vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     color: #d9d9d9;
-    top: 359%;
+    top: 355%;
     position: absolute;
 
 
@@ -170,7 +165,7 @@
     font-size: 1.5vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     color: #d9d9d9;
-    top: 375%;
+    top: 370%;
     position: absolute;
 }
 
@@ -179,7 +174,7 @@
     font-size: 1vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     color: #d9d9d9;
-    top: 380%;
+    top: 375%;
     position: absolute;
 
 
@@ -189,7 +184,7 @@
     font-size: 1.5vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     color: #d9d9d9;
-    top: 395%;
+    top: 390%;
     position: absolute;
 }
 
@@ -198,7 +193,7 @@
     font-size: 1vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     color: #d9d9d9;
-    top: 400%;
+    top: 395%;
     position: absolute;
 
 
