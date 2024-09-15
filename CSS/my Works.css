@@ -42,3 +42,15 @@
     top: 515%;
 
 }
+
+#section17{
+
+    width: 60%;
+    height: 5%;
+    background: linear-gradient(to right, #0090F9 10%, #0C9463 98%);
+    border-radius: 5%;
+    position: absolute;
+    left: 19%;
+    top: 525%;
+
+}
