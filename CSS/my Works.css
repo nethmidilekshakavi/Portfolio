@@ -9,37 +9,36 @@
     margin: 0;
     position: relative;
 }
-
-.div02>#section4>h5{
+#section16>h5{
     color: lightgoldenrodyellow;
     font-size: 1.2vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 103%;
-    left: 21%;
+    top: 510%;
+    left: 22%;
     position: absolute;
 }
 
-.div02>#section4>h6{
-    color: #0C9463;
+#section16>h6{
+    color: #00224d;
     font-size: 1.5vw;
     font-family: "Edu VIC WA NT Beginner", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 107%;
+    top: 514%;
     left: 9%;
     position: absolute;
 }
 
-.div02>#section4>div {
+#section16>div {
     width: 1.3vw;
     height: 1.3vw;
     background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
     position: absolute;
     left: 7%;
-    top: 108%;
+    top: 515%;
 
 }
