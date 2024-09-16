@@ -16,8 +16,9 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 810%;
+    top: 815%;
     left: 19%;
+    margin: 0;
     position: absolute;
 }
 
@@ -73,4 +74,15 @@
     color: #d9d9d9;
     height: 15px;
     border-radius: 5%;
+}
+
+
+#section26>div{
+    margin: 0;
+    width: 87%;
+    height: 45%;
+    background: linear-gradient(to right, #00224d 0%,#737373 100%);
+    left: 7%;
+    top: 853%;
+    position: absolute;
 }
