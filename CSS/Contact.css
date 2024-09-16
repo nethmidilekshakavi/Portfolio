@@ -91,6 +91,9 @@
 #section26>div>h2{
     color: #d9d9d9;
     position: absolute;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
     left: 4%;
 }
 #section26>div>div{
@@ -121,4 +124,16 @@
     font-weight: 0;
     font-style: normal;
     position: absolute;
+}
+#section26>div>h5{
+    color: #d9d9d9;
+    bottom: 36%;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-size: 10px;
+    font-style: normal;
+    left: 9%;
+    position: absolute;
+
 }
