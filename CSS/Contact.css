@@ -103,11 +103,19 @@
     position:absolute ;
 }
 
+#section26>div>img{
+    width: 25px;
+    height: 25px;
+    left: 4%;
+    bottom: 46%;
+    position: absolute;
+}
+
 #section26>div>h6{
     font-size: 9px;
     color: #d9d9d9;
     left: 4%;
-    bottom: 28%;
+    bottom: 5%;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: 0;
