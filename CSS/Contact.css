@@ -1,5 +1,5 @@
 #section23{
-    height:49vw;
+    height:52vw;
     width: 100%;
     background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
@@ -88,7 +88,7 @@
     position: absolute;
 }
 
-#section26>div>h2{
+#section26>div>h3{
     color: #d9d9d9;
     position: absolute;
     font-family: "Sofadi One", system-ui;
@@ -136,4 +136,27 @@
     left: 9%;
     position: absolute;
 
+}
+
+#section27>div:nth-child(1){
+    color: #d9d9d9;
+    font-size: 9px;
+    position: absolute;
+    left: 45%;
+    bottom: 52%;
+
+}
+#section27>div:nth-child(2){
+    color: #d9d9d9;
+    font-size: 9px;
+    position: absolute;
+    left: 65%;
+    bottom: 52%;
+}
+#section27>div:nth-child(3){
+    color: #d9d9d9;
+    font-size: 9px;
+    position: absolute;
+    left: 80%;
+    bottom: 52%;
 }
