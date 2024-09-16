@@ -1,0 +1,84 @@
+#section21{
+    height:47vw;
+    width: 100%;
+    background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
+    background-size: cover;
+
+}
+#section22>h6{
+    margin: 0;
+    position: relative;
+}
+#section22>h5{
+    color: lightgoldenrodyellow;
+    font-size: 1.2vw;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+    top: 710%;
+    left: 22%;
+    position: absolute;
+}
+
+#section22>h6{
+    color: #00224d;
+    font-size: 1.5vw;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+    top: 714%;
+    left: 9%;
+    position: absolute;
+}
+
+#section22>div {
+    width: 1.3vw;
+    height: 1.3vw;
+    background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+    position: absolute;
+    left: 7%;
+    top: 715%;
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.banner>.slider{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 20s linear infinite;
+}
+
+@keyframes autoRun {
+    from{
+       transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }
+    to{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    }
+}
+
+.banner>.slider>.item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform:
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity))* 1deg));
+            translateZ(550px);
+}
+
+.banner>.slider>.item>img{
+    height: 100%;
+    width: 100%;
+}
