@@ -93,3 +93,24 @@
     position: absolute;
     left: 4%;
 }
+#section26>div>div{
+    height: 650px;
+    bottom: -130%;
+    left: 50%;
+    background-color: #d9d9d9;
+    width: 1px;
+    transform: rotate(270deg);
+    position:absolute ;
+}
+
+#section26>div>h6{
+    font-size: 9px;
+    color: #d9d9d9;
+    left: 4%;
+    bottom: 28%;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+    position: absolute;
+}
