@@ -165,7 +165,7 @@
 #section28>h6:nth-child(1){
     font-size: 6px;
     color: #d9d9d9;
-    left: 48%;
+    left: 45%;
     bottom: 30%;
     position: absolute;
     font-family: "Sofadi One", system-ui;
@@ -175,7 +175,7 @@
 #section28>h6:nth-child(2){
     font-size: 6px;
     color: #d9d9d9;
-    left: 48%;
+    left: 45%;
     bottom:15%;
     position: absolute;
     font-family: "Sofadi One", system-ui;
@@ -184,7 +184,37 @@
 #section28>h6:nth-child(3){
     font-size: 6px;
     color: #d9d9d9;
-    left: 48%;
+    left: 45%;
+    bottom:0%;
+    position: absolute;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+
+}
+
+#section29>h6:nth-child(1){
+    font-size: 6px;
+    color: #d9d9d9;
+    left: 65%;
+    bottom: 30%;
+    position: absolute;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+}
+
+#section29>h6:nth-child(2){
+    font-size: 6px;
+    color: #d9d9d9;
+    left: 65%;
+    bottom:15%;
+    position: absolute;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+}
+#section29>h6:nth-child(3){
+    font-size: 6px;
+    color: #d9d9d9;
+    left: 65%;
     bottom:0%;
     position: absolute;
     font-family: "Sofadi One", system-ui;
