@@ -221,3 +221,14 @@
     font-weight: 400;
 
 }
+
+#section30>input{
+    width: 100px;
+    height: 10%;
+    left: 80%;
+    font-size: small;
+    box-shadow: 10px 10px 10px;
+    border: none;
+    position: absolute;
+    bottom: 30%;
+}
