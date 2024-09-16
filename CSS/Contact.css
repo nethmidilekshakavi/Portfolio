@@ -1,5 +1,5 @@
 #section23{
-    height:52vw;
+    height:50vw;
     width: 100%;
     background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
@@ -232,3 +232,44 @@
     position: absolute;
     bottom: 30%;
 }
+
+#footer>div{
+    color: #d9d9d9;
+    position: absolute;
+    font-size: 8px;
+    left: 7%;
+    top: 910%;
+}
+
+#footer>img:nth-child(2){
+    color: #d9d9d9;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 80%;
+    top: 910%;
+}
+
+#footer>img:nth-child(3){
+    color: #d9d9d9;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 84%;
+    top: 910%;
+}
+#footer>img:nth-child(4){
+    color: #d9d9d9;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 88%;
+    top: 910%;
+}#footer>img:nth-child(5){
+     color: #d9d9d9;
+     position: absolute;
+     width: 18px;
+     height: 18px;
+     left: 92%;
+     top: 910%;
+ }
