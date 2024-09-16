@@ -74,14 +74,14 @@
 .first{
     width: 70%;
     height: 5%;
-    background: radial-gradient(ellipse at center, #356aa0 0%,#00224d 50%,#0C9463 100%);
+    background: linear-gradient(to right,#0090F9 5%, #0C9463 30%, #0090F9 60%, #0C9463 98%);
     position: absolute;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     left: 14%;
     top: 527%;
-    border: #0C9463 solid 2px;
+    border: #00224d solid 1px;
     font-size: 8px;
     color: #d9d9d9;
     display: flex; /* Add flexbox to align items */
@@ -102,7 +102,6 @@
     cursor: pointer;
     color: gray;
 }
-
 .first ul{
     list-style-type: none;
     display: flex;
