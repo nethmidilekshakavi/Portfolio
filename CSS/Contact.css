@@ -1,5 +1,5 @@
 #section23{
-    height:47vw;
+    height:49vw;
     width: 100%;
     background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
@@ -82,7 +82,14 @@
     width: 87%;
     height: 45%;
     background: linear-gradient(to right, #00224d 0%,#737373 100%);
+    /*box-shadow: 10px 10px 10px ;*/
     left: 7%;
     top: 853%;
     position: absolute;
+}
+
+#section26>div>h2{
+    color: #d9d9d9;
+    position: absolute;
+    left: 4%;
 }
