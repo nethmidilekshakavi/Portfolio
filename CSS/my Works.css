@@ -43,14 +43,28 @@
 
 }
 
-#section17{
+.section17{
 
-    width: 60%;
+    width: 70%;
     height: 5%;
     background: linear-gradient(to right, #0090F9 10%, #0C9463 98%);
-    border-radius: 5%;
+    border-radius: 15%;
     position: absolute;
-    left: 19%;
+    left: 13%;
     top: 525%;
 
 }
+
+
+
+.section17>.navbarProject>a{
+    color: #d9d9d9;
+    font-size: 8px;
+    font-weight: 500;
+    font-family: "Klee One", cursive;
+    font-style: normal;
+    position: relative;
+    display: inline;
+    margin-right: 20px;
+}
+
