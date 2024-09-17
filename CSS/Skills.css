@@ -229,3 +229,90 @@
 
 
 }
+
+#skill-section{
+    width: 80%;
+    top: 200%;
+    margin: 0;
+    height: auto;
+    padding: 70px 13%;
+
+}
+.skill-main{
+    width: 80%;
+    top: 285%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    position: absolute;
+}
+
+.skill-main>.skills-bar>.info>p{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.skill-main>.skills-bar{
+    right: 10%;
+    width: 80%;
+    height: 10px;
+    position: relative;
+    background-color: rgba(0,0,0,0.199);
+    border-radius: 25px;
+    margin-top: 5px;
+
+}
+
+.skills-bar>.bar>span{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    background-color: #0C9463;
+    border-radius: 25px;
+    display: block;
+
+
+}
+
+
+.skills-bar > .bar>html {
+    width: 80%;
+    animation: html 3s;
+
+}
+
+.skills-bar > .bar>Css {
+    width: 0;
+    animation: css 3s forwards;
+
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+#names>h5{
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    left: -3%;
+    top: -20px;
+
+}
+#names>h6{
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    right: 30%;
+    left: 20%;
+    top: -25px;
+
+}

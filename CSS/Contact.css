@@ -82,7 +82,7 @@
     width: 87%;
     height: 45%;
     background: linear-gradient(to right, #00224d 0%,#737373 100%);
-    /*box-shadow: 10px 10px 10px ;*/
+    box-shadow: 10px 10px 10px ;
     left: 7%;
     top: 853%;
     position: absolute;
@@ -227,7 +227,6 @@
     height: 10%;
     left: 80%;
     font-size: small;
-    box-shadow: 10px 10px 10px;
     border: none;
     position: absolute;
     bottom: 30%;
