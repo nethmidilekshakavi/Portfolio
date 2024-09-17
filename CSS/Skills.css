@@ -235,7 +235,7 @@
     top: 200%;
     margin: 0;
     height: auto;
-    padding: 70px 13%;
+    padding: 0 15%;
 
 }
 .skill-main{
@@ -327,16 +327,8 @@
     top: -20px;
 
 }
-#names>h5:nth-child(4){
-    color: #d9d9d9;
-    font-size: 8px;
-    position: absolute;
-    font-family: "Klee One", cursive;
-    left: 31%;
-    top: 15px;
 
-}
-#names>h5:nth-child(5){
+#names>h5:nth-child(4){
     color: #d9d9d9;
     font-size: 8px;
     position: absolute;
@@ -345,17 +337,27 @@
     top: 15px;
 
 }
+#names>h5:nth-child(5){
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Klee One", cursive;
+    left: 31%;
+    top: 15px;
+
+}
 #names>h5:nth-child(6){
     color: #d9d9d9;
     font-size: 8px;
     position: absolute;
     font-family: "Klee One", cursive;
-    left: 61%;
+    left: -3%;
     top: 15px;
 
 }
-/*
-#names>h6:nth-child(1){
+
+
+#percentage>h6:nth-child(1){
     color: #d9d9d9;
     font-size: 8px;
     position: absolute;
@@ -364,4 +366,50 @@
     left: 20%;
     top: -25px;
 
-}*/
+}
+#percentage>h6:nth-child(2){
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Dosis", sans-serif;
+    right: 30%;
+    left: 54%;
+    top: -25px;
+}
+#percentage>h6:nth-child(3) {
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Dosis", sans-serif;
+    right: 30%;
+    left: 87%;
+    top: -25px;
+}
+#percentage>h6:nth-child(4){
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Dosis", sans-serif;
+    right: 30%;
+    left: 20%;
+    top: 11px;
+
+}
+#percentage>h6:nth-child(5){
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Dosis", sans-serif;
+    right: 30%;
+    left: 54%;
+    top: 11px;
+}
+#percentage>h6:nth-child(6) {
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Dosis", sans-serif;
+    right: 30%;
+    left: 87%;
+    top: 11px;
+}
