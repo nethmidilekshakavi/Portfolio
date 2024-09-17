@@ -299,20 +299,42 @@
     }
 }
 
-#names>h5{
+#names>h5:nth-child(1){
     color: #d9d9d9;
     font-size: 8px;
     position: absolute;
+    font-family: "Klee One", cursive;
     left: -3%;
     top: -20px;
 
 }
-#names>h6{
+
+#names>h5:nth-child(2){
     color: #d9d9d9;
     font-size: 8px;
     position: absolute;
+    font-family: "Klee One", cursive;
+    left: 31%;
+    top: -20px;
+
+}
+#names>h5:nth-child(3){
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Klee One", cursive;
+    left: 65%;
+    top: -20px;
+
+}
+/*
+#names>h6:nth-child(1){
+    color: #d9d9d9;
+    font-size: 8px;
+    position: absolute;
+    font-family: "Dosis", sans-serif;
     right: 30%;
     left: 20%;
     top: -25px;
 
-}
+}*/
