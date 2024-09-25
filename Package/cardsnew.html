@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Slider</title>
+  <style>
+    .wrapper {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      height: 100px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: start;
+    }
+
+    .card {
+      width: 80px;
+      border-radius: .75rem;
+      background-size: cover;
+      cursor: pointer;
+      overflow: hidden;
+      margin: 0 10px;
+      display: flex;
+      align-items: flex-end;
+      transition: .6s cubic-bezier(.28, -0.03, 0, .99);
+      box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+    }
+
+    .card>.row {
+      color: #d9d9d9;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .card>.row>.icon {
+      background: #223;
+      color: #d9d9d9;
+      border-radius: 50%;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px;
+    }
+
+    .card>.row>.description {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      overflow: hidden;
+      width: 1000px;
+      height: 80px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition-delay: .3s;
+      transition: all .3s ease;
+    }
+
+    .description>p {
+      font-size: 5px; /* Slightly increased font size for readability */
+      font-family: "Klee One", cursive;
+      color: #d9d9d9;
+      margin: 0; /* Removed margin */
+      padding: 0; /* Removed padding */
+    }
+
+    .description>h4{
+      font-family: "Edu VIC WA NT Beginner", cursive;
+      margin: 0 0 12px 0; /* Reduced margin */
+      padding: 0; /* Removed padding */
+    }
+
+    .description {
+      text-transform: uppercase;
+    }
+
+    input {
+      display: none;
+    }
+
+    input:checked + label {
+      width: 400px;
+    }
+
+    input:checked + label .description {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
+
+    /* Set different background images for each card */
+    .card[for="c1"] {
+      background-color: black;
+      font-size: small;
+    }
+
+    .card[for="c2"] {
+      background-color: black;
+    }
+
+    .card[for="c3"] {
+     background-color: black;
+    }
+
+    .card[for="c4"] {
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <input type="radio" name="slide" id="c1" checked>
+    <label for="c1" class="card">
+      <div class="row">
+        <div class="icon">1</div>
+        <div class="description">
+          <h4>Methodist Girls' School</h4>
+          <p>"I began my educational journey at Methodist Girls' School in Panadura, attending from 2009 to 2014. <br>
+             This foundation helped shape my academic and personal growth, <br>  instilling values and skills that have guided
+             me throughout my educational path."</p>
+        </div>
+      </div>
+    </label>
+
+    <input type="radio" name="slide" id="c2">
+    <label for="c2" class="card">
+      <div class="row">
+        <div class="icon">2</div>
+        <div class="description">
+          <h4>Agamathi Balika</h4>
+          <p>"After completing my early education, I attended Agamathi Balika Vidyalaya from 2014 to 2022. <br> During this time,
+             I successfully completed my Ordinary Level (OL) exams in <br>
+            2019 and my Advanced Level (AL) exams in 2022,  further solidifying my academic foundation."</p>
+        </div>
+      </div>
+    </label>
+
+    <input type="radio" name="slide" id="c3">
+    <label for="c3" class="card">
+      <div class="row">
+        <div class="icon">3</div>
+        <div class="description">
+          <h4>British Council</h4>
+          <p>"In 2023, I took the initiative to enhance my English language skills by enrolling in an <br> English course at the British Council.
+             This experience has significantly improved my communication <br> abilities and broadened my language proficiency."</p>
+        </div>
+      </div>
+    </label>
+
+    <input type="radio" name="slide" id="c4">
+    <label for="c4" class="card">
+      <div class="row">
+        <div class="icon">4</div>
+        <div class="description">
+          <h4>IJSE</h4>
+          <p>"In 2023, I began my higher education at the Institute of Software Engineering (IJSE), <br> taking a significant step towards pursuing my passion for technology and software development."</p>
+        </div>
+      </div>
+    </label>
+  </div>
+</div>
+</body>
+</html>
