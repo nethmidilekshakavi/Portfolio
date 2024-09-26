@@ -16,7 +16,7 @@
     height: 1.3vw;
     background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
     left: 7%;
-    top: 415%;
+    top: 425%;
     position: absolute;
     margin: 0;
 }
@@ -28,8 +28,8 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 411%;
-    left: 23%;
+    top: 420%;
+    left: 17%;
     position: absolute;
 
 }
@@ -41,7 +41,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 414.5%;
+    top: 424%;
     left: 9%;
     position: absolute;
 
