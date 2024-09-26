@@ -262,7 +262,6 @@ input:checked + label .description {
     top: 390%;
     right: 5%;
     background: linear-gradient(to right,#0C9463 0%, #00224d  100%);
-    font-size: small;
 }
 
 .card[for="c2"] {
