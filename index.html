@@ -651,7 +651,110 @@
                     top: 275%;
                     position: absolute;
                 }
-            }
+                .wrapper {
+                    width: 100%;
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                }
+
+                .container {
+                    height: auto;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    max-width: 320px;
+                    overflow-x: scroll; /* Enable horizontal scrolling on smaller screens */
+                }
+
+                .card {
+                    min-width: 300px; /* Ensure cards fit within mobile screen */
+                    max-width: 320px; /* Limit card size for mobile devices */
+                    border-radius: .75rem;
+                    background-size: cover;
+                    cursor: pointer;
+                    overflow: hidden;
+                    margin: 0 5px;
+                    display: flex;
+                    align-items: flex-end;
+                    transition: .6s cubic-bezier(.28, -0.03, 0, .99);
+                    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+                }
+
+                .card>.row {
+                    color: #d9d9d9;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    padding: 10px;
+                }
+
+                .card>.row>.icon {
+                    background: #223;
+                    color: #d9d9d9;
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    font-size: 12px;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 10px;
+                }
+
+                .card>.row>.description {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    overflow: hidden;
+                    width: 100%;
+                    opacity: 0;
+                    transform: translateY(30px);
+                    transition-delay: .3s;
+                    transition: all .3s ease;
+                }
+
+                .description>p {
+                    font-size: 12px;
+                    font-family: "Sofadi One", system-ui;
+                    padding-right: 0; /* Remove padding for smaller screen */
+                    color: #d9d9d9;
+                    margin: 5px 0 0 0; /* Adjusted margins */
+                }
+
+                .description>h6 {
+                    font-size: 14px;
+                    font-family: "Klee One", cursive;
+                    margin-bottom: 5px;
+                }
+
+                input {
+                    display: none;
+                }
+
+                input:checked + label {
+                    width: 100%; /* Allow full width on click */
+                }
+
+                input:checked + label .description {
+                    opacity: 1 !important;
+                    transform: translateY(0) !important;
+                }
+
+                .card[for="c1"], .card[for="c2"], .card[for="c3"], .card[for="c4"] {
+                    background: linear-gradient(to right, #0C9463 0%, #00224d 100%);
+                }
+
+                /* Media Query for mobile responsiveness */
+                    .container {
+                        display: none;
+                    }
+                    .card {
+                      display: none;
+                    }
+                }
+
 
         /*---------------------------Skills----------------------------------*/
         @media screen and (max-width: 320px) {
@@ -1024,8 +1127,6 @@
 
             }
         }
-
-
 
     </style>
 
@@ -1491,14 +1592,7 @@
 
         <section id="section23">
 
-          <!--  <div id="section24">
-                &lt;!&ndash;wadan section&ndash;&gt;
-                <div></div>
-                <h6>Alan Turing -</h6>
-                <h5>
-                    “We can only see a short distance ahead, but we can see plenty there that needs to be done."
-                </h5>
-            </div>-->
+
 
 <section id="section25">
 
@@ -1571,9 +1665,7 @@
 
 
 <script src="script.js"></script>
-<!--
-animation
--->
+<!--animation-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
