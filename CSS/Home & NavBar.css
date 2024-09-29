@@ -12,106 +12,106 @@ body{
 
 .div01>header>nav>a:first-child{
     position: relative;
-    left: 25%;
-    font-size: 8px;
+    left: 20%;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 3px 25px;
     transition: .8s;
 
 
 }
 .div01>header>nav>a:nth-child(2){
     position: relative;
-    left: 25%;
-    font-size: 8px;
+    left: 20%;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 3px 25px;
     transition: .8s;
 }
 
 .div01>header>nav>a:nth-child(3){
     position: relative;
-    left: 25%;
-    font-size: 8px;
+    left: 20%;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 3px 25px;
     transition: .8s;
 }
 
 .div01>header>nav>a:nth-child(4){
     position: relative;
-    left: 25%;
-    font-size: 8px;
+    left: 20%;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 3px 25px;
     transition: .8s;
 }
 
 header>nav>a:nth-child(6){
     position: relative;
-    left: 30%;
-    font-size: 8px;
+    left: 28%;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 3px 25px;
     transition: .8s;
 }
 
 header>nav>a:nth-child(7){
     position: relative;
-    left: 30%;
-    font-size: 8px;
+    left: 28%;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 3px 25px;
     transition: .8s;
 }
 
 header>nav>a:nth-child(8){
     position: relative;
-    left: 30%;
-    font-size: 8px;
+    left: 28%;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 3px 25px;
     transition: .8s;
 }
 
 header>nav>a:nth-child(9){
     position: relative;
-    left: 30%;
-    font-size: 8px;
+    left: 28%;
+    font-size: 15px;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     color: lightyellow;
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 3px 25px;
     transition: .8s;
 }
 
@@ -153,8 +153,8 @@ nav>a:hover>span{
 }
 #section1>#section2>div:nth-child(1){
     color: white;
-    font-size: small;
-    left: 9.5%;
+    font-size: 20px;
+    left: 9.7%;
     top: 23%;
     position: absolute;
     text-decoration: none;
@@ -197,7 +197,7 @@ nav>a:hover>span{
 
 #section1>#section2>div:nth-child(5){
     color: white;
-    font-size: smaller;
+    font-size: 28px;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -212,7 +212,7 @@ nav>a:hover>span{
     height: 2vw;
     border-color: #00224d;
     border-radius: 5vw;
-    font-size: 7px;
+    font-size: 10px;
     font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
@@ -231,7 +231,7 @@ nav>a:hover>span{
     height: 2vw;
     border-color:#00224d;
     border-radius: 5vw;
-    font-size: 7px;
+    font-size: 10px;
     font-family: "Klee One", cursive;
     box-shadow: 10px 10px 10px #0090F9;
     font-weight: 400;
@@ -312,7 +312,7 @@ nav>a:hover>span{
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
-    font-size: 8px;
+    font-size: 15px;
     font-style: normal;
     padding: 8px 20px;
     transition: .5s;
