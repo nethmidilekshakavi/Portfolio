@@ -384,7 +384,7 @@
 .bar{
     background-color: #737373;
     display: block;
-    height: 5px;
+    height: 15px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
     overflow:hidden ;
@@ -392,7 +392,7 @@
 }
 
 .bar>span{
-    height: 5px;
+    height: 15px;
     float: left;
     background: #d9d9d9;
 }
