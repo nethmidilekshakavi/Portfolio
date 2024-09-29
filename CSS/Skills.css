@@ -244,7 +244,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 5px;
-    grid-row-gap: 20px;
+    grid-row-gap: 45px;
     position: absolute;
 }
 
@@ -267,109 +267,109 @@
 
 #names>h5:nth-child(1){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: -3%;
-    top: -20px;
+    top: -55px;
 
 }
 
 #names>h5:nth-child(2){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 31%;
-    top: -20px;
+    top: -55px;
 
 }
 #names>h5:nth-child(3){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 65%;
-    top: -20px;
+    top: -55px;
 
 }
 
 #names>h5:nth-child(4){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 65%;
-    top: 15px;
+    top: 10px;
 
 }
 #names>h5:nth-child(5){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 31%;
-    top: 15px;
+    top: 10px;
 
 }
 #names>h5:nth-child(6){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: -3%;
-    top: 15px;
+    top: 10px;
 
 }
 
 #percentage>h6:nth-child(1){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 20%;
-    top: -25px;
+    top: -60px;
 }
 
 #percentage>h6:nth-child(2){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 53%;
-    top: -25px;
+    top: -60px;
 }
 #percentage>h6:nth-child(3){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 87%;
-    top: -25px;
+    top: -60px;
 }
 #percentage>h6:nth-child(4){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 20%;
-    top: 10px;
+    top: 4px;
 }
 #percentage>h6:nth-child(5){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 53%;
-    top: 10px;
+    top: 4px;
 }
 #percentage>h6:nth-child(6){
     color: #d9d9d9;
-    font-size: 8px;
+    font-size: 15px;
     position: absolute;
     font-family: "Klee One", cursive;
     left: 87%;
-    top: 10px;
+    top: 4px;
 }
 
 
