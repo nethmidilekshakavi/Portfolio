@@ -181,7 +181,7 @@
 }
 
 .card {
-    width: 50px;
+    width: 60px;
     border-radius: .75rem;
     background-size: cover;
     cursor: pointer;
@@ -203,13 +203,13 @@
     background: #223;
     color: #d9d9d9;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 52px;
     display: flex;
-    font-size: 6px;
+    font-size: 9px;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 8px;
 }
 
 .card>.row>.description {
@@ -218,7 +218,7 @@
     flex-direction: column;
     overflow: hidden;
     width: 1000px;
-    height: 80px;
+    height: 130px;
     opacity: 0;
     transform: translateY(30px);
     transition-delay: .3s;
@@ -226,16 +226,17 @@
 }
 
 .description>p {
-    font-size: 5px; /* Slightly increased font size for readability */
-    font-family: "Sofadi One", system-ui;
-    padding-right: 20%; /* Added padding to move the text 20% from the left */
+    font-size: 11px; /* Slightly increased font size for readability */
+    font-family: Ebrima;
+    padding-right: 5%; /* Added padding to move the text 20% from the left */
     color: #d9d9d9;
     margin: 35px 0 0 0; /* Added margin to create space between the h4 and p */
 }
 
 .description>h6{
+    font-size: large;
     font-family: "Klee One", cursive;
-    margin: 0 0 12px 0; /* Reduced margin */
+    margin: 0 0 70px 0; /* Reduced margin */
     padding: 0; /* Removed padding */
 }
 
@@ -248,7 +249,7 @@ input {
 }
 
 input:checked + label {
-    width: 400px;
+    width: 800px;
 }
 
 input:checked + label .description {
