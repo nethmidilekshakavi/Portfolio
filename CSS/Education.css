@@ -273,7 +273,7 @@ input:checked + label .description {
 
 .card[for="c3"] {
     position: absolute;
-    top: 340%;
+    top: 344%;
     right: 5%;
     background: linear-gradient(to right,#0C9463 0%, #00224d  100%);      }
 
