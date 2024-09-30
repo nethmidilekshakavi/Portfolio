@@ -1,5 +1,5 @@
 #section23{
-    height:50vw;
+    height:55vw;
     width: 100%;
     background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
@@ -54,7 +54,7 @@
 }
 
 #section25>p{
-    font-size: 10px;
+    font-size: 25px;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: 0;
@@ -67,12 +67,13 @@
     background: linear-gradient(to right, #00224d 1%, #0090F9 98%);
     border: none;
     left: 60%;
-    font-size: 7px;
-    top: 840%;
+    font-size: 15px;
+    font-family: "Ebrima";
+    top: 843%;
     position: absolute;
-    width: 60px;
+    width: 120px;
     color: #d9d9d9;
-    height: 15px;
+    height: 40px;
     border-radius: 5%;
 }
 
@@ -89,6 +90,7 @@
 }
 
 #section26>div>h3{
+    font-size: 25px;
     color: #d9d9d9;
     position: absolute;
     font-family: "Sofadi One", system-ui;
@@ -99,7 +101,7 @@
 #section26>div>div{
     height: 650px;
     bottom: -130%;
-    left: 50%;
+    left: 30%;
     background-color: #d9d9d9;
     width: 1px;
     transform: rotate(270deg);
@@ -107,15 +109,15 @@
 }
 
 #section26>div>img{
-    width: 25px;
-    height: 25px;
+    width: 60px;
+    height: 60px;
     left: 4%;
-    bottom: 46%;
+    bottom: 55%;
     position: absolute;
 }
 
 #section26>div>h6{
-    font-size: 9px;
+    font-size: 20px;
     color: #d9d9d9;
     left: 4%;
     bottom: 5%;
@@ -127,62 +129,62 @@
 }
 #section26>div>h5{
     color: #d9d9d9;
-    bottom: 36%;
+    bottom: 45%;
     font-family: "Playwrite CU", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
-    font-size: 10px;
+    font-size: 20px;
     font-style: normal;
-    left: 9%;
+    left: 10%;
     position: absolute;
 
 }
 
 #section27>div:nth-child(1){
     color: #d9d9d9;
-    font-size: 9px;
+    font-size: 20px;
     position: absolute;
     left: 45%;
-    bottom: 52%;
+    bottom: 65%;
 
 }
 #section27>div:nth-child(2){
     color: #d9d9d9;
-    font-size: 9px;
+    font-size: 20px;
     position: absolute;
     left: 65%;
-    bottom: 52%;
+    bottom: 65%;
 }
 
 #section27>div:nth-child(3){
     color: #d9d9d9;
-    font-size: 9px;
+    font-size: 20px;
     position: absolute;
     left: 80%;
-    bottom: 52%;
+    bottom: 65%;
 }
 
 #section28>h6:nth-child(1){
-    font-size: 6px;
+    font-size: 15px;
     color: #d9d9d9;
     left: 45%;
-    bottom: 30%;
+    bottom: 40%;
     position: absolute;
     font-family: "Sofadi One", system-ui;
     font-weight: 400;
 }
 
 #section28>h6:nth-child(2){
-    font-size: 6px;
+    font-size: 15px;
     color: #d9d9d9;
     left: 45%;
-    bottom:15%;
+    bottom:20%;
     position: absolute;
     font-family: "Sofadi One", system-ui;
     font-weight: 400;
 }
 #section28>h6:nth-child(3){
-    font-size: 6px;
+    font-size: 15px;
     color: #d9d9d9;
     left: 45%;
     bottom:0%;
@@ -193,26 +195,26 @@
 }
 
 #section29>h6:nth-child(1){
-    font-size: 6px;
+    font-size: 15px;
     color: #d9d9d9;
     left: 65%;
-    bottom: 30%;
+    bottom: 40%;
     position: absolute;
     font-family: "Sofadi One", system-ui;
     font-weight: 400;
 }
 
 #section29>h6:nth-child(2){
-    font-size: 6px;
+    font-size: 15px;
     color: #d9d9d9;
     left: 65%;
-    bottom:15%;
+    bottom:20%;
     position: absolute;
     font-family: "Sofadi One", system-ui;
     font-weight: 400;
 }
 #section29>h6:nth-child(3){
-    font-size: 6px;
+    font-size: 15px;
     color: #d9d9d9;
     left: 65%;
     bottom:0%;
@@ -220,16 +222,6 @@
     font-family: "Sofadi One", system-ui;
     font-weight: 400;
 
-}
-
-#section30>input{
-    width: 100px;
-    height: 10%;
-    left: 80%;
-    font-size: small;
-    border: none;
-    position: absolute;
-    bottom: 30%;
 }
 
 #footer>div{
@@ -243,8 +235,8 @@
 #footer>img:nth-child(2){
     color: #d9d9d9;
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     left: 80%;
     top: 910%;
 }
@@ -252,23 +244,23 @@
 #footer>img:nth-child(3){
     color: #d9d9d9;
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     left: 84%;
     top: 910%;
 }
 #footer>img:nth-child(4){
     color: #d9d9d9;
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     left: 88%;
     top: 910%;
 }#footer>img:nth-child(5){
      color: #d9d9d9;
      position: absolute;
-     width: 18px;
-     height: 18px;
+     width: 30px;
+     height: 30px;
      left: 92%;
      top: 910%;
  }
