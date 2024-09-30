@@ -74,28 +74,30 @@
 .first{
     width: 70%;
     height: 5%;
+    /*
     background: linear-gradient(to right,#0090F9 5%, #0C9463 30%, #C96868 50%, #0C9463 98%);
+    */
     position: absolute;
     font-weight: 500;
     font-family: "Klee One", cursive;
     font-style: normal;
     left: 14%;
     top: 527%;
-    border: #00224d solid 1px;
-    font-size: 8px;
+    border: #d9d9d9 solid 4px;
+    font-size: 15px;
     color: #d9d9d9;
     display: flex; /* Add flexbox to align items */
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Add space between content */
-    padding: 0 10px;
+    padding: 0 30px;
 
 }
 
 .flist{
-    left: 5%;
+    left: 8%;
     position: absolute;
     display: flex; /* Use flexbox to create spacing */
-    gap: 90px; /* Set a 20px gap between items */
+    gap: 180px; /* Set a 20px gap between items */
 }
 
 .first h1:hover{
@@ -104,7 +106,7 @@
 }
 
 .first li:hover{
-    color: cyan;
+    color: #00224d;
     cursor: pointer
 }
 
