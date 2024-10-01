@@ -264,3 +264,283 @@
      left: 92%;
      top: 910%;
  }
+@media screen and (max-width: 320px) {
+
+    #section23{
+        height:50vw;
+        width: 100%;
+        background-size: cover;
+
+    }
+    #section24>h6{
+        margin: 0;
+        position: relative;
+    }
+    #section24>h5{
+        color: lightgoldenrodyellow;
+        font-size: 1.2vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 815%;
+        left: 19%;
+        margin: 0;
+        position: absolute;
+    }
+
+    #section24>h6{
+        color: #00224d;
+        font-size: 1.5vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 814%;
+        left: 9%;
+        position: absolute;
+    }
+
+    #section24>div {
+        width: 1.3vw;
+        height: 1.3vw;
+        background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+        position: absolute;
+        left: 7%;
+        top: 815%;
+
+    }
+
+    #section25>h1{
+        left: 7%;
+        top: 823%;
+        margin: 0;
+        font-size: 5vw;
+        color: #d9d9d9;
+        position: absolute;
+    }
+
+    #section25>p{
+        font-size: 10px;
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 827%;
+        left: 60%;
+    }
+
+    #section25>a>button{
+        background: linear-gradient(to right, #00224d 1%, #0090F9 98%);
+        border: none;
+        left: 60%;
+        font-size: 7px;
+        top: 840%;
+        position: absolute;
+        width: 60px;
+        color: #d9d9d9;
+        height: 15px;
+        border-radius: 5%;
+    }
+
+
+    #section26>div{
+        margin: 0;
+        width: 87%;
+        height: 45%;
+        background: linear-gradient(to right, #00224d 0%,#737373 100%);
+        box-shadow: 10px 10px 10px ;
+        left: 7%;
+        top: 853%;
+        position: absolute;
+    }
+
+    #section26>div>h3{
+        color: #d9d9d9;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        left: 4%;
+    }
+    #section26>div>div{
+        height: 650px;
+        bottom: -130%;
+        left: 50%;
+        background-color: #d9d9d9;
+        width: 1px;
+        transform: rotate(270deg);
+        position:absolute ;
+    }
+
+    #section26>div>img{
+        width: 25px;
+        height: 25px;
+        left: 4%;
+        bottom: 46%;
+        position: absolute;
+    }
+
+    #section26>div>h6{
+        font-size: 9px;
+        color: #d9d9d9;
+        left: 4%;
+        bottom: 5%;
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        position: absolute;
+    }
+    #section26>div>h5{
+        color: #d9d9d9;
+        bottom: 36%;
+        font-family: "Playwrite CU", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-size: 10px;
+        font-style: normal;
+        left: 9%;
+        position: absolute;
+
+    }
+
+    #section27>div:nth-child(1){
+        color: #d9d9d9;
+        font-size: 9px;
+        position: absolute;
+        left: 45%;
+        bottom: 52%;
+
+    }
+    #section27>div:nth-child(2){
+        color: #d9d9d9;
+        font-size: 9px;
+        position: absolute;
+        left: 65%;
+        bottom: 52%;
+    }
+
+    #section27>div:nth-child(3){
+        color: #d9d9d9;
+        font-size: 9px;
+        position: absolute;
+        left: 80%;
+        bottom: 52%;
+    }
+
+    #section28>h6:nth-child(1){
+        font-size: 6px;
+        color: #d9d9d9;
+        left: 45%;
+        bottom: 30%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+    }
+
+    #section28>h6:nth-child(2){
+        font-size: 6px;
+        color: #d9d9d9;
+        left: 45%;
+        bottom:15%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+    }
+    #section28>h6:nth-child(3){
+        font-size: 6px;
+        color: #d9d9d9;
+        left: 45%;
+        bottom:0%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+
+    }
+
+    #section29>h6:nth-child(1){
+        font-size: 6px;
+        color: #d9d9d9;
+        left: 65%;
+        bottom: 30%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+    }
+
+    #section29>h6:nth-child(2){
+        font-size: 6px;
+        color: #d9d9d9;
+        left: 65%;
+        bottom:15%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+    }
+    #section29>h6:nth-child(3){
+        font-size: 6px;
+        color: #d9d9d9;
+        left: 65%;
+        bottom:0%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+
+    }
+
+    #section30>input{
+        width: 100px;
+        height: 10%;
+        left: 80%;
+        font-size: small;
+        border: none;
+        position: absolute;
+        bottom: 30%;
+    }
+
+    #footer>div{
+        color: #d9d9d9;
+        position: absolute;
+        font-size: 8px;
+        left: 7%;
+        top: 910%;
+    }
+
+    #footer>img:nth-child(2){
+        color: #d9d9d9;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 80%;
+        top: 910%;
+    }
+
+    #footer>img:nth-child(3){
+        color: #d9d9d9;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 84%;
+        top: 910%;
+    }
+    #footer>img:nth-child(4){
+        color: #d9d9d9;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 88%;
+        top: 910%;
+    }#footer>img:nth-child(5){
+         color: #d9d9d9;
+         position: absolute;
+         width: 18px;
+         height: 18px;
+         left: 92%;
+         top: 910%;
+     }
+
+
+
+
+}

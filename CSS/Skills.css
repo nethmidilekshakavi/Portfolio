@@ -488,3 +488,373 @@
     }
 
 }
+@media screen and (max-width: 320px) {
+
+    #div03{
+        height:47vw;
+        width: 100%;
+        background-size: cover;
+        top: 0;
+
+    }
+
+    #section7 > h5 {
+        color: lightgoldenrodyellow;
+        font-size: 2vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 178%;
+        left: 24%;
+        position: absolute;
+
+
+    }
+
+    #section7 > h6 {
+        color: #00224d;
+        font-size: 2.7vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 174%;
+        left: 15%;
+        position: absolute;
+
+
+    }
+
+    #section7 > div {
+        width: 3vw;
+        height: 3vw;
+        background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+        left: 10%;
+        top: 177%;
+        position: absolute;
+        margin: 0;
+    }
+    .section8{
+        top: 178%;
+        position: absolute;
+
+    }
+
+
+
+    #python{
+        width: 7vw;
+        height: 7vw;
+        align-self: center;
+
+    }
+
+    #java{
+        width: 7vw;
+        height: 7vw;
+        align-self: center;
+    }
+
+    #PHOTOShop{
+        width: 7vw;
+        height: 7vw;
+        align-self: center;
+    }
+
+    #html{
+        width: 15vw;
+        height: 15vw;
+        align-self: center;
+    }
+
+    #react{
+        width: 7vw;
+        height: 7vw;
+        align-self: center;
+    }
+
+    #mysql{
+        width: 7vw;
+        height: 7vw;;
+        align-self: center;
+    }
+
+    #lr{
+        width: 7vw;
+        height: 7vw;
+        align-self: center;
+    }
+
+    #js{
+        width: 7vw;
+        height: 7vw;
+        align-self: center;
+    }
+
+    #FI{
+        width: 7vw;
+        height: 7vw;
+        align-self: center;
+    }
+
+    #skill-section{
+        width: 80%;
+        top: 200%;
+        margin: 0;
+        height: auto;
+        padding: 0 15%;
+
+    }
+    .skill-main{
+        width: 80%;
+        top: 202%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
+        position: absolute;
+    }
+
+    .skill-main>.skills-bar>.info>p{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .skill-main>.skills-bar{
+        right: 10%;
+        width: 80%;
+        height: 10px;
+        position: relative;
+        border-radius: 25px;
+        margin-top: 5px;
+
+    }
+
+    #names>h5:nth-child(1){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: -3%;
+        top: -20px;
+
+    }
+
+    #names>h5:nth-child(2){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 31%;
+        top: -20px;
+
+    }
+    #names>h5:nth-child(3){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 65%;
+        top: -20px;
+
+    }
+
+    #names>h5:nth-child(4){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 65%;
+        top: 15px;
+
+    }
+    #names>h5:nth-child(5){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 31%;
+        top: 15px;
+
+    }
+    #names>h5:nth-child(6){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: -3%;
+        top: 15px;
+
+    }
+
+    #percentage>h6:nth-child(1){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 20%;
+        top: -25px;
+    }
+
+    #percentage>h6:nth-child(2){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 53%;
+        top: -25px;
+    }
+    #percentage>h6:nth-child(3){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 87%;
+        top: -25px;
+    }
+    #percentage>h6:nth-child(4){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 20%;
+        top: 10px;
+    }
+    #percentage>h6:nth-child(5){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 53%;
+        top: 10px;
+    }
+    #percentage>h6:nth-child(6){
+        color: #d9d9d9;
+        font-size: 6px;
+        position: absolute;
+        font-family: "Klee One", cursive;
+        left: 87%;
+        top: 10px;
+    }
+
+
+    .skills-bar{
+        width: 500px;
+        color: black;
+    }
+
+    .skills-bar>div{
+
+    }
+    .bar{
+        background-color: #737373;
+        display: block;
+        height: 5px;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 3px;
+        overflow:hidden ;
+        box-shadow: 0 0 10px #00224d;
+    }
+
+    .bar>span{
+        height: 5px;
+        float: left;
+        background: #d9d9d9;
+    }
+
+    .html{
+        width: 98%;
+        animation: html 2s;
+
+    }
+
+    @keyframes html {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 98%;
+        }
+
+    }
+    .css{
+        width: 95%;
+        animation: css 2s;
+
+    }
+
+    @keyframes css {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 95%;
+        }
+
+    }
+    .java{
+        width: 90%;
+        animation: java 2s;
+
+    }
+
+    @keyframes java {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 90%;
+        }
+
+    }
+    .mysql{
+        width: 90%;
+        animation: mysql 2s;
+
+    }
+
+    @keyframes mysql {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 90%;
+        }
+
+    }
+    .js{
+        width: 85%;
+        animation: js 2s;
+
+    }
+
+    @keyframes js {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 85%;
+        }
+
+    }
+
+    .react{
+        width: 70%;
+        animation: react 2s;
+
+    }
+
+    @keyframes react {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 70%;
+        }
+
+    }
+}
+
