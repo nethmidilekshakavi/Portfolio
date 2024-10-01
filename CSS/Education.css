@@ -454,6 +454,193 @@ input:checked + label .description {
         position: absolute;
     }
 
+}
+@media screen and (max-width: 320px) {
+    #div04 {
+        height: 500px;
+    }
 
+    #section9 > h5 {
+        color: lightgoldenrodyellow;
+        font-size: 2vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 219%;
+        left: 22%;
+        position: absolute;
+
+
+    }
+
+    #section9 > h6 {
+        color: #00224d;
+        font-size: 2.7vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 215%;
+        left: 15%;
+        position: absolute;
+
+
+    }
+
+    #section9 > div {
+        width: 3vw;
+        height: 3vw;
+        background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+        left: 10%;
+        top: 218%;
+        position: absolute;
+        margin: 0;
+    }
+
+    .section10 > div:nth-child(2) {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        background-color: #0C9463;
+        left: 47.3%;
+        top: 230%;
+        position: absolute;
+    }
+
+
+    .section10 > div:nth-child(3) {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        background-color: #0C9463;
+        left: 47.3%;
+        top: 238%;
+        position: absolute;
+    }
+
+    .section10 > div:nth-child(4) {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        background-color: #0C9463;
+        left: 47.3%;
+        top: 246%;
+        position: absolute;
+    }
+
+    .section10 > div:nth-child(5) {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        background-color: #0C9463;
+        left: 47.3%;
+        top: 254%;
+        position: absolute;
+    }
+
+    .section10 > div:nth-child(1) {
+        width: 2.5px;
+        height: 61vw;
+        background-color: #00224d;
+        border-radius: 20%;
+        left: 48.9%;
+        top: 228%;
+        position: absolute;
+    }
+
+    #section11 > div:nth-child(1) {
+        left: 18%;
+        font-size: 2vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        color: #d9d9d9;
+        top: 230%;
+        position: absolute;
+    }
+
+    #section12 > div:nth-child(1) {
+        left: 18%;
+        font-size: 1.5vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        color: #d9d9d9;
+        top: 232%;
+        position: absolute;
+
+
+    }
+
+    #section11 > div:nth-child(2) {
+        left: 55%;
+        font-size: 2vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        color: #d9d9d9;
+        top: 238%;
+        position: absolute;
+    }
+
+    #section12 > div:nth-child(2) {
+        left: 55%;
+        font-size: 1.5vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        color: #d9d9d9;
+        top: 240%;
+        position: absolute;
+
+
+    }
+
+    #section11 > div:nth-child(3) {
+        left: 18%;
+        font-size: 2vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        color: #d9d9d9;
+        top: 246%;
+        position: absolute;
+    }
+
+    #section12 > div:nth-child(3) {
+        left: 18%;
+        font-size: 1.5vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        color: #d9d9d9;
+        top: 248%;
+        position: absolute;
+
+
+    }
+
+    #section11 > div:nth-child(4) {
+        left: 55%;
+        font-size: 2vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        color: #d9d9d9;
+        top: 254%;
+        position: absolute;
+    }
+
+    #section12 > div:nth-child(4) {
+        left: 55%;
+        font-size: 1.5vw;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        color: #d9d9d9;
+        top: 256%;
+        position: absolute;
+    }
+
+    .wrapper {
+        display: none;
+    }
+
+    .container {
+        height: 100px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: start;
+    }
+
+    .card {
+        display: none;
+    }
 
 }
+
