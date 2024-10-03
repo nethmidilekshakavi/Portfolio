@@ -111,7 +111,6 @@
     transition: 0.5s;
 }
 
-
 .slide > .item:nth-child(1),
 .slide > .item:nth-child(2) {
     top: 0;
