@@ -91,7 +91,7 @@
 .container2 {
     position: absolute;
     left: 50%;
-    background-color: #d9d9d9;
+    background: linear-gradient(to right, #00224d 0%, #0C9463 100%);
     top: 470%;
     transform: translate(-50%, -50%);
     width: 1000px;
@@ -110,6 +110,7 @@
     display: inline-block;
     transition: 0.5s;
 }
+
 
 .slide > .item:nth-child(1),
 .slide > .item:nth-child(2) {
@@ -174,6 +175,9 @@
 
 .content1>button{
     padding: 10px 20px;
+    background-color: #00224d;
+    color: #d9d9d9;
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     border: none;
