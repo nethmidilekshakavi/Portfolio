@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case -01</title>
+    <style>
+        section {
+            width: 600px;
+            height: 500px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 50px;
+        }
+
+        section > div {
+            position: relative;
+            width: 70px;
+            height: 50px;
+            box-shadow: 10px 10px 10px;
+            margin-left: -6%;
+            background: mediumpurple;
+            border-radius: 10px;
+            align-items: flex-start;
+            transition-duration: 1s;
+            transition-timing-function: ease-out;
+        }
+
+        section > div > img {
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            right: 0;
+        }
+
+        section > div > h1 {
+            color: white;
+            display: none;
+        }
+
+        section > div:hover {
+            width: 400px;
+            height: 70px;
+        }
+
+        section > div:hover > h1 {
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <img src="Assert/icons8-notebook-50%20(1).png" alt="" width="30px" height="30px" srcset="">
+        <i class="fa-solid fa-address-book"></i>
+        <h1>menu One</h1>
+    </div>
+    <div>
+        <img src="Assert/icons8-ambulance-50%20(1).png" alt="" width="30px" height="30px" srcset="">
+        <i class="fa-solid fa-truck-medical"></i>
+        <h1>menu Two</h1>
+    </div>
+    <div>
+        <img src="Assert/icons8-world-50%20(1).png" alt="" width="30px" height="30px" srcset="">
+        <i class="fa-solid fa-globe"></i>
+        <h1>menu three</h1>
+    </div>
+    <div>
+        <img src="Assert/icons8-world-50%20(1).png" alt="" width="30px" height="30px" srcset="">
+        <i class="fa-solid fa-layer-group"></i>
+        <h1>menu four</h1>
+    </div>
+    <div>
+        <img src="Assert/icons8-cart-50.png" alt="" width="30px" height="30px">
+        <i class="fa-solid fa-cart-plus"></i>
+        <h1>menu five</h1>
+    </div>
+</section>
+</body>
+</html>
