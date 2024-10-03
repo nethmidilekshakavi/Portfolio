@@ -38,6 +38,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
     <link rel="stylesheet" href="CSS/homeMobileResposive.css">
 
@@ -90,20 +91,43 @@
 <div class="div01">
 
 <header>
-    <nav>
-
-        <a href="Package/home.html">Home<span></span></a>
-        <a href="Package/About.html">About<span></span></a>
-        <a href="Package/Skills.html">Skills<span></span></a>
-        <a href="Package/Education.html">Education<span></span></a>
+    <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         <img src="Assert/home/Screenshot_2.png" id="logo">
-        <a href="">Assignment<span></span></a>
-        <a href="">Services<span></span></a>
-        <a href="">Gallery<span></span></a>
-        <a href="">Contact<span></span></a>
-
+        <ul class="nav-list">
+            <a href="Package/home.html">Home<span></span></a>
+            <a href="Package/About.html">About<span></span></a>
+            <a href="Package/Skills.html">Skills<span></span></a>
+            <a href="Package/Education.html">Education<span></span></a>
+            <a href="">Assignment<span></span></a>
+            <a href="">Services<span></span></a>
+            <a href="">Gallery<span></span></a>
+            <a href="">Contact<span></span></a>
+        </ul>
     </nav>
 </header>
+
+    <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div class="dropdown_menu open">
+        <ul class="nav-list">
+            <a href="Package/home.html">Home<span></span></a>
+            <a href="Package/About.html">About<span></span></a>
+            <a href="Package/Skills.html">Skills<span></span></a>
+            <a href="Package/Education.html">Education<span></span></a>
+            <a href="">Assignment<span></span></a>
+            <a href="">Services<span></span></a>
+            <a href="">Gallery<span></span></a>
+            <a href="">Contact<span></span></a>
+        </ul>
+    </div>
+
 
     <img src="Assert/home/icons8-more-48%20(1).png"  id="more">
 
@@ -432,6 +456,7 @@
         </h5>
     </div>
 
+<!--
         <card>
             <div>HTML Assigment 01</div>
             <br>
@@ -443,6 +468,7 @@
             <button>Read More</button>
 
         </card>
+-->
 
 
 
@@ -618,6 +644,18 @@
 <script src="script.js"></script>
 <!--animation-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!--
+<script>
+    const togglbtnicon = document.querySelector('.toggle_btn ');
+    const dropdownMenu = document.querySelector('.dropdown_menu');
+
+    togglbtnicon.onclick = function (){
+        dropdownMenu.classList.toggle('open')
+        const isopen = dropdownMenu.classList.contains('open')
+
+</script>
+-->
 
 <script>
     AOS.init();

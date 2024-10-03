@@ -9,8 +9,11 @@ body{
     height:47vw;
     background-repeat: no-repeat;
 }
+.menu-toggle{
+    display: none;
+}
 
-.div01>header>nav>a:first-child{
+.div01>header>nav>ul>a:first-child{
     position: relative;
     left: 20%;
     font-size: 15px;
@@ -24,7 +27,7 @@ body{
 
 
 }
-.div01>header>nav>a:nth-child(2){
+.div01>header>nav>ul>a:nth-child(2){
     position: relative;
     left: 20%;
     font-size: 15px;
@@ -37,7 +40,7 @@ body{
     transition: .8s;
 }
 
-.div01>header>nav>a:nth-child(3){
+.div01>header>nav>ul>a:nth-child(3){
     position: relative;
     left: 20%;
     font-size: 15px;
@@ -50,7 +53,7 @@ body{
     transition: .8s;
 }
 
-.div01>header>nav>a:nth-child(4){
+.div01>header>nav>ul>a:nth-child(4){
     position: relative;
     left: 20%;
     font-size: 15px;
@@ -62,8 +65,7 @@ body{
     padding: 3px 25px;
     transition: .8s;
 }
-
-header>nav>a:nth-child(6){
+header>nav>ul>a:nth-child(5){
     position: relative;
     left: 28%;
     font-size: 15px;
@@ -76,7 +78,7 @@ header>nav>a:nth-child(6){
     transition: .8s;
 }
 
-header>nav>a:nth-child(7){
+header>nav>ul>a:nth-child(6){
     position: relative;
     left: 28%;
     font-size: 15px;
@@ -89,7 +91,7 @@ header>nav>a:nth-child(7){
     transition: .8s;
 }
 
-header>nav>a:nth-child(8){
+header>nav>ul>a:nth-child(7){
     position: relative;
     left: 28%;
     font-size: 15px;
@@ -102,7 +104,7 @@ header>nav>a:nth-child(8){
     transition: .8s;
 }
 
-header>nav>a:nth-child(9){
+header>nav>ul>a:nth-child(8){
     position: relative;
     left: 28%;
     font-size: 15px;
@@ -115,12 +117,25 @@ header>nav>a:nth-child(9){
     transition: .8s;
 }
 
-nav>a:hover{
+header>nav>ul>a:nth-child(9){
+    position: relative;
+    left: 28%;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Klee One", cursive;
+    font-style: normal;
+    color: lightyellow;
+    text-decoration: none;
+    padding: 3px 25px;
+    transition: .8s;
+}
+
+nav>ul>a:hover{
     position: relative;
     color: #0090F9;
 }
 
-nav>a>span{
+nav>ul>a>span{
     position: absolute;
     top: 0;
     left: 0;
@@ -133,7 +148,7 @@ nav>a>span{
     opacity: 0;
     transition: .8s;
 }
-nav>a:hover>span{
+nav>ul>a:hover>span{
     transform: scale(1) translateY(0);
     opacity: 1;
 }
@@ -473,100 +488,70 @@ p{
     left: 49.5%;
     top: 0;
 }
+.toggle_btn{
+    color: #d9d9d9;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.dropdown_menu{
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background-color: rgb(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    transition: height 0.2s cubic-bezier(0.175,0.885,0.32,1.272);
+    display: none;
+}
+
+.dropdown_menu.open{
+    height: 240px;
+}
+
+.dropdown_menu>ul>a{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-
-@media screen and (max-width: 768px) {
-    .div01 {
-        width: 100vw;
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-    }
-
-    #profile {
-        top: 10%;
-        left: 30%;
-    }
-
-    .div01>header {
-        display: none;
-    }
-
-}
-@media screen and (max-width: 320px) {
+/*@media screen and (max-width: 320px) {*/
 
 
+    /* Media Query for Mobile Screens */
+    @media (max-width: 320px) {
+        .navbar{
+            display: none;
+        }
+        .toggle_btn{
+            display: block;
+        }
 
-    .div02>#section5{
-        width: 2px;
+        .dropdown_menu{
+            display: block;
 
-    }
+        }
+        .dropdown_menu.open{
+            height: 200px;
+            display: none;
+        }
 
-    .div02>#section5>img{
-        height: 55vw;
-        width: 55vw;
-        top: 113%;
+        .dropdown_menu>ul>a{
+            padding: 0.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: none;
+        }
 
     }
 
-    .div02>#about{
 
-        color: white;
-        font-size: 2.4vw;
-        font-family: "Klee One", cursive;
-        left: 14%;
-        top: 147%;
-        font-weight: 400;
-        font-style: normal;
-        position: absolute;
-
-    }
-
-    .div02>#section6>div{
-        color: wheat;
-        font-size: 4vw;
-        font-family: "Klee One", cursive;
-        font-weight: 400;
-        left: 70%;
-        top: 126%;
-        transform: rotate(0deg);
-        position: absolute;
-    }
-
-    .div02>#section4>div {
-        width: 3vw;
-        height: 3vw;
-        background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
-        position: absolute;
-        left: 10%;
-        top: 105%;
-
-    }
-    .div02>#section4>h6{
-        color: #00224d;
-        font-size: 2.7vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
-        font-optical-sizing: auto;
-        font-weight: 0;
-        font-style: normal;
-        top: 105%;
-        left: 15%;
-        position: absolute;
-    }
-
-    .div02>#section4>h5{
-        color: lightgoldenrodyellow;
-        font-size: 2.4vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
-        font-optical-sizing: auto;
-        font-weight: 0;
-        font-style: normal;
-        top: 103%;
-        left: 36%;
-        position: absolute;
-    }
-}
 
 
