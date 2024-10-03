@@ -164,6 +164,7 @@
 
 }
 
+
 .content1>.des{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -172,12 +173,16 @@
 
 }
 
-.content1>button{
+.content1>a>button{
     padding: 10px 20px;
     background-color: #00224d;
     color: #d9d9d9;
     font-weight: bold;
     border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 20px;
     cursor: pointer;
     border: none;
     opacity: 0;
