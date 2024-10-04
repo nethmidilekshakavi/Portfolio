@@ -16,7 +16,7 @@
 .div02>#section4>h5{
     color: lightgoldenrodyellow;
     font-size: 1.2vw;
-    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-family: "Fredoka", sans-serif;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
@@ -56,7 +56,6 @@
     left: 10%;
     top: 122%;
     position: absolute;
-
 }
 
 .div02>#section5{
@@ -80,6 +79,7 @@
 
     color: white;
     font-size: 1.3vw;
+    font-family: "Fredoka", sans-serif;
     left: 48%;
     top: 60vw;
     font-weight: 400;

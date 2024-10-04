@@ -1,5 +1,5 @@
 #section23{
-    height:55vw;
+    height:50vw;
     width: 100%;
     background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
@@ -264,6 +264,39 @@
      left: 92%;
      top: 910%;
  }
+
+#newsletterEmail {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #d9d9d9;
+    position: absolute;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #00224d;
+}
+
+#subscribeButton {
+    width: 100px;
+    height: 35px;
+    margin-left: 10px;
+    background: linear-gradient(to right, #00224d 1%, #0090F9 98%);
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#subscribeButton:hover {
+    background: linear-gradient(to right, #0090F9 1%, #00224d 98%);
+}
+
+
+
+/*
+
 @media screen and (max-width: 320px) {
 
     #section23{
@@ -339,6 +372,7 @@
         position: absolute;
         width: 60px;
         color: #d9d9d9;
+        cursor: pointer;
         height: 15px;
         border-radius: 5%;
     }
@@ -489,15 +523,7 @@
 
     }
 
-    #section30>input{
-        width: 100px;
-        height: 10%;
-        left: 80%;
-        font-size: small;
-        border: none;
-        position: absolute;
-        bottom: 30%;
-    }
+
 
     #footer>div{
         color: #d9d9d9;
@@ -540,7 +566,4 @@
          top: 910%;
      }
 
-
-
-
-}
+}*/
