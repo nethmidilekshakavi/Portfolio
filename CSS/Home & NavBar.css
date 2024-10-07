@@ -154,11 +154,11 @@ nav>ul>a:hover>span{
 }
 
 #massage{
-    width: 5vw;
+    width: 7vw;
     height: 5vw;
     border: #0090F9;
     left: 8%;
-    top: 20%;
+    top: 17%;
     position: absolute;
     border-radius: 10px;
     text-decoration: none;
@@ -169,8 +169,8 @@ nav>ul>a:hover>span{
 #section1>#section2>div:nth-child(1){
     color: white;
     font-size: 20px;
-    left: 9.7%;
-    top: 23%;
+    left: 9.4%;
+    top: 19.3%;
     position: absolute;
     text-decoration: none;
     padding: 8px 20px;
@@ -183,7 +183,7 @@ nav>ul>a:hover>span{
     font-weight: 400;
     font-style: normal;
     left: 10%;
-    top: 17%;
+    top: 25%;
     position: absolute;
 
 }
@@ -195,7 +195,7 @@ nav>ul>a:hover>span{
     font-weight: 400;
     font-style: normal;
     left: 10%;
-    top: 30%;
+    top: 37%;
     position: absolute;
 }
 
@@ -235,7 +235,7 @@ nav>ul>a:hover>span{
     background: #0C9463;
     color: white;
     left: 10%;
-    bottom: 30%;
+    top: 60%;
     position: absolute;
 }
 
@@ -254,74 +254,89 @@ nav>ul>a:hover>span{
     background: #0C9463;
     color: white;
     left: 19.5%;
-    bottom: 30%;
+    top: 60%;
     position: absolute;
 }
 
 /*social media section*/
 
 
-#fb{
-    width: 2vw;
-    height: 2vw;
-    right: 0;
-    top: 18vw;
+.facebook{
+    right: .5vw;
+    top: 17vw;
+    width: 70px;
+    height: 50px;
     position: absolute;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: normal;
     padding: 8px 20px;
     transition: .5s;
 }
 
-#inster{
-    width: 2vw;
-    height: 2vw;
-    right: 0;
-    top: 22vw;
+.inster{
+    right: .5vw;    top: 21vw;
+    width: 70px;
+    height: 50px;
     position: absolute;
     text-decoration: none;
-    padding: 8px 20px;
-    transition: .5s;
-
-}
-#github{
-    width: 2vw;
-    height: 2vw;
-    right: 0;
-    top: 26vw;
-    position: absolute;
-    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: normal;
     padding: 8px 20px;
     transition: .5s;
 }
-
-
-#linkedin{
-    width: 2vw;
-    height: 2vw;
-    right: 0;
-    top: 30vw;
+.github{
+    right: .5vw;    top: 25vw;
+    width: 70px;
+    height: 50px;
     position: absolute;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: normal;
     padding: 8px 20px;
     transition: .5s;
 }
 
 
-#line{
-    width: 2vw;
-    height: 4vw;
-    right: 0;
-    top: 33vw;
+.linkedin{
+    right: .5vw;    top: 29vw;
+    width: 70px;
+    height: 50px;
     position: absolute;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: normal;
     padding: 8px 20px;
     transition: .5s;
 }
-#followme{
+
+
+.line{
+    right: .5vw;    top: 33vw;
+    width: 4vw;
+    height: 5vw;
+    position: absolute;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: normal;
+    padding: 8px 20px;
+    transition: .5s;
+}
+.followme{
 
     color: white;
     transform: rotate(270deg);
-    right: -1.7vw;
+    right: -1.10vw;
     top: 40vw;
     position: absolute;
     text-decoration: none;
