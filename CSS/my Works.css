@@ -12,7 +12,7 @@
 #section16>h5{
     color: lightgoldenrodyellow;
     font-size: 1.2vw;
-    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
@@ -23,13 +23,13 @@
 
 #section16>h6{
     color: #0C9463;
-    font-size: 1.5vw;
-    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1.2vw;
+    font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 524%;
-    left: 9%;
+    top: 520%;
+    left: 10%;
     position: absolute;
 }
 
@@ -39,7 +39,7 @@
     background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
     position: absolute;
     left: 7%;
-    top: 525%;
+    top: 520%;
 
 }
 /*
@@ -110,68 +110,3 @@
     cursor: pointer
 }
 
-/*
-#section18 {
-    top: 400%;
-    height:  200px;
-    margin: 0;
-    background-color: #f0f0f0;
-    perspective: 1000px; !* Add perspective to the entire scene *!
-}
-
-.card-container {
-    display: flex;
-    gap: 10px;
-}
-
-.card {
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(to bottom right, #0090F9, #0C9463);
-    border-radius: 15px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    position: relative;
-    transform-style: preserve-3d; !* Preserve 3D space for child elements *!
-    transition: transform 0.5s;
-}
-
-.card-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.card-title {
-    font-size: 24px;
-    margin-bottom: 15px;
-}
-
-.card-description {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.card-button {
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #0090F9;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.card-button:hover {
-    background-color: #0C9463;
-    color: #fff;
-}
-
-.card:hover {
-    transform: rotateY(15deg) rotateX(10deg); !* Rotate for 3D effect on hover *!
-}
-*/
