@@ -519,39 +519,6 @@ p{
 }
 
 
-/*--------------------------------------------------------------------------------------------------------------------*/
-
-/*@media screen and (max-width: 320px) {*/
-
-
-    /* Media Query for Mobile Screens */
-    @media (max-width: 320px) {
-        .navbar{
-            display: none;
-        }
-        .toggle_btn{
-            display: block;
-        }
-
-        .dropdown_menu{
-            display: block;
-
-        }
-        .dropdown_menu.open{
-            height: 200px;
-            display: none;
-        }
-
-        .dropdown_menu>ul>a{
-            padding: 0.2rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            display: none;
-        }
-
-    }
-
 
 
 
