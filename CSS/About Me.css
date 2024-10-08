@@ -26,7 +26,7 @@
 }
 
 .div02>#section4>h6{
-    color: #0C9463;
+    color: #00224d;
     font-size: 1.2vw;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
@@ -48,7 +48,7 @@
 }
 
 
-.div02>#section5>img{
+.div02>img{
     height: 30vw;
     width: 30vw;
     border-radius: 60%;
@@ -137,7 +137,7 @@
     }
 
 
-    .div02>#section5>img{
+    .div02>img{
         height: 50vw;
         width: 50vw;
         border-radius: 60%;
@@ -150,6 +150,7 @@
 
     .div02>#section5{
         width: 20vw;
+        display: none;
         height: 100vh;
     }
 
