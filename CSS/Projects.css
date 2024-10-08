@@ -22,7 +22,7 @@
 }
 
 #section20>h6{
-    color: #00224d;
+    background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     font-size: 1.2vw;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
@@ -43,3 +43,51 @@
 
 }
 
+@media screen and (max-width:320px){
+    #section19{
+        height:47vw;
+        width: 100%;
+        background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
+        background-size: cover;
+
+    }
+    #section20>h6{
+        margin: 0;
+        position: relative;
+    }
+    #section20>h5{
+        color: lightgoldenrodyellow;
+        font-size: 1.2vw;
+        font-family: "Playwrite DE Grund", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 617%;
+        left: 20%;
+        position: absolute;
+    }
+
+    #section20>h6{
+
+        font-size: 1.2vw;
+        font-family: "Playwrite DE Grund", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 617%;
+        left: 9%;
+        position: absolute;
+    }
+
+    #section20>div {
+        width: 1.3vw;
+        height: 1.3vw;
+        background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+        position: absolute;
+        left: 7%;
+        top: 617%;
+
+    }
+
+
+}
