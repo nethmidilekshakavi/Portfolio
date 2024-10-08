@@ -372,11 +372,10 @@
     }
 
 }
-/*
 @media screen and (max-width: 320px) {
 
     #div03{
-        height:47vw;
+        height:60vw;
         width: 100%;
         background-size: cover;
         top: 0;
@@ -385,43 +384,43 @@
 
     #section7 > h5 {
         color: lightgoldenrodyellow;
-        font-size: 2vw;
+        font-size: 1.2vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         font-optical-sizing: auto;
         font-weight: 0;
         font-style: normal;
-        top: 178%;
-        left: 24%;
+        top: 162%;
+        left: 21%;
         position: absolute;
 
 
     }
 
     #section7 > h6 {
-        color: #00224d;
-        font-size: 2.7vw;
+        color: #0c9463;
+        font-size: 1.3vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         font-optical-sizing: auto;
         font-weight: 0;
         font-style: normal;
-        top: 174%;
-        left: 15%;
+        top: 162%;
+        left: 9%;
         position: absolute;
 
 
     }
 
     #section7 > div {
-        width: 3vw;
-        height: 3vw;
+        width: 1.3vw;
+        height: 1.33vw;
         background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
-        left: 10%;
-        top: 177%;
+        left: 7%;
+        top: 162%;
         position: absolute;
         margin: 0;
     }
     .section8{
-        top: 178%;
+        top: 160%;
         position: absolute;
 
     }
@@ -493,7 +492,7 @@
     }
     .skill-main{
         width: 80%;
-        top: 202%;
+        top: 180%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-column-gap: 5px;
@@ -524,7 +523,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: -3%;
-        top: -20px;
+        top: -10px;
 
     }
 
@@ -534,7 +533,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 31%;
-        top: -20px;
+        top: -10px;
 
     }
     #names>h5:nth-child(3){
@@ -543,7 +542,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 65%;
-        top: -20px;
+        top: -10px;
 
     }
 
@@ -553,7 +552,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 65%;
-        top: 15px;
+        top: 25px;
 
     }
     #names>h5:nth-child(5){
@@ -562,7 +561,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 31%;
-        top: 15px;
+        top: 25px;
 
     }
     #names>h5:nth-child(6){
@@ -571,7 +570,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: -3%;
-        top: 15px;
+        top: 25px;
 
     }
 
@@ -581,7 +580,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 20%;
-        top: -25px;
+        top: -10px;
     }
 
     #percentage>h6:nth-child(2){
@@ -590,7 +589,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 53%;
-        top: -25px;
+        top: -10px;
     }
     #percentage>h6:nth-child(3){
         color: #d9d9d9;
@@ -598,7 +597,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 87%;
-        top: -25px;
+        top: -10px;
     }
     #percentage>h6:nth-child(4){
         color: #d9d9d9;
@@ -606,7 +605,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 20%;
-        top: 10px;
+        top: 25px;
     }
     #percentage>h6:nth-child(5){
         color: #d9d9d9;
@@ -614,7 +613,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 53%;
-        top: 10px;
+        top: 25px;
     }
     #percentage>h6:nth-child(6){
         color: #d9d9d9;
@@ -622,7 +621,7 @@
         position: absolute;
         font-family: "Klee One", cursive;
         left: 87%;
-        top: 10px;
+        top: 25px;
     }
 
 
@@ -739,13 +738,6 @@
         100%{
             width: 70%;
         }
-
-    }
-}
-
-*/
-@media screen and (max-width:320px){
-    #div03{
 
     }
 }
