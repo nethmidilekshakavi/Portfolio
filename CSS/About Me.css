@@ -1,7 +1,7 @@
 /*about*/
 
 .div02{
-    height:60vh;
+    height:100vh;
     width: 100%;
     background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
@@ -26,7 +26,7 @@
 }
 
 .div02>#section4>h6{
-    color: #00224d;
+    color: #0c9463;
     font-size: 1.2vw;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
