@@ -96,7 +96,7 @@
 /* Rectangle container for project content */
 #project-container {
     border: 2px solid #d9d9d9;
-    border-radius: 5%;
+    border-radius: 10%;
     padding: 20px;
     margin-top: 20px;
     width: 70%;
@@ -120,7 +120,7 @@
 
 .project-link a {
     color: #3498db; /* Link color */
-    margin-top: 50px;
+    margin-top: 120px;
     text-decoration: none; /* Remove underline */
     font-weight: bold;
 }
@@ -136,7 +136,7 @@
 
 /* Styling for h3 */
 #project-container h3 {
-    font-size: 24px; /* Adjust the font size for the heading */
+    font-size: 30px; /* Adjust the font size for the heading */
     font-weight: bold;
     right: 0;
     left: 0;
