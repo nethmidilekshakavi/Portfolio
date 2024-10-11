@@ -1,5 +1,5 @@
 #section21{
-    height:47vw;
+    height:40vw;
     width: 100%;
     background-color: #00224d;
     background-size: cover;
@@ -55,13 +55,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    top: 760%;
+    gap: 30px;
+    top: 780%;
+
 }
 
 .gallery-item {
-    width: calc(33% - 180px); /* Three images per row with spacing */
-    height: 310px;
+    width: calc(31% - 180px); /* Three images per row with spacing */
+    height: 250px;
     cursor: pointer;
     border-radius: 5px;
     transition: transform 0.3s;

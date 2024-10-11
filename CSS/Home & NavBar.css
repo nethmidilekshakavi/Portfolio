@@ -37,7 +37,18 @@ background-repeat: no-repeat;
     display: none;
 }
 
-
+#outline{
+    width: 900px;
+    height: 50px;
+    border-top: #0090F9 2px solid;
+    border-right: #0090F9 2px solid;
+    border-left: #0C9463 2px solid;
+    border-bottom: #0C9463 2px solid;
+    border-radius:10px;
+    right: 1%;
+    top: 1%;
+    position: absolute;
+}
 
 .div01>header>nav>ul>a:first-child{
     position: relative;
@@ -176,7 +187,7 @@ nav>ul>a:hover>span{
     width: 7vw;
     height: 5vw;
     border: #0090F9;
-    left: 8%;
+    left: 15%;
     top: 13%;
     position: absolute;
     border-radius: 10px;
@@ -188,7 +199,7 @@ nav>ul>a:hover>span{
 #section1>#section2>div:nth-child(1){
     color: white;
     font-size: 20px;
-    left: 9.4%;
+    left: 16.5%;
     top: 15%;
     position: absolute;
     font-family: "Klee One", cursive;
