@@ -14,12 +14,12 @@
 
 #section7>h5{
     color: lightgoldenrodyellow;
-    font-size: 1.2vw;
+    font-size: 12px;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 205.5%;
+    top: 206%;
     left: 20%;
     position: absolute;
 
@@ -28,7 +28,7 @@
 
 #section7>h6{
     color: #0C9463;
-    font-size: 1.2vw;
+    font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
@@ -45,7 +45,7 @@
     height: 1.3vw;
     background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
     left: 7%;
-    top: 210%;
+    top: 209%;
     position: absolute;
     margin: 0;
 }

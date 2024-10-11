@@ -15,25 +15,25 @@
 
 .div02>#section4>h5{
     color: lightgoldenrodyellow;
-    font-size: 1.2vw;
+    font-size: 12px;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 102%;
+    top: 103%;
     left: 21%;
     position: absolute;
 }
 
 .div02>#section4>h6{
     color: #0c9463;
-    font-size: 1.2vw;
+    font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
     top: 107%;
-    left: 9%;
+    left: 10%;
     position: absolute;
 }
 
@@ -43,7 +43,7 @@
     background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
     position: absolute;
     left: 7%;
-    top: 108%;
+    top: 107%;
 
 }
 
