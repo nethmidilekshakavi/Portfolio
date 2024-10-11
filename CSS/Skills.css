@@ -19,7 +19,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 210%;
+    top: 205.5%;
     left: 20%;
     position: absolute;
 
@@ -33,7 +33,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 210%;
+    top: 204%;
     left: 10%;
     position: absolute;
 
@@ -156,7 +156,7 @@
     position: absolute;
     font-family: Ebrima;
     left: -3%;
-    top: -30px;
+    top: -60px;
 
 }
 
@@ -166,7 +166,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 31%;
-    top: -30px;
+    top: -60px;
 
 }
 #names>h5:nth-child(3){
@@ -175,7 +175,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 65%;
-    top: -30px;
+    top: -60px;
 
 }
 
@@ -185,7 +185,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 65%;
-    top: 50px;
+    top: 20px;
 
 }
 #names>h5:nth-child(5){
@@ -194,7 +194,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 31%;
-    top: 50px;
+    top: 20px;
 
 }
 #names>h5:nth-child(6){
@@ -203,7 +203,7 @@
     position: absolute;
     font-family: Ebrima;
     left: -3%;
-    top: 50px;
+    top: 20px;
 
 }
 
@@ -213,7 +213,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 20%;
-    top: -30px;
+    top: -60px;
 }
 
 #percentage>h6:nth-child(2){
@@ -222,7 +222,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 53%;
-    top: -30px;
+    top: -60px;
 }
 #percentage>h6:nth-child(3){
     color: #d9d9d9;
@@ -230,7 +230,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 87%;
-    top: -30px;
+    top: -60px;
 }
 #percentage>h6:nth-child(4){
     color: #d9d9d9;
@@ -238,7 +238,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 20%;
-    top: 50px;
+    top: 20px;
 }
 #percentage>h6:nth-child(5){
     color: #d9d9d9;
@@ -246,7 +246,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 53%;
-    top: 50px;
+    top: 20px;
 }
 #percentage>h6:nth-child(6){
     color: #d9d9d9;
@@ -254,7 +254,7 @@
     position: absolute;
     font-family: Ebrima;
     left: 87%;
-    top: 50px;
+    top: 20px;
 }
 
 

@@ -16,7 +16,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 815%;
+    top: 615%;
     left: 19%;
     margin: 0;
     position: absolute;
@@ -40,13 +40,13 @@
     background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
     position: absolute;
     left: 7%;
-    top: 815%;
+    top: 715%;
 
 }
 
 #section25>h1{
     left: 7%;
-    top: 823%;
+    top: 723%;
     margin: 0;
     font-size: 5vw;
     color: #d9d9d9;
@@ -59,7 +59,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 827%;
+    top: 727%;
     left: 60%;
 }
 
@@ -69,7 +69,7 @@
     left: 60%;
     font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
-    top: 843%;
+    top: 743%;
     position: absolute;
     width: 120px;
     color: #d9d9d9;
@@ -85,7 +85,7 @@
     background: linear-gradient(to right, #00224d 0%,#737373 100%);
     box-shadow: 10px 10px 10px ;
     left: 7%;
-    top: 853%;
+    top: 753%;
     position: absolute;
 }
 
@@ -95,7 +95,7 @@
     position: absolute;
     font-family: "Sofadi One", system-ui;
     font-weight: 400;
-    bottom:85%;
+    bottom:80%;
     font-style: normal;
     left: 4%;
 }
@@ -231,7 +231,7 @@
     position: absolute;
     font-size: 15px;
     left: 7%;
-    top: 910%;
+    top: 810%;
 }
 
 #footer>img:nth-child(2){
@@ -240,7 +240,7 @@
     width: 30px;
     height: 30px;
     left: 80%;
-    top: 910%;
+    top: 810%;
 }
 
 #footer>img:nth-child(3){
@@ -249,7 +249,7 @@
     width: 30px;
     height: 30px;
     left: 84%;
-    top: 910%;
+    top: 810%;
 }
 #footer>img:nth-child(4){
     color: #d9d9d9;
@@ -257,14 +257,14 @@
     width: 30px;
     height: 30px;
     left: 88%;
-    top: 910%;
+    top: 810%;
 }#footer>img:nth-child(5){
      color: #d9d9d9;
      position: absolute;
      width: 30px;
      height: 30px;
      left: 92%;
-     top: 910%;
+     top: 810%;
  }
 
  #msg{
