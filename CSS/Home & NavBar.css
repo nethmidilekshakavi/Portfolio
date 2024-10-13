@@ -858,12 +858,13 @@ p{
 
 }
 
+/*
 @media screen and (max-width:768px){
 
     .div01>header>nav>ul{
         display: none; background-image: url("../Assert/home/3d-technology-geometric-black-background.jpg");
         background-size: cover;
-        background-repeat: no-repeat; /* This prevents the image from repeating */
+        background-repeat: no-repeat; !* This prevents the image from repeating *!
         overflow-y: scroll;
         overflow-x: hidden;
         margin: 0;
@@ -896,8 +897,8 @@ p{
         display: flex;
         right: 3%;
         position: absolute;
-        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
-        list-style-type: none; /* Remove bullet points */
+        flex-wrap: wrap; !* Allows items to wrap on smaller screens *!
+        list-style-type: none; !* Remove bullet points *!
         padding: 0;
         display: none;
     }
@@ -911,7 +912,7 @@ p{
         text-decoration: none;
         padding: 12px;
         transition: .8s;
-        margin: 0 10px; /* Adds some space between links */
+        margin: 0 10px; !* Adds some space between links *!
     }
 
 
@@ -1085,7 +1086,7 @@ p{
         position: absolute;
     }
 
-    /*social media section*/
+    !*social media section*!
 
 
     .facebook{
@@ -1177,7 +1178,7 @@ p{
     }
 
 
-    /*  #profile{
+    !*  #profile{
           width: 30vw;
           height: 34vw;
           border-radius: 20vw;
@@ -1187,7 +1188,7 @@ p{
           bottom: 15%;
           display: none;
           position: absolute;
-      }*/
+      }*!
 
     #arrow{
         transform: rotate(180deg);
@@ -1201,6 +1202,7 @@ p{
 
 
 }
+*/
 
 
 
