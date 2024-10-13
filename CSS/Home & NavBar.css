@@ -663,10 +663,10 @@ p{
         position: absolute;
     }
     #desc{
-        width: 230px;
+        width:205px;
         font-size: 3vw;
         color: #d9d9d9;
-        right: 10%;
+        right: 8%;
         top: 50%;
         position: absolute;
 
@@ -676,7 +676,7 @@ p{
         font-size:3vw;
         color: #0C9463;
         right: 8%;
-        top: 59%;
+        top: 62%;
         position: absolute;
 
     }
@@ -722,7 +722,7 @@ p{
         background: #0c9463;
         color: white;
         left: 65%;
-        top: 68%;
+        top: 73%;
         position: absolute;
     }
 
@@ -740,7 +740,7 @@ p{
         background: #0c9463;
         color: white;
         left: 65%;
-        top: 73.5%;
+        top: 80%;
         position: absolute;
     }
 
@@ -941,8 +941,8 @@ p{
 
     #arrow{
         transform: rotate(180deg);
-        top: 85%;
-        left: 74%;
+        top: 90%;
+        left: 75%;
         height: 2rem;
         position: absolute;
     }
