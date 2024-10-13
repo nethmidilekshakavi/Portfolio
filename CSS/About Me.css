@@ -135,7 +135,7 @@
         font-size: 8px;
         font-weight: 0;
         font-style: normal;
-        top: 104%;
+        top: 108.5%;
         left: 23%;
         position: absolute;
     }
@@ -147,7 +147,7 @@
         font-optical-sizing: auto;
         font-weight: 0;
         font-style: normal;
-        top: 102.5%;
+        top: 107%;
         left: 12%;
         position: absolute;
     }
@@ -158,7 +158,7 @@
         background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
         position: absolute;
         left: 7%;
-        top: 103%;
+        top: 107%;
 
     }
 
@@ -168,8 +168,8 @@
         width: 55vw;
         border-radius: 60%;
         border: #00224d solid 2px;
-        left: 10%;
-        top: 118%;
+        left: 7%;
+        top: 120%;
         position: absolute;
 
 
@@ -184,21 +184,21 @@
 
     .div02>#section6>div{
         color: grey;
-        font-size: 2.5vw;
+        font-size: 15px;
         font-family: "Klee One", cursive;
         font-weight: 400;
-        left: -2%;
-        top: 148%;
-        transform: rotate(90deg);
+        transform: rotate(0deg);
+        left: 67%;
+        top: 132%;
     }
 
     .div02>#about{
 
         color: white;
         font-size: 10px;
-        width: 285px;
+        width: 300px;
         left: 7%;
-        top: 300vw;
+        top: 310vw;
         font-weight: 400;
         font-style: normal;
     }
