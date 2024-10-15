@@ -458,45 +458,39 @@ input:checked + label .description {
 }
 @media screen and (max-width: 320px) {
     #div04 {
-        height: 290px;
+        height: 390px;
     }
 
     #section9 > h5 {
         color: lightgoldenrodyellow;
-        font-size: 1.2vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
-        font-optical-sizing: auto;
+        font-size: 8px;
         font-weight: 0;
         font-style: normal;
-        top: 194%;
+        top: 296%;
         left: 23%;
         position: absolute;
-
-
     }
 
     #section9 > h6 {
         color: #00224d;
-        font-size: 1.3vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-size: 10px;
+        font-family: "Playwrite DE Grund", cursive;
         font-optical-sizing: auto;
         font-weight: 0;
         font-style: normal;
-        top: 194%;
-        left: 9%;
+        top: 290%;
+        left: 12%;
         position: absolute;
-
-
     }
 
     #section9 > div {
-        width: 1.3vw;
-        height: 1.3vw;
+        width: 12px;
+        height: 12px;
         background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
-        left: 7%;
-        top: 194%;
         position: absolute;
-        margin: 0;
+        left: 7%;
+        top: 294%;
+
     }
 
     .section10 > div:nth-child(2) {
@@ -506,7 +500,7 @@ input:checked + label .description {
 
         background-color: #0C9463;
         left: 47.3%;
-        top: 200%;
+        top: 312%;
         position: absolute;
     }
 
@@ -517,7 +511,7 @@ input:checked + label .description {
         border-radius: 100%;
         background-color: #0C9463;
         left: 47.3%;
-        top: 208%;
+        top: 320%;
         position: absolute;
     }
 
@@ -527,7 +521,7 @@ input:checked + label .description {
         border-radius: 100%;
         background-color: #0C9463;
         left: 47.3%;
-        top: 216%;
+        top: 328%;
         position: absolute;
     }
 
@@ -537,17 +531,17 @@ input:checked + label .description {
         border-radius: 100%;
         background-color: #0C9463;
         left: 47.3%;
-        top: 224%;
+        top: 336%;
         position: absolute;
     }
 
     .section10 > div:nth-child(1) {
         width: 2.5px;
-        height: 61vw;
+        height: 62vw;
         background-color: #00224d;
         border-radius: 20%;
         left: 48.9%;
-        top: 198%;
+        top: 310%;
         position: absolute;
     }
 
@@ -556,7 +550,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 200%;
+        top: 312%;
         position: absolute;
     }
 
@@ -565,7 +559,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 202%;
+        top: 314%;
         position: absolute;
 
 
@@ -576,7 +570,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 208%;
+        top: 320%;
         position: absolute;
     }
 
@@ -585,7 +579,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 210%;
+        top: 322%;
         position: absolute;
 
 
@@ -596,7 +590,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 216%;
+        top: 328%;
         position: absolute;
     }
 
@@ -605,7 +599,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 218%;
+        top: 330%;
         position: absolute;
 
 
@@ -616,7 +610,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 224%;
+        top: 336%;
         position: absolute;
     }
 
@@ -625,7 +619,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 226%;
+        top: 338%;
         position: absolute;
     }
 
