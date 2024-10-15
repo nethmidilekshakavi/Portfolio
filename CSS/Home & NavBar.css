@@ -518,15 +518,8 @@ p{
 
 @media screen and (max-width:425px){
 
-    .div01>header>nav>ul{
-       display: none; background-image: url("../Assert/home/3d-technology-geometric-black-background.jpg");
-        background-size: cover;
-        background-repeat: no-repeat; /* This prevents the image from repeating */
-        overflow-y: scroll;
-        overflow-x: hidden;
-        margin: 0;
-        height: 100vh;
-    }
+
+
 
 
 {

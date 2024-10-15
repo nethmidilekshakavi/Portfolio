@@ -135,7 +135,7 @@
         font-size: 8px;
         font-weight: 0;
         font-style: normal;
-        top: 108.5%;
+        top: 112%;
         left: 23%;
         position: absolute;
     }
@@ -147,7 +147,7 @@
         font-optical-sizing: auto;
         font-weight: 0;
         font-style: normal;
-        top: 107%;
+        top: 110%;
         left: 12%;
         position: absolute;
     }
@@ -158,7 +158,7 @@
         background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
         position: absolute;
         left: 7%;
-        top: 107%;
+        top: 110%;
 
     }
 
@@ -169,7 +169,7 @@
         border-radius: 60%;
         border: #00224d solid 2px;
         left: 7%;
-        top: 120%;
+        top: 124%;
         position: absolute;
 
 
@@ -188,7 +188,7 @@
         font-family: "Klee One", cursive;
         font-weight: 400;
         transform: rotate(0deg);
-        left: 67%;
+        left: 69%;
         top: 132%;
     }
 
@@ -198,7 +198,7 @@
         font-size: 10px;
         width: 300px;
         left: 7%;
-        top: 310vw;
+        top: 320vw;
         font-weight: 400;
         font-style: normal;
     }
@@ -207,7 +207,7 @@
         width: 30px;
         height: 30px;
         left:  25%;
-        top: 375vw;
+        top: 385vw;
         border: none;
         position: absolute;
     }
@@ -215,7 +215,7 @@
         width: 30px;
         height: 30px;
         left:  38%;
-        top: 375vw;
+        top: 385vw;
         border: none;
         position: absolute;
     }
@@ -223,7 +223,7 @@
         width: 30px;
         height: 30px;
         left:  51%;
-        top: 375vw;
+        top: 385vw;
         border: none;
         position: absolute;
     }
@@ -231,7 +231,7 @@
         width: 30px;
         height: 30px;
         left:  64%;
-        top: 375vw;
+        top: 385vw;
         border: none;
         position: absolute;
     }
