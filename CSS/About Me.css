@@ -121,51 +121,35 @@
 }
 
 @media screen and (max-width:425px){
-    /*about*/
-
-
-    .div02{
-        height:100vh;
-        width: 100%;
-        background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
-        background-size: cover;
-
-    }
-
-    .div02>#section4>h6{
-        margin: 0;
-        position: relative;
-    }
-
     .div02>#section4>h5{
         color: lightgoldenrodyellow;
         font-size: 8px;
+        font-optical-sizing: auto;
         font-weight: 0;
         font-style: normal;
-        top: 113%;
-        left: 23%;
+        top: 110%;
+        left: 21%;
         position: absolute;
     }
 
     .div02>#section4>h6{
         color: #00224d;
-        font-size: 10px;
-        font-family: "Playwrite DE Grund", cursive;
+        font-size: 12px;
         font-optical-sizing: auto;
         font-weight: 0;
         font-style: normal;
-        top: 111%;
-        left: 12%;
+        top: 107%;
+        left: 13%;
         position: absolute;
     }
 
     .div02>#section4>div {
-        width: 12px;
-        height: 12px;
+        width: 15px;
+        height: 15px;
         background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
         position: absolute;
         left: 7%;
-        top: 111%;
+        top: 107%;
 
     }
 
@@ -176,9 +160,8 @@
         border-radius: 60%;
         border: #00224d solid 2px;
         left: 7%;
-        top: 128%;
+        top: 122%;
         position: absolute;
-
 
     }
 
@@ -191,21 +174,21 @@
 
     .div02>#section6>div{
         color: grey;
-        font-size: 14px;
+        font-size: 12px;
         font-family: "Klee One", cursive;
         font-weight: 400;
-        transform: rotate(0deg);
         left: 70%;
-        top: 142%;
+        top: 135%;
+        transform: rotate(0deg);
+        position: absolute;
     }
 
     .div02>#about{
 
         color: white;
         font-size: 10px;
-        width: 300px;
-        left: 7%;
-        top: 340vw;
+        left: 5%;
+        top: 155%;
         font-weight: 400;
         font-style: normal;
     }
@@ -213,32 +196,32 @@
     #f{
         width: 30px;
         height: 30px;
-        left:  25%;
-        top: 400vw;
+        left: 20%;
+        top: 190%;
         border: none;
         position: absolute;
     }
     #l{
         width: 30px;
         height: 30px;
-        left:  38%;
-        top: 400vw;
+        left: 35%;
+        top: 190%;
         border: none;
         position: absolute;
     }
     #ins{
         width: 30px;
         height: 30px;
-        left:  51%;
-        top: 400vw;
+        left: 50%;
+        top: 190%;
         border: none;
         position: absolute;
     }
     #g{
         width: 30px;
         height: 30px;
-        left:  64%;
-        top: 400vw;
+        left: 65%;
+        top: 190%;
         border: none;
         position: absolute;
     }
