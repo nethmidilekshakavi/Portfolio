@@ -364,11 +364,12 @@
 
 }
 
+/*
 @media screen and (max-width:425px){
     #div03{
         height:70vh;
         width: 100%;
-        /*background: linear-gradient(to right,#00224d  0%, #0c9463  100%);*/
+        !*background: linear-gradient(to right,#00224d  0%, #0c9463  100%);*!
         background-color: #00224d;
         background-size: cover;
         top: 0;
@@ -408,27 +409,27 @@
         top: 226%;
     }
 
-    /* Parent container for the carousel */
+    !* Parent container for the carousel *!
     .section8 {
         display: flex;
         justify-content: center;
         width: 100%;
         height: 50vw;
         top: 10%;
-        overflow: hidden; /* Hide overflowing logos */
+        overflow: hidden; !* Hide overflowing logos *!
         position: relative;
     }
 
-    /* Carousel slide container */
+    !* Carousel slide container *!
     .logo-slide {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         width: max-content;
-        animation: scroll 5s linear infinite; /* Infinite scroll animation */
+        animation: scroll 5s linear infinite; !* Infinite scroll animation *!
     }
 
-    /* The carousel item styling */
+    !* The carousel item styling *!
     #python, #java, #PHOTOShop, #react, #mysql, #lr, #js, #FI ,#html{
         width: 10vw;
         height: 10vw;
@@ -437,15 +438,15 @@
         transition: transform 0.5s ease, opacity 0.5s ease;
     }
 
-    /*!* Center logo styling (HTML logo) *!
+    !*!* Center logo styling (HTML logo) *!
     #html {
         width: 15vw; !* Larger size for the center logo *!
         height: 15vw;
         z-index: 10;
         opacity: 1;
-    }*/
+    }*!
 
-    /* Infinite scrolling animation */
+    !* Infinite scrolling animation *!
     @keyframes scroll {
         0% {
             transform: translateX(0);
@@ -455,11 +456,11 @@
         }
     }
 
-    /* Logo slide container to make the logos move continuously */
+    !* Logo slide container to make the logos move continuously *!
     .logo-slide {
         display: flex;
-        gap: 20px; /* Adds spacing between the logos */
-        animation: scroll 30s linear infinite; /* Continuous scroll effect */
+        gap: 20px; !* Adds spacing between the logos *!
+        animation: scroll 30s linear infinite; !* Continuous scroll effect *!
     }
 
 
@@ -721,4 +722,149 @@
         }
 
     }
+}*/
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 768px) {
+    #div03 {
+        height: 70vh;
+        background-color: #00224d;
+    }
+
+    #section7 > h5 {
+        font-size: 8px;
+        top: 167%;
+        left: 23%;
+    }
+
+    #section7 > h6 {
+        font-size: 10px;
+        top: 162%;
+        left: 12%;
+    }
+
+    #section7 > div {
+        width: 12px;
+        height: 12px;
+        top: 165.5%;
+    }
+
+    .section8 {
+        height: 40vw; /* Adjust height for smaller screens */
+        top: 12%;
+
+    }
+
+    .logo-slide {
+        gap: 20px; /* Reduce spacing between logos */
+        animation: scroll 20s linear infinite; /* Speed up scroll for smaller screens */
+    }
+
+    #skill-section {
+        top: 190%;
+    }
+
+    .skill-main {
+        top: 200%;
+        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on small screens */
+        grid-row-gap: 35px;
+    }
+
+    #names > h5 {
+        font-size: 10px;
+        top: -30%;
+    }
+
+    #percentage > h6 {
+        font-size: 9px;
+        top: -33px;
+    }
+
+    .skills-bar {
+        width: 90%; /* Adjust width of skills bar */
+    }
+}
+
+
+@media (max-width: 425px) {
+    #div03 {
+        height: 60vh; /* Adjust height for very small screens */
+        background-color: #001f3f; /* Change background color for better visibility */
+    }
+
+    #section7 > h5 {
+        font-size: 6px; /* Smaller font size for headings */
+        top: 200%; /* Adjust positioning */
+        left: 20%; /* Adjust positioning */
+    }
+
+    #section7 > h6 {
+        font-size: 8px; /* Smaller font size for subheadings */
+        top: 195%; /* Adjust positioning */
+        left: 10%; /* Adjust positioning */
+    }
+
+    #section7 > div {
+        width: 10px; /* Reduce size of divs */
+        height: 10px; /* Reduce size of divs */
+        top: 200%; /* Adjust positioning */
+    }
+
+    .section8 {
+        height: 35vw; /* Further reduce height for small screens */
+    }
+
+    .logo-slide {
+        gap: 10px; /* Reduce spacing between logos */
+        animation: scroll 15s linear infinite; /* Speed up scroll for small screens */
+    }
+
+    #skill-section {
+        top: 180%; /* Adjust positioning */
+    }
+
+    .skill-main {
+        top: 220%; /* Adjust positioning */
+        grid-template-columns: 1fr; /* Single column layout on very small screens */
+        grid-row-gap: 20px; /* Adjust gap */
+    }
+
+    #names > h5 {
+        font-size: 6px; /* Adjust font size to 6px */
+        top: -20%; /* Adjust positioning */
+    }
+
+    #percentage > h6 {
+        font-size: 1rem; /* Adjust font size to 6px */
+        top: -25px; /* Adjust positioning */
+    }
+
+    .skills-bar {
+        width: 95%; /* Adjust width of skills bar */
+    }
+}
+

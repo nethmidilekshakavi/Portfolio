@@ -287,7 +287,31 @@ input:checked + label .description {
 
 
 /*---------------------------Education----------------------------------*/
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 
 @media screen and (max-width: 768px) {
     #div04{
@@ -295,106 +319,86 @@ input:checked + label .description {
         background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     }
 
-    #section9>h5{
-        color: lightgoldenrodyellow;
-        font-size: 2vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
-        font-optical-sizing: auto;
-        font-weight: 0;
-        font-style: normal;
-        top: 251.5%;
-        left: 22%;
-        position: absolute;
-
-
+    #section9 > h5 {
+        font-size: 8px;
+        top: 237%;
+        left: 23%;
     }
 
-    #section9>h6{
-        color: #00224d;
-        font-size: 2.7vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
-        font-optical-sizing: auto;
-        font-weight: 0;
-        font-style: normal;
-        top: 246.7%;
+    #section9 > h6 {
+        font-size: 10px;
+        top: 232%;
         left: 12%;
-        position: absolute;
-
-
     }
 
-    #section9>div{
-        width: 3vw;
-        height: 3vw;
-        background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
-        left: 7%;
-        top: 251%;
-        position: absolute;
-        margin: 0;
+    #section9 > div {
+        width: 12px;
+        height: 12px;
+        top: 235.5%;
     }
 
     .section10>div:nth-child(2){
-        width: 13px;
-        height: 13px;
+        width: 20px;
+        height: 20px;
         border-radius: 100%;
         background-color: #0C9463;
-        left: 48.3%;
-        top: 284%;
+        left: 47%;
+        top: 250%;
         position: absolute;
     }
 
 
     .section10>div:nth-child(3){
-        width: 13px;
-        height: 13px;
+        width: 20px;
+        height: 20px;
         border-radius: 100%;
         background-color: #0C9463;
-        left: 48.3%;
-        top: 263%;
+        left: 47%;
+        top: 260%;
         position: absolute;
     }
     .section10>div:nth-child(4){
-        width: 13px;
-        height: 13px;
+        width: 20px;
+        height: 20px;
         border-radius: 100%;
         background-color: #0C9463;
-        left: 48.3%;
+        left: 47%;
         top: 270%;
         position: absolute;
     }
     .section10>div:nth-child(5){
-        width: 13px;
-        height: 13px;
+        width: 20px;
+        height: 20px;
         border-radius: 100%;
         background-color: #0C9463;
-        left: 48.3%;
-        top: 277%;
+        left: 47%;
+        top: 280%;
         position: absolute;
     }
     .section10>div:nth-child(1){
         width: 2.5px;
-        height: 39vw;
+        height: 45vw;
         background-color: #00224d;
         border-radius: 20%;
         left: 48.9%;
-        top: 261%;
+        top: 250%;
         position: absolute;
     }
 
     #section11>div:nth-child(1){
-        left: 21%;
-        font-size: 2vw;
+        left: 12%;
+        font-size: 2.2vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 262.5%;
+        top: 250%;
         position: absolute;
     }
     #section12>div:nth-child(1){
-        left: 21%;
+        left: 12%;
         font-size: 1.5vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 264.5%;
+        top: 252%;
         position: absolute;
 
 
@@ -404,7 +408,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 269.5%;
+        top: 260%;
         position: absolute;
     }
 
@@ -413,7 +417,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 271.5%;
+        top: 262%;
         position: absolute;
 
 
@@ -423,7 +427,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 276.5%;
+        top: 270%;
         position: absolute;
     }
 
@@ -432,7 +436,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 278.5%;
+        top: 272%;
         position: absolute;
 
 
@@ -442,7 +446,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 284%;
+        top: 280%;
         position: absolute;
     }
 
@@ -451,48 +455,46 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 286%;
+        top: 282%;
         position: absolute;
     }
+    .wrapper {
+        display: none;
+    }
 
+    .container {
+        height: 100px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: start;
+    }
+
+    .card {
+        display: none;
+    }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     #div04 {
         height: 390px;
     }
 
     #section9 > h5 {
-        color: lightgoldenrodyellow;
-        font-size: 8px;
-        font-weight: 0;
-        font-style: normal;
-        top: 296%;
-        left: 23%;
-        position: absolute;
+        font-size: 6px; /* Smaller font size for headings */
+        top: 200%; /* Adjust positioning */
+        left: 20%; /* Adjust positioning */
     }
 
     #section9 > h6 {
-        color: #00224d;
-        font-size: 10px;
-        font-family: "Playwrite DE Grund", cursive;
-        font-optical-sizing: auto;
-        font-weight: 0;
-        font-style: normal;
-        top: 290%;
-        left: 12%;
-        position: absolute;
+        font-size: 8px; /* Smaller font size for subheadings */
+        top: 195%; /* Adjust positioning */
+        left: 10%; /* Adjust positioning */
     }
 
     #section9 > div {
-        width: 12px;
-        height: 12px;
-        background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
-        position: absolute;
-        left: 7%;
-        top: 294%;
-
+        width: 10px; /* Reduce size of divs */
+        height: 10px; /* Reduce size of divs */
+        top: 200%; /* Adjust positioning */
     }
-
     .section10 > div:nth-child(2) {
         width: 13px;
         height: 13px;

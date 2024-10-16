@@ -382,11 +382,12 @@
     }
 */
     #section4 h6 {
-        font-size: 0.9rem;
+        font-size: 10px;
+
     }
 
     #section4 h5 {
-        font-size: 1rem;
+        font-size: 9px;
     }
 
     #section4 .quote-divider {
