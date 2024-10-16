@@ -267,12 +267,63 @@
      top: 798%;
  }
 
- #msg{
-     width: 200px;
-     height: 200px;
-     background-color: #d9d9d9;
-     position: absolute;
- }
 
+/* Container for the input and button */
+.position-relative {
+    max-width: 400px;
+    margin: 0 auto; /* Center the element horizontally */
+}
+.position-relative>label>input {
+    width: 100px;
+    height: 50px;
+    background-color: #d9d9d9;
+}
+/* Input field styling */
+.form-control {
+    width: 100%;
+    padding: 15px 60px 15px 20px; /* Adjust padding for icon space */
+    border: 2px solid #0090F9;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+    color: #333;
+    box-shadow: none; /* Remove default box shadow */
+    transition: all 0.3s ease; /* Smooth transition on focus */
+}
 
+.form-control::placeholder {
+    color: #737373;
+    font-size: 0.9rem;
+}
 
+/* Button styling */
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #00224d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0090F9; /* Hover effect */
+}
+
+/* Positioning the button */
+.position-absolute {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%); /* Vertically center the button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .form-control {
+        padding: 12px 50px 12px 15px; /* Reduce padding for smaller screens */
+    }
+    .btn-primary {
+        padding: 8px 15px;
+    }
+}

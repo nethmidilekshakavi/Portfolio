@@ -30,6 +30,7 @@ body{
     z-index: -1; !* Ensure the background stays behind the content *!
 }*/
 
+
 {
 background-repeat: no-repeat;
 }
@@ -37,29 +38,34 @@ background-repeat: no-repeat;
     display: none;
 }
 
-#outline{
+.navbarmobile{
+    display: none;
+}
+
+#outline {
     width: 57vw;
     height: 4vw;
     border-top: #0090F9 2px solid;
     border-right: #0090F9 2px solid;
     border-left: #0C9463 2px solid;
     border-bottom: #0C9463 2px solid;
-    border-radius:10px;
+    border-radius: 10px;
     right: 1%;
     top: 1%;
     position: absolute;
 }
 
-.div01 > header > nav > ul {
-    display: flex;
-    right: 3%;
+#outline ul {
+    right: 5%;
     position: absolute;
-    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    display: flex;
+    gap: 1.5vw; /* Add space between links */
     list-style-type: none; /* Remove bullet points */
     padding: 0;
+    margin: 0;
 }
 
-.div01 > header > nav > ul > a {
+#outline ul a {
     font-size: 1rem;
     font-weight: 500;
     font-family: "Klee One", cursive;
@@ -68,17 +74,14 @@ background-repeat: no-repeat;
     text-decoration: none;
     padding: 12px;
     transition: .8s;
-    margin: 0 10px; /* Adds some space between links */
 }
 
-
-
-nav>ul>a:hover{
+#outline ul a:hover {
     position: relative;
     color: #3498db;
 }
 
-nav>ul>a>span{
+#outline ul a span {
     position: absolute;
     top: 0;
     left: 0;
@@ -91,14 +94,16 @@ nav>ul>a>span{
     opacity: 0;
     transition: .8s;
 }
-nav>ul>a:hover>span{
+
+#outline ul a:hover span {
     transform: scale(1) translateY(0);
     opacity: 1;
 }
 
+
 #massage{
-    width: 7vw;
-    height: 5vw;
+    width: 8vw;
+    height: 6vw;
     border: #0090F9;
     left: 15%;
     top: 13%;
@@ -111,7 +116,7 @@ nav>ul>a:hover>span{
 }
 #section1>#section2>div:nth-child(1){
     color: white;
-    font-size: 20px;
+    font-size: 2vw;
     left: 16.5%;
     top: 15%;
     position: absolute;
@@ -211,7 +216,7 @@ nav>ul>a:hover>span{
     height: 2vw;
     border-color: #00224d;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 1vw;
     font-family: "Klee One", cursive;
     font-style: normal;
     box-shadow: 10px 10px 10px #0090F9;
@@ -229,7 +234,7 @@ nav>ul>a:hover>span{
     height: 2vw;
     border-color:#00224d;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 1vw;
     font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
@@ -516,7 +521,13 @@ p{
     display: none;
 }
 
+
+
 @media screen and (max-width:425px){
+
+    .navbarmobile{
+        display: block;
+    }
 
 {
     background-repeat: no-repeat;
@@ -710,6 +721,7 @@ p{
         box-shadow: 10px 10px 10px #0090F9;
         background: #0c9463;
         color: white;
+        cursor: pointer;
         left: 65%;
         top: 73%;
         position: absolute;
@@ -723,6 +735,7 @@ p{
         border-color: #00224d;
         border-radius: 10px;
         font-size: 10px;
+        cursor: pointer;
         font-family: "Klee One", cursive;
         font-style: normal;
         box-shadow: 10px 10px 10px #0090F9;
@@ -846,353 +859,5 @@ p{
     }
 
 }
-
-/*
-@media screen and (max-width:768px){
-
-    .div01>header>nav>ul{
-        display: none; background-image: url("../Assert/home/3d-technology-geometric-black-background.jpg");
-        background-size: cover;
-        background-repeat: no-repeat; !* This prevents the image from repeating *!
-        overflow-y: scroll;
-        overflow-x: hidden;
-        margin: 0;
-        height: 100vh;
-    }
-
-
-{
-    background-repeat: no-repeat;
-}
-    .menu-toggle{
-        display: none;
-    }
-
-    #outline{
-        width: 57vw;
-        height: 4vw;
-        border-top: #0090F9 2px solid;
-        border-right: #0090F9 2px solid;
-        border-left: #0C9463 2px solid;
-        border-bottom: #0C9463 2px solid;
-        border-radius:10px;
-        right: 1%;
-        top: 1%;
-        position: absolute;
-        display: none;
-    }
-
-    .div01 > header > nav > ul {
-        display: flex;
-        right: 3%;
-        position: absolute;
-        flex-wrap: wrap; !* Allows items to wrap on smaller screens *!
-        list-style-type: none; !* Remove bullet points *!
-        padding: 0;
-        display: none;
-    }
-
-    .div01 > header > nav > ul > a {
-        font-size: 1rem;
-        font-weight: 500;
-        font-family: "Klee One", cursive;
-        font-style: normal;
-        color: #d9d9d9;
-        text-decoration: none;
-        padding: 12px;
-        transition: .8s;
-        margin: 0 10px; !* Adds some space between links *!
-    }
-
-
-
-    nav>ul>a:hover{
-        position: relative;
-        color: #3498db;
-    }
-
-    nav>ul>a>span{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        border-bottom: 2px solid #0090F9;
-        border-radius: 15px;
-        transform: scale(0) translateY(50px);
-        opacity: 0;
-        transition: .8s;
-    }
-    nav>ul>a:hover>span{
-        transform: scale(1) translateY(0);
-        opacity: 1;
-    }
-
-
-    #massage{
-        width: 7rem;
-        height: 7rem;
-        border: #0090F9;
-        left: 9%;
-        top: 14%;
-        border-radius: 10px;
-        text-decoration: none;
-        position: absolute;
-        padding: 8px 10px;
-        transition: .5s;
-
-    }
-    #section1>#section2>div:nth-child(1){
-        color: white;
-        font-size: 26px;
-        left: 11%;
-        top: 16.5%;
-        position: absolute;
-        font-family: "Klee One", cursive;
-        text-decoration: none;
-        padding: 8px 20px;
-        transition: .5s;
-    }
-    #section1>#section2>div:nth-child(2){
-        color: wheat;
-        font-size: 4.3rem;
-        font-weight: 400;
-        font-style: normal;
-        left: 10%;
-        top: 19%;
-        position: absolute;
-
-    }
-
-    #section1>#section2>div:nth-child(3){
-        color: wheat;
-        font-size: 4.3rem;
-        font-weight: 400;
-        font-style: normal;
-        left: 28%;
-        top: 19%;
-        position: absolute;
-    }
-
-    #section1>#section2>div:nth-child(4){
-        color: #d9d9d9;
-        font-size: 1.5rem;
-        font-weight: 400;
-        font-style: normal;
-        left: 10%;
-        top: 36%;
-        position: absolute;
-    }
-
-    #section1>#section2>div:nth-child(5){
-        color: #d9d9d9;
-        font-size: 25px;
-        font-weight: 100;
-        font-style: normal;
-        left: 41%;
-        top: 44%;
-        position: absolute;
-    }
-    #desc{
-        width:405px;
-        font-size: 13px;
-        color: #d9d9d9;
-        left: 41%;
-        top: 50%;
-        position: absolute;
-
-    }
-    #srilanka{
-        width: 405px;
-        font-size:15px;
-        color: #0C9463;
-        left: 63%;
-        top: 58%;
-        position: absolute;
-
-    }
-
-    #homeO{
-        width: 25px;
-        height: 25px;
-        background-color: #2ecc71;
-        border-radius: 100%;
-        position: absolute;
-        right: 30%;
-        top: 40%;
-    }
-    #home1{
-        width: 75px;
-        height: 75px;
-        border: #0090F9 2px solid;
-        border-radius: 100%;
-        position: absolute;
-        right: 30%;
-        top: 10%;
-    }
-    #home2{
-        width: 40px;
-        height: 40px;
-        border: #0C9463 2px solid;
-        border-radius: 100%;
-        position: absolute;
-        right: 37%;
-        top: 15%;
-    }
-
-    #cv{
-        width: 7rem;
-        height: 2rem;
-        border-color: #00224d;
-        border-radius: 10px;
-        font-size: 10px;
-        font-family: "Klee One", cursive;
-        font-style: normal;
-        box-shadow: 10px 10px 10px #0090F9;
-        background: #0c9463;
-        color: white;
-        left: 70%;
-        top: 75%;
-        position: absolute;
-    }
-
-
-
-    #explore{
-        width: 7rem;
-        height: 2rem;
-        border-color: #00224d;
-        border-radius: 10px;
-        font-size: 10px;
-        font-family: "Klee One", cursive;
-        font-style: normal;
-        box-shadow: 10px 10px 10px #0090F9;
-        background: #0c9463;
-        color: white;
-        left: 70%;
-        top: 81%;
-        position: absolute;
-    }
-
-    !*social media section*!
-
-
-    .facebook{
-        top: 30%;
-        right: 5%;
-        width: 65px;
-        height: 45px;
-        position: absolute;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        font-style: normal;
-        padding: 8px 20px;
-        transition: .5s;
-    }
-
-    .inster{
-        right: 5%;
-        width: 65px;
-        height: 45px;
-        top: 35%;
-        position: absolute;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        font-style: normal;
-        padding: 8px 20px;
-        transition: .5s;
-    }
-    .github{
-        top: 40%;
-        right: 5%;
-        width: 65px;
-        height: 45px;
-        position: absolute;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        font-style: normal;
-        padding: 8px 20px;
-        transition: .5s;
-    }
-
-
-    .linkedin{
-        top: 45%;
-        right: 5%;
-        width: 65px;
-        height: 45px;
-        position: absolute;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        font-style: normal;
-        padding: 8px 20px;
-        transition: .5s;
-    }
-
-
-    .line{
-        right: 5.5%;
-        top: 25%;
-        width: 60px;
-        height: 43px;
-        position: absolute;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-size: 15px;
-        font-style: normal;
-        padding: 8px 20px;
-        transition: .5s;
-    }
-    .followme{
-        right: 4%;
-        top: 19%;
-        position: absolute;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-size: 10px;
-        font-style: normal;
-        padding: 8px 20px;
-        transition: .5s;
-    }
-
-
-    !*  #profile{
-          width: 30vw;
-          height: 34vw;
-          border-radius: 20vw;
-          border-color: #0090F9;
-          transform: rotateY(150deg);
-          right: 6%;
-          bottom: 15%;
-          display: none;
-          position: absolute;
-      }*!
-
-    #arrow{
-        transform: rotate(180deg);
-        top: 90%;
-        left: 75%;
-        height: 2rem;
-        position: absolute;
-    }
-
-
-
-
-}
-*/
-
-
 
 
