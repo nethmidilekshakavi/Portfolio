@@ -100,3 +100,151 @@ h1 {
     max-width: 90%;
     max-height: 90%;
 }
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #section21{
+        height:160vh;
+        width: 100%;
+        background-color: #00224d;
+        background-size: cover;
+
+    }
+
+
+    #section22 > h5 {
+        font-size: 9px;
+        top: 490%;
+        left: 23%;
+    }
+
+    #section22 > h6 {
+        font-size: 12px;
+        top: 488%;
+        left: 12%;
+    }
+
+    #section22 > div {
+        width: 12px;
+        height: 12px;
+        top: 488%;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px; /* Adjust gap for better spacing */
+        top: 10%; /* Set top position to 530% */
+        position: relative; /* Ensure it can position itself according to the top value */
+    }
+
+    .gallery-item {
+        width: calc(50% - 10px); /* Two images per row */
+        height: auto; /* Maintain aspect ratio */
+        cursor: pointer;
+        border-radius: 5px;
+        transition: transform 0.3s;
+        /* Add a smaller size for images */
+    }
+
+    .gallery-item img {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px; /* Add border radius for the images */
+    }
+
+    .gallery-item:hover {
+        transform: scale(1.05); /* Scale on hover */
+    }
+
+    @media (max-width: 768px) {
+        .gallery-item {
+            width: calc(50% - 10px); /* Ensure two images per row on larger mobile screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .gallery-item {
+            width: 100%; /* One image per row on smaller screens */
+        }
+    }
+
+
+    .lightbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lightbox img {
+        max-width: 30%;
+        max-height: 30%;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        50% {
+            transform: scale(1.2);
+            opacity: 0.7;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+}

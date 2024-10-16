@@ -1,21 +1,22 @@
+/*
 
 
 body{
     background-image: url("../Assert/home/3d-technology-geometric-black-background.jpg");
-    /*background-color: #353941;*/
+    !*background-color: #353941;*!
     background-size: cover;
-    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-repeat: no-repeat; !* This prevents the image from repeating *!
     overflow-y: scroll;
     overflow-x: hidden;
     margin: 0;
     height: 100vh;
 
-    /*
+    !*
     7F6951 A66E38
-    */
+    *!
 
 }
-/*body::before {
+!*body::before {
     content: "";
     position: absolute;
     top: 0;
@@ -28,8 +29,7 @@ body{
     transform: rotate(180deg); !* Rotate the background image *!
     transform-origin: center; !* Rotate from the center *!
     z-index: -1; !* Ensure the background stays behind the content *!
-}*/
-
+}*!
 
 {
 background-repeat: no-repeat;
@@ -59,8 +59,8 @@ background-repeat: no-repeat;
     right: 5%;
     position: absolute;
     display: flex;
-    gap: 1.5vw; /* Add space between links */
-    list-style-type: none; /* Remove bullet points */
+    gap: 1.5vw; !* Add space between links *!
+    list-style-type: none; !* Remove bullet points *!
     padding: 0;
     margin: 0;
 }
@@ -246,7 +246,7 @@ background-repeat: no-repeat;
     position: absolute;
 }
 
-/*social media section*/
+!*social media section*!
 
 
 .facebook{
@@ -348,7 +348,7 @@ background-repeat: no-repeat;
     position: absolute;
 }
 
-/*social media button section*/
+!*social media button section*!
 #behance{
     width: 14vw;
     height: 3vw;
@@ -554,8 +554,8 @@ p{
         display: flex;
         right: 3%;
         position: absolute;
-        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
-        list-style-type: none; /* Remove bullet points */
+        flex-wrap: wrap; !* Allows items to wrap on smaller screens *!
+        list-style-type: none; !* Remove bullet points *!
         padding: 0;
         display: none;
     }
@@ -569,7 +569,7 @@ p{
         text-decoration: none;
         padding: 12px;
         transition: .8s;
-        margin: 0 10px; /* Adds some space between links */
+        margin: 0 10px; !* Adds some space between links *!
     }
 
 
@@ -746,7 +746,7 @@ p{
         position: absolute;
     }
 
-    /*social media section*/
+    !*social media section*!
 
 
     .facebook{
@@ -838,7 +838,7 @@ p{
     }
 
 
-  /*  #profile{
+  !*  #profile{
         width: 30vw;
         height: 34vw;
         border-radius: 20vw;
@@ -848,7 +848,7 @@ p{
         bottom: 15%;
         display: none;
         position: absolute;
-    }*/
+    }*!
 
     #arrow{
         transform: rotate(180deg);
@@ -861,3 +861,444 @@ p{
 }
 
 
+*/
+
+/* Reset and Box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Variables for Colors and Sizes */
+:root {
+    --primary-color: #0090F9;
+    --secondary-color: #0C9463;
+    --background-color: #353941;
+    --text-color: #d9d9d9;
+    --hover-color: #3498db;
+    --button-background: #0c9463;
+    --button-text: white;
+    --social-icon-size: 50px;
+    --transition-speed: 0.3s;
+    --navbar-height: 60px;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../Assert/home/3d-technology-geometric-black-background.jpg");
+    background-color: var(--background-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--text-color);
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* Container for the entire content */
+.div01 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Navigation Bar */
+header {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px 20px;
+    position: fixed;
+    border-top: #0C9463 2px solid;
+    border-bottom: #0090F9 2px solid;
+    border-radius: 5px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
+#outline {
+    display: flex;
+}
+
+#outline ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+#outline ul a {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Klee One", cursive;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: color var(--transition-speed);
+}
+
+#outline ul a:hover {
+    color: var(--hover-color);
+}
+
+#outline ul a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width var(--transition-speed), left var(--transition-speed);
+}
+
+#outline ul a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: var(--text-color);
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+/* Main Section */
+#section1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--navbar-height) 20px 20px; /* Top padding to avoid fixed navbar */
+}
+
+#section2 {
+    max-width: 800px;
+    text-align: left;
+    position: relative;
+}
+
+#section2 > div {
+    margin-bottom: 20px;
+}
+
+#section2 h1 {
+    font-size: 2.5rem;
+    font-family: "Klee One", cursive;
+    color: white;
+}
+
+#section2 h4, #section2 h6 {
+    font-size: 1.2rem;
+    color: wheat;
+}
+
+#desc {
+    font-size: 1rem;
+    color: #d9d9d9;
+}
+
+#srilanka {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+#cv, #explore {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: "Klee One", cursive;
+    cursor: pointer;
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+    margin-right: 10px;
+}
+
+#cv {
+    background-color: var(--secondary-color);
+    color: var(--button-text);
+    box-shadow: 2px 2px 5px var(--primary-color);
+}
+
+#cv:hover {
+    background-color: darken(var(--secondary-color), 10%);
+    transform: scale(1.05);
+}
+
+#explore {
+    background-color: var(--secondary-color);
+    color: var(--button-text);
+    box-shadow: 2px 2px 5px var(--primary-color);
+}
+
+#explore:hover {
+    background-color: darken(var(--secondary-color), 10%);
+    transform: scale(1.05);
+}
+
+/* Social Media Section */
+#section3 {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+#section3 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--social-icon-size);
+    height: var(--social-icon-size);
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+}
+
+#section3 a:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.1);
+}
+
+#section3 img {
+    width: 60%;
+    height: 60%;
+}
+
+.followme {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 10px;
+    transform: rotate(180deg);
+}
+
+/* Arrow */
+#arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform var(--transition-speed);
+}
+
+#arrow:hover {
+    transform: rotate(180deg) scale(1.1);
+}
+
+/* Profile Image */
+#profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    object-fit: cover;
+    position: absolute;
+    bottom: 15%;
+    right: 6%;
+    transform: rotateY(0deg);
+    transition: transform var(--transition-speed);
+}
+
+#profile:hover {
+    transform: rotateY(180deg);
+}
+
+/* Social Media Buttons */
+#behance, #dribble, #tiktok, #youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background: linear-gradient(to right, var(--secondary-color) 0%, #737373 100%);
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background var(--transition-speed), transform var(--transition-speed);
+}
+
+#behance:hover, #dribble:hover, #tiktok:hover, #youtube:hover {
+    background: linear-gradient(to right, #737373 0%, var(--secondary-color) 100%);
+    transform: scale(1.05);
+}
+
+#behance img, #dribble img, #tiktok img, #youtube img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Tools Icons */
+.lightroom, .figma, .Ps {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform var(--transition-speed);
+}
+
+.lightroom:hover, .figma:hover, .Ps:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    #outline ul {
+        flex-direction: column;
+        background: rgba(0,0,0,0.9);
+        position: fixed;
+        top: var(--navbar-height);
+        right: 0;
+        width: 200px;
+        height: calc(100% - var(--navbar-height));
+        transform: translateX(100%);
+        transition: transform var(--transition-speed);
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    #outline ul.active {
+        transform: translateX(0);
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    /* Main Section */
+    #section1 {
+        padding: calc(var(--navbar-height) + 20px) 20px 20px;
+    }
+
+    #section2 h1 {
+        font-size: 2rem;
+    }
+
+    #section2 h4, #section2 h6 {
+        font-size: 1rem;
+    }
+
+    #desc, #srilanka {
+        font-size: 0.9rem;
+    }
+
+    #cv, #explore {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    /* Social Media Section */
+    #section3 {
+        right: 10px;
+    }
+
+    .followme {
+        display: none;
+    }
+
+    /* Arrow */
+    #arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Profile Image */
+    #profile {
+        width: 150px;
+        height: 150px;
+        bottom: 10%;
+        right: 5%;
+    }
+
+    /* Social Media Buttons */
+    #behance, #dribble, #tiktok, #youtube {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+
+    #behance img, #dribble img, #tiktok img, #youtube img {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Tools Icons */
+    .lightroom, .figma, .Ps {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* Further adjustments for mobile */
+    #section3 {
+        flex-direction: row;
+        top: auto;
+        bottom: 60px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #section3 a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-toggle .bar {
+        width: 20px;
+    }
+
+    #outline ul {
+        width: 100%;
+        height: calc(100% - var(--navbar-height));
+        position: fixed;
+        top: var(--navbar-height);
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(0,0,0,0.95);
+    }
+
+    #outline ul a {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    /* Hide some elements if necessary */
+    #profile {
+        display: none;
+    }
+
+    #arrow {
+        display:none;
+        }
+}

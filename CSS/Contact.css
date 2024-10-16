@@ -327,3 +327,331 @@
         padding: 8px 15px;
     }
 }
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #section23{
+        height:100vh;
+        width: 100%;
+        background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
+        background-size: cover;
+
+    }
+    #section24>h6{
+        margin: 0;
+        position: relative;
+    }
+
+
+    #section25>h1{
+        left: 7%;
+        top: 660%;
+        margin: 0;
+        font-size: 6vw;
+        color: #d9d9d9;
+        position: absolute;
+    }
+
+    #section25>p{
+        font-size: 25px;
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 60%;
+        left: 60%;
+    }
+
+    #section25>a>button{
+        background: linear-gradient(to right, #00224d 1%, #0090F9 98%);
+        border: none;
+        left: 60%;
+        font-size: 15px;
+        font-family: "Playwrite DE Grund", cursive;
+        top: 725%;
+        position: absolute;
+        width: 120px;
+        color: #d9d9d9;
+        height: 40px;
+        border-radius: 5%;
+    }
+
+
+    #section26>div{
+        margin: 0;
+        width: 87%;
+        height: 50%;
+        background: linear-gradient(to right, #00224d 0%,#737373 100%);
+        box-shadow: 10px 10px 10px ;
+        left: 7%;
+        top: 740%;
+        position: absolute;
+    }
+
+    #section26>div>h3{
+        font-size: 25px;
+        color: #d9d9d9;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+        bottom:80%;
+        font-style: normal;
+        left: 4%;
+    }
+    #section26>div>div{
+        height: 1200px;
+        bottom:-85%;
+        left: 49%;
+        background-color: #d9d9d9;
+        width: 1px;
+        transform: rotate(270deg);
+        position:absolute ;
+    }
+
+    #section26>div>img{
+        width: 60px;
+        height: 60px;
+        left: 4%;
+        bottom: 45%;
+        position: absolute;
+    }
+
+    #section26>div>h6{
+        font-size: 20px;
+        color: #d9d9d9;
+        left: 4%;
+        bottom: 10%;
+
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        position: absolute;
+    }
+    #section26>div>h5{
+        color: #d9d9d9;
+        bottom: 45%;
+        font-family: "Playwrite CU", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-size: 20px;
+        font-style: normal;
+        left: 10%;
+        position: absolute;
+
+    }
+
+    #section27>div:nth-child(1){
+        color: #d9d9d9;
+        font-size: 20px;
+        position: absolute;
+        left: 45%;
+        bottom: 65%;
+
+    }
+    #section27>div:nth-child(2){
+        color: #d9d9d9;
+        font-size: 20px;
+        position: absolute;
+        left: 65%;
+        bottom: 65%;
+    }
+
+    #section27>div:nth-child(3){
+        color: #d9d9d9;
+        font-size: 20px;
+        position: absolute;
+        left: 80%;
+        bottom: 65%;
+    }
+
+    #section28>h6:nth-child(1){
+        font-size: 15px;
+        color: #d9d9d9;
+        left: 45%;
+        bottom: 45%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+    }
+
+    #section28>h6:nth-child(2){
+        font-size: 15px;
+        color: #d9d9d9;
+        left: 45%;
+        bottom:30%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+    }
+    #section28>h6:nth-child(3){
+        font-size: 15px;
+        color: #d9d9d9;
+        left: 45%;
+        bottom:15%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+
+    }
+
+    #section29>h6:nth-child(1){
+        font-size: 15px;
+        color: #d9d9d9;
+        left: 65%;
+        bottom: 45%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+    }
+
+    #section29>h6:nth-child(2){
+        font-size: 15px;
+        color: #d9d9d9;
+        left: 65%;
+        bottom:30%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+    }
+    #section29>h6:nth-child(3){
+        font-size: 15px;
+        color: #d9d9d9;
+        left: 65%;
+        bottom:15%;
+        position: absolute;
+        font-family: "Sofadi One", system-ui;
+        font-weight: 400;
+
+    }
+
+    #footer>div{
+        color: #d9d9d9;
+        position: absolute;
+        font-size: 15px;
+        left: 7%;
+        top: 798%;
+    }
+
+    #footer>img:nth-child(2){
+        color: #d9d9d9;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 80%;
+        top: 798%;
+    }
+
+    #footer>img:nth-child(3){
+        color: #d9d9d9;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 84%;
+        top: 798%;
+    }
+    #footer>img:nth-child(4){
+        color: #d9d9d9;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 88%;
+        top: 798%;
+    }#footer>img:nth-child(5){
+         color: #d9d9d9;
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         left: 92%;
+         top: 798%;
+     }
+
+
+    /* Container for the input and button */
+    .position-relative {
+        max-width: 400px;
+        margin: 0 auto; /* Center the element horizontally */
+    }
+    .position-relative>label>input {
+        width: 100px;
+        height: 50px;
+        background-color: #d9d9d9;
+    }
+    /* Input field styling */
+    .form-control {
+        width: 100%;
+        padding: 15px 60px 15px 20px; /* Adjust padding for icon space */
+        border: 2px solid #0090F9;
+        border-radius: 5px;
+        font-size: 1rem;
+        background-color: #f8f9fa;
+        color: #333;
+        box-shadow: none; /* Remove default box shadow */
+        transition: all 0.3s ease; /* Smooth transition on focus */
+    }
+
+    .form-control::placeholder {
+        color: #737373;
+        font-size: 0.9rem;
+    }
+
+    /* Button styling */
+    .btn-primary {
+        padding: 10px 20px;
+        background-color: #00224d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #0090F9; /* Hover effect */
+    }
+
+    /* Positioning the button */
+    .position-absolute {
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%); /* Vertically center the button */
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 500px) {
+        .form-control {
+            padding: 12px 50px 12px 15px; /* Reduce padding for smaller screens */
+        }
+        .btn-primary {
+            padding: 8px 15px;
+        }
+    }
+
+}

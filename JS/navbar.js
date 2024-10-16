@@ -1,6 +1,7 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('nav');
+const menuToggle = document.getElementById('mobile-menu');
+const navList = document.querySelector('.nav-list');
 
 menuToggle.addEventListener('click', () => {
-    nav.classList.toggle('nav-open');
+    navList.classList.toggle('active');
+    menuToggle.classList.toggle('open'); // Optional: for animation
 });

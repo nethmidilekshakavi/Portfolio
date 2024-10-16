@@ -398,7 +398,7 @@
 @media screen and (max-width: 768px) {
 
     #section13 {
-        height: 600px;
+        height: 400px;
         /*background: linear-gradient(to right, #00224d 0%, #0C9463 100%);*/
         background-color: #00224d;
         background-size: cover;

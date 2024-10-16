@@ -3,115 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <title>Web Site</title>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Consolidate CSS Files if Possible -->
     <link rel="stylesheet" href="CSS/Home%20&%20NavBar.css">
     <link rel="stylesheet" href="CSS/About%20Me.css">
     <link rel="stylesheet" href="CSS/Skills.css">
-    <link rel="stylesheet" href="CSS/Assingment.css">
-    <link rel="stylesheet" href="CSS/Projects.css">
-    <link rel="stylesheet" href="CSS/my%20Works.css">
-    <link rel="stylesheet" href="CSS/Contact.css">
     <link rel="stylesheet" href="CSS/Education.css">
+    <link rel="stylesheet" href="CSS/Assingment.css">
+    <link rel="stylesheet" href="CSS/Contact.css">
+    <link rel="stylesheet" href="CSS/my%20Works.css">
     <link rel="stylesheet" href="CSS/Gallery.css">
+    <link rel="stylesheet" href="CSS/Contact.css">
+    <!-- Consider combining multiple CSS files to reduce HTTP requests -->
 
-    <!--fonts-->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Fredoka:wght@300..700&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
 
+    <!-- AOS Animations -->
+    <link href="../https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="../https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <style>
-
-
-
         .div01{
             background-size: cover;
             height: 100vh;
             width: 100%;
         }
-
-
-
     </style>
-
-
 </head>
 <body>
 
-<!-------------------------------------------------------------navBar & Home------------------------------------------------------------>
 <div class="div01">
 
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- Logo -->
+            <img src="Assert/home/Screenshot_2.png" id="logo" alt="Logo">
 
-<header>
-    <nav class="navbar">
-        <div class="menu-toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-       <!-- <img src="Assert/home/Screenshot_2.png" id="logo">-->
-        <div id="outline">
-        <ul class="nav-list">
-            <a href="">Home<span></span></a>
-            <a href="">About<span></span></a>
-            <a href="">Skills<span></span></a>
-            <a href="">Education<span></span></a>
-            <a href="">Assignment<span></span></a>
-            <a href="">Services<span></span></a>
-            <a href="">Gallery<span></span></a>
-            <a href="">Contact<span></span></a>
-        </ul>
-        </div>
-    </nav>
-</header>
+            <!-- Navigation Links -->
+            <div id="outline">
+                <ul class="nav-list">
+                    <li><a href="#">Home<span></span></a></li>
+                    <li><a href="#">About<span></span></a></li>
+                    <li><a href="#">Skills<span></span></a></li>
+                    <li><a href="#">Education<span></span></a></li>
+                    <li><a href="#">Assignment<span></span></a></li>
+                    <li><a href="#">Services<span></span></a></li>
+                    <li><a href="#">Gallery<span></span></a></li>
+                    <li><a href="#">Contact<span></span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
+    <!-- Main Content -->
+    <section id="section1">
+        <img id="massage" src="Assert/home/icons8-message-50.png" alt="Message Icon">
 
-<section id="section1">
-    <img id="massage" src="Assert/home/icons8-message-50.png" >
+        <section id="section2">
+            <div data-aos="flip-left">Hi</div>
+            <div><h1>I'm</h1></div>
+            <div><h1>Dileksha</h1></div>
+            <img src="Assert/About/WhatsApp%20Image%202024-07-24%20at%2014.48.13_ba221dbc.jpg" alt="Profile Image" id="profile">
+            <div><h4>Front-end Developer</h4></div>
+            <div><h6>With 1+ years of experience</h6></div>
 
+            <a href="#"><button id="cv">Download CV<span></span></button></a>
+            <a href="#"><button id="explore">Explore<span></span></button></a>
 
-    <section id="section2">
+            <h6 id="srilanka">Based in Sri Lanka, I am a developer</h6>
+            <h6 id="desc">"Welcome to my portfolio! Discover my work as a front-end developer, where creativity and functionality come together to craft seamless web experiences."</h6>
 
-        <div data-aos="flip-left">Hii</div>
-        <div><h1 class="animate__animated animate__rubberBand">I'm</h1></div>
-        <div><h1 class="animate__animated animate__rubberBand">Dileksha</h1></div>
-        <div><h4>front-end developer</h4></div>
-        <div><h6>with 1+ years of experience</h6></div>
-
-        <a href=""><button id="cv">Download Cv<span></span></button></a>
-        <a href=""><button id="explore">Explore<span></span></button></a>
-
-        <h6 id="srilanka">Based in  sri Lankan I am developer</h6>
-        <h6 id="desc">"Welcome to my portfolio! Discover my work as a front-end developer, where creativity and functionality come together to craft seamless web experiences.</h6>
-
-        <!--home image section-->
-
-        <div id="homeO"></div>
-        <div id="home1"></div>
-        <div id="home2"></div>
-
-
+            <!-- Decorative Elements -->
+            <div id="homeO"></div>
+            <div id="home1"></div>
+            <div id="home2"></div>
+        </section>
     </section>
 
-</section>
+    <!-- Social Media Section -->
+    <section id="section3">
+        <a href="#"><img src="Assert/home/icons8-facebook-50.png" alt="Facebook" class="facebook"></a>
+        <a href="#"><img src="Assert/home/icons8-instagram-50.png" alt="Instagram" class="inster"></a>
+        <a href="#"><img src="Assert/home/icons8-github-24.png" alt="GitHub" class="github"></a>
+        <a href="#"><img src="Assert/home/icons8-in-50.png" alt="LinkedIn" class="linkedin"></a>
+        <a href="#"><img src="Assert/home/icons8-line-24.png" alt="Line" class="line"></a>
+        <div class="followme">Follow ME</div>
+    </section>
 
-<!--// social media section-->
-<section id="section3">
-    <a href=""><img class="facebook" src="Assert/home/icons8-facebook-50.png"></a>
-    <a href=""><img class="inster" src="Assert/home/icons8-instagram-50.png"></a>
-    <a href=""><img class="github" src="Assert/home/icons8-github-24.png"></a>
-    <a href=""> <img class="linkedin" src="Assert/home/icons8-in-50.png"></a>
-    <a href=""><img class="line" src="Assert/home/icons8-line-24.png"></a>
-    <div class="followme">Follow ME</div>
-</section>
-
-
-
-<img id="arrow" src="Assert/home/icons8-arrow-50.png" >
-
-
+    <!-- Arrow for Scroll or Navigation -->
+    <img id="arrow" src="Assert/home/icons8-arrow-50.png" alt="ArrowIcon">
 
 </div>
 
@@ -469,13 +460,12 @@
 </section>
 
 
-<!--&lt;!&ndash;-----------------------------------MY Works----------------------------------------------------&ndash;&gt;-->
+<!-------------------------------------MY Works------------------------------------------------------>
 
-<!--
 <section id="section15">
 
     <div id="section16">
-        &lt;!&ndash;wadan section&ndash;&gt;
+        <!--wadan section-->
         <div></div>
         <h6>Martin Luther King Jr. -</h6>
         <h5>
@@ -504,7 +494,6 @@
     </section>
 
 </section>
--->
 
 
 
@@ -513,7 +502,7 @@
 <section id="section19">
 
     <div id="section20">
-        <!--wadan section&ndash;&gt;
+        wadan section&ndash;&gt;
         <div></div>
         <h6>John Carmack -</h6>
         <h5>
@@ -527,10 +516,10 @@
 <!--    &lt;!&ndash;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Gallery&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
 
 
-<!--<section id="section21">
+<section id="section21">
 
         <div id="section22">
-            &lt;!&ndash;wadan section&ndash;&gt;
+            <!--wadan section-->
             <div></div>
             <h6>Tim Berners-Lee -</h6>
             <h5>
@@ -558,7 +547,7 @@
 
 
     </section>
-        &lt;!&ndash;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Contact&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;
+        <!------------------------------------Contact------------------------------------------------------>
 
 
 <section id="section23">
@@ -634,11 +623,27 @@
 
 
 
-        </section>-->
+        </section>
 
 
 <!--animation-->
-<script src="JS/navBar.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
+<!-- JavaScript for Mobile Menu Toggle -->
+<script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navList = document.querySelector('#outline ul');
+
+    menuToggle.addEventListener('click', () => {
+        navList.classList.toggle('active');
+        menuToggle.classList.toggle('open');
+    });
+</script>
+
+<script src="JS/navbar.js"></script>
 <script src="../https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="JS/Assignment.js"></script>
 <script src="JS/My%20Works.js"></script>

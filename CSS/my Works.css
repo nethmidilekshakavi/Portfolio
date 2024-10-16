@@ -169,3 +169,196 @@
     color: #2ecc71; /* Change color on hover */
     text-decoration: underline; /* Underline the link on hover */
 }
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #section15{
+        height:130vh;
+        width: 100%;
+        background: #00224d;
+        background-size: cover;
+
+    }
+
+
+    #section16 > h5 {
+        font-size: 9px;
+        top: 390%;
+        left: 23%;
+    }
+
+    #section16 > h6 {
+        font-size: 12px;
+        top: 387%;
+        left: 12%;
+    }
+
+    #section16 > div {
+        width: 12px;
+        height: 12px;
+        top: 387.5%;
+    }
+
+    .section17 > .navbarProject > a {
+        color: #d9d9d9;
+        font-size: 8px;
+        font-weight: 500;
+        font-family: "Klee One", cursive;
+        font-style: normal;
+        position: relative;
+        display: inline;
+        margin-right: 20px;
+    }
+
+    /* Navbar */
+    .first {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Auto height */
+        font-weight: 500;
+        font-family: "Klee One", cursive;
+        font-style: normal;
+        left: 0; /* Align to left */
+        top: 400%; /* Set top position to 490% */
+        border: none; /* Remove border on mobile */
+        font-size: 12px; /* Smaller font size */
+        color: #d9d9d9;
+        display: flex; /* Flexbox for alignment */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        padding: 10px; /* Add padding */
+    }
+
+    .flist {
+        left: 0; /* Reset left position */
+        position: relative; /* Change to relative */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        gap: 10px; /* Reduce gap for mobile */
+        align-items: center; /* Center items */
+    }
+
+    .section17 > .navbarProject > a {
+        font-size: 10px; /* Smaller font size */
+        margin-right: 0; /* Remove margin */
+        display: block; /* Block display for better click area */
+    }
+
+
+    .first h1:hover {
+        cursor: pointer;
+        color: gray;
+    }
+
+    .first li:hover {
+        color: #0C9463;
+        cursor: pointer;
+    }
+
+    /* Rectangle container for project content */
+    #project-container {
+        border: 2px solid #d9d9d9;
+        border-radius: 10%;
+        padding: 20px;
+        margin-top: 20px;
+        width: 70%;
+        height: 380px;
+        color: #d9d9d9;
+        left: 14%;
+        position: absolute;
+        top: 420%;
+        background-color: #222233;
+        font-size: 14px;
+    }
+
+
+    .project-link {
+        position: absolute;
+        font-size: 15px;
+        bottom: 70%;
+        width: 100%;
+
+    }
+
+    .project-link a {
+        color: #3498db; /* Link color */
+        margin-top: 120px;
+        text-decoration: none; /* Remove underline */
+        font-weight: bold;
+    }
+
+    .project-link a:hover {
+        color: #2ecc71; /* Hover color change */
+        text-decoration: underline; /* Underline on hover */
+    }
+
+    .project-link>.h3{
+        font-size: 100px;
+    }
+
+    /* Styling for h3 */
+    #project-container h3 {
+        font-size: 20px; /* Adjust the font size for the heading */
+        font-weight: bold;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        color:#d9d9d9; /* Optional: change the color of the heading */
+        margin-bottom: 10px; /* Add space below the h3 */
+    }
+
+    /* Styling for p */
+    #project-container p {
+        font-size: 10px; /* Adjust the font size for the paragraph */
+        width: 90%;
+        color: #d9d9d9; /* Optional: change the color of the paragraph */
+        margin-bottom: 20px; /* Add space below the paragraph */
+    }
+
+    /* Styling for project links */
+    .project-link a {
+        position: absolute;
+        font-size: 10px;
+        width: 80%;
+        display: inline-block;
+        gap: 20px;
+        margin-right: 20px; /* Space between links (adjust as needed) */
+        margin-bottom: -30px; /* Add a 15px gap between each link */
+
+    }
+
+    .project-link a:hover {
+        color: #2ecc71; /* Change color on hover */
+        text-decoration: underline; /* Underline the link on hover */
+    }
+
+
+
+
+}
