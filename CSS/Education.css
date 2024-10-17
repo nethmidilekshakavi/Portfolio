@@ -13,7 +13,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 301.5%;
+    top: 304%;
     left: 22%;
     position: absolute;
 
@@ -27,7 +27,7 @@
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
-    top: 299%;
+    top: 304%;
     left: 10%;
     position: absolute;
 
@@ -229,15 +229,15 @@
 .description>p {
     font-size: 11px; /* Slightly increased font size for readability */
     font-family: "Fredoka", sans-serif;
-    padding-right: 5%; /* Added padding to move the text 20% from the left */
+    padding-right: 6%; /* Added padding to move the text 20% from the left */
     color: #d9d9d9;
-    margin: 35px 0 0 0; /* Added margin to create space between the h4 and p */
+    margin: 5px 0 0 0; /* Added margin to create space between the h4 and p */
 }
 
 .description>h6{
     font-size: large;
     font-family: "Klee One", cursive;
-    margin: 0 0 70px 0; /* Reduced margin */
+    margin: 0 0 20px 0; /* Reduced margin */
     padding: 0; /* Removed padding */
 }
 
