@@ -898,7 +898,7 @@ body {
 }
 
 /* Container for the entire content */
-.div01 {
+#div01 {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -994,6 +994,14 @@ header {
     padding: var(--navbar-height) 20px 20px; /* Top padding to avoid fixed navbar */
 }
 
+#massage{
+    width: 5vw;
+    height: 5vw;
+    left: 20%;
+    position: absolute;
+    top: 20%;
+}
+
 #section2 {
     max-width: 800px;
     text-align: left;
@@ -1001,13 +1009,16 @@ header {
 }
 
 #section2 > div {
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 5px;
+
 }
 
 #section2 h1 {
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-family: "Klee One", cursive;
     color: white;
+    left: 20%;
 }
 
 #section2 h4, #section2 h6 {
