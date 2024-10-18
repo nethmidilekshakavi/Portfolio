@@ -861,7 +861,7 @@
         font-size: 5vw;
         font-weight: bold;
         position: absolute;
-        top: 170%;
+        top: 165%;
         right: 7%;
         color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
     }
@@ -883,7 +883,7 @@
         justify-content: center;
         width: 100%;
         height: 50vw;
-        top: 10%;
+        top: 5%;
         overflow: hidden; /* Hide overflowing logos */
         position: relative;
     }
