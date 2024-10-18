@@ -898,299 +898,148 @@
     }
 
     /* The carousel item styling */
-    #python, #java, #PHOTOShop, #react, #mysql, #lr, #js, #FI ,#html{
-        width: 9vw;
-        height: 9vw;
-        align-self: center;
-        opacity: 0.8;
-        transition: transform 0.5s ease, opacity 0.5s ease;
+    #skill-section {
+        top: 190%;
     }
 
-    /*!* Center logo styling (HTML logo) *!
-    #html {
-        width: 15vw; !* Larger size for the center logo *!
-        height: 15vw;
-        z-index: 10;
-        opacity: 1;
-    }*/
-
-    /* Infinite scrolling animation */
-    @keyframes scroll {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-100%);
-        }
-    }
-
-    /* Logo slide container to make the logos move continuously */
-    .logo-slide {
-        display: flex;
-        gap: 30px; /* Adds spacing between the logos */
-        animation: scroll 30s linear infinite; /* Continuous scroll effect */
-    }
-
-
-    #skill-section{
-        width: 80%;
-        top: 200%;
-        margin: 0;
-        height: auto;
-        padding: 0 15%;
-
-    }
     .skill-main {
-        width: 50%;
-        top: 180%;
+        top: 200%;
+        grid-template-columns: repeat(1, 1fr); /* Change to 2 columns on small screens */
+        grid-row-gap: 5px;
+    }
+
+
+
+    .skills-bar {
+        width: 50px; /* Adjust width of skills bar */
+        position: absolute;
+    }
+    .skill-main{
+        top: 195%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 10px; /* Changed column gap to 10px */
-        grid-row-gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 30px;
         position: absolute;
     }
 
-    .skill-main>.skills-bar>.info>p{
-        display: flex;
-        justify-content: space-between;
-        margin: 0;
-        padding: 0 10px;
-    }
-
-    .skill-main>.skills-bar{
-        right: 10%;
-        width: 80%;
-        height: 10px;
-        top: -120%;
-        position: relative;
-        border-radius: 25px;
-        margin-top: 5px;
-
-    }
-
-    #names>h5:nth-child(1){
-        color: #d9d9d9;
-        font-size: 17px;
-        position: absolute;
-        font-family: Ebrima;
-        left: -3%;
-        top: -60px;
-
-    }
-
-    #names>h5:nth-child(2){
-        color: #d9d9d9;
-        font-size: 17px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 31%;
-        top: -60px;
-
-    }
-    #names>h5:nth-child(3){
-        color: #d9d9d9;
-        font-size: 17px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 65%;
-        top: -60px;
-
-    }
-
-    #names>h5:nth-child(4){
-        color: #d9d9d9;
-        font-size: 17px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 65%;
-        top: 20px;
-
-    }
-    #names>h5:nth-child(5){
-        color: #d9d9d9;
-        font-size: 15px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 31%;
-        top: 20px;
-
-    }
-    #names>h5:nth-child(6){
-        color: #d9d9d9;
-        font-size: 15px;
-        position: absolute;
-        font-family: Ebrima;
-        left: -3%;
-        top: 20px;
-
-    }
-
-    #percentage>h6:nth-child(1){
-        color: #d9d9d9;
-        font-size: 15px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 20%;
-        top: -60px;
-    }
-
-    #percentage>h6:nth-child(2){
-        color: #d9d9d9;
-        font-size: 15px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 53%;
-        top: -60px;
-    }
-    #percentage>h6:nth-child(3){
-        color: #d9d9d9;
-        font-size: 15px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 87%;
-        top: -60px;
-    }
-    #percentage>h6:nth-child(4){
-        color: #d9d9d9;
-        font-size: 15px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 20%;
-        top: 20px;
-    }
-    #percentage>h6:nth-child(5){
-        color: #d9d9d9;
-        font-size: 15px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 53%;
-        top: 20px;
-    }
-    #percentage>h6:nth-child(6){
-        color: #d9d9d9;
-        font-size: 15px;
-        position: absolute;
-        font-family: Ebrima;
-        left: 87%;
-        top: 20px;
-    }
-
-
-    .skills-bar{
-        width: 100px;
-        color: black;
-    }
-
-    .skills-bar>div{
-
-    }
     .bar{
         background-color: #737373;
         display: block;
-        width: 80px;
-        height: 13px;
+        height: 10px;
+        width: 150px;
         border: 1px solid rgba(0,0,0,0.3);
         border-radius: 3px;
         overflow:hidden ;
         box-shadow: 0 0 10px #00224d;
     }
 
-    .bar>span{
-        height: 15px;
-        float: left;
-        background: #d9d9d9;
-    }
-
-    .html{
-        width: 98%;
-        animation: html 2s;
+    #names>h5:nth-child(1){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 60%;
+        top: -7%;
 
     }
 
-    @keyframes html {
-        0%{
-            width: 0;
-        }
-        100%{
-            width: 98%;
-        }
+    #names>h5:nth-child(2){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 60%;
+        top: 10%;
 
     }
-    .css{
-        width: 95%;
-        animation: css 2s;
-
-    }
-
-    @keyframes css {
-        0%{
-            width: 0;
-        }
-        100%{
-            width: 95%;
-        }
-
-    }
-    .java{
-        width: 90%;
-        animation: java 2s;
+    #names>h5:nth-child(3){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 60%;
+        top: 22%;
 
     }
 
-    @keyframes java {
-        0%{
-            width: 0;
-        }
-        100%{
-            width: 90%;
-        }
-
+    #names>h5:nth-child(4){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 60%;
+        top: 40%;
     }
-    .mysql{
-        width: 90%;
-        animation: mysql 2s;
-
+    #names>h5:nth-child(5){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 60%;
+        top: 55%;
     }
-
-    @keyframes mysql {
-        0%{
-            width: 0;
-        }
-        100%{
-            width: 90%;
-        }
-
-    }
-    .js{
-        width: 85%;
-        animation: js 2s;
+    #names>h5:nth-child(6){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 60%;
+        top: 70%;
 
     }
 
-    @keyframes js {
-        0%{
-            width: 0;
-        }
-        100%{
-            width: 85%;
-        }
-
+    #percentage>h6:nth-child(1){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 83%;
+        top: -7%;
     }
 
-    .react{
-        width: 70%;
-        animation: react 2s;
-
+    #percentage>h6:nth-child(2){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 83%;
+        top: 10%;
     }
 
-    @keyframes react {
-        0%{
-            width: 0;
-        }
-        100%{
-            width: 70%;
-        }
+    #percentage>h6:nth-child(3){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 83%;
+        top: 22%;
 
     }
+    #percentage>h6:nth-child(4){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 83%;
+        top: 40%;
+    }
+    #percentage>h6:nth-child(5){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 83%;
+        top: 55%;
+    }
+    #percentage>h6:nth-child(6){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 83%;
+        top: 70%;
+    }
+
 }
 
