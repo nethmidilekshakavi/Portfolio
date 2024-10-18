@@ -3,6 +3,7 @@
     width: 100%;
     /*background: linear-gradient(to right,#00224d  0%, #0c9463  100%);*/
     background-color: #00224d;
+    background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
 }
 
@@ -20,8 +21,18 @@
 
 }
 
+.transparent-education {
+    font-size: 5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 310%;
+    right: 15%;
+    color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+}
+
+
 #section9>h6{
-    color: #0C9463;
+    color: #00224d;
     font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;

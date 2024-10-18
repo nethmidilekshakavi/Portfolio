@@ -3,8 +3,7 @@
 #div03{
     height:105vh;
     width: 100%;
-    /*background: linear-gradient(to right,#00224d  0%, #0c9463  100%);*/
-    background-color: #00224d;
+    background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
     top: 0;
 
@@ -27,7 +26,7 @@
 }
 
 #section7>h6{
-    color: #0C9463;
+    color: #00224d;
     font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;
@@ -38,6 +37,15 @@
     position: absolute;
 
 
+}
+
+.transparent-skills {
+    font-size: 5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 255%;
+    right: 37%;
+    color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
 }
 
 #section7>div{
@@ -115,7 +123,7 @@
 }
 .skill-main{
     width: 80%;
-    top: 270%;
+    top: 280%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 5px;

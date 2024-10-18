@@ -1,9 +1,8 @@
 #section21{
-    height:40vw;
+    height:100vh;
     width: 100%;
-    background-color: #00224d;
+    background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
-
 }
 #section22>h6{
     margin: 0;
@@ -21,8 +20,19 @@
     position: absolute;
 }
 
+.transparent-Captured {
+    font-size: 4vw;
+    font-weight: bold;
+    position: absolute;
+    top: 650%;
+    left: -20%;
+    width: 700px;
+    color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+    transform: rotate(270deg);
+}
+
 #section22>h6{
-    color: #0C9463;
+    color: #00224d;
     font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
     font-optical-sizing: auto;

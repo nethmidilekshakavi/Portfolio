@@ -2,7 +2,8 @@
     height: 52vw;
     width: 100%;
     /*background: linear-gradient(to right, #00224d 0%, #0C9463 100%);*/
-    background-color: #00224d;
+    /*background-color: #00224d;*/
+    background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
     background-size: cover;
     display: grid;
     color: #d9d9d9;
@@ -33,7 +34,7 @@
 }
 
 #section14 > h6 {
-    color: #0C9463;
+    color: #00224d;
     font-size: 15px;
     font-family: "Playwrite DE Grund", cursive;
     font-weight: 0;
@@ -141,6 +142,27 @@
     border: none;
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
+}
+
+.content1 > a > .code-btn {
+    padding: 10px 20px;
+    background-color: #0090F9; /* Set the background to blue */
+    color: #d9d9d9;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    box-shadow: 10px 5px black;
+    gap: 20px;
+    cursor: pointer;
+    border: none;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.6s 1 forwards;
+}
+
+.code-btn:hover {
+    background-color: #004080; /* Darker blue on hover */
 }
 
 @keyframes animate {
