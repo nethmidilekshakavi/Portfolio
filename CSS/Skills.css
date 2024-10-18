@@ -820,60 +820,377 @@
 
 
 @media (max-width: 425px) {
-    #div03 {
-        height: 60vh; /* Adjust height for very small screens */
-        background-color: #001f3f; /* Change background color for better visibility */
+
+
+    #div03{
+        height:80vh;
+        width: 120%;
+        background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
+        background-size: cover;
     }
 
-    #section7 > h5 {
-        font-size: 6px; /* Smaller font size for headings */
-        top: 200%; /* Adjust positioning */
-        left: 20%; /* Adjust positioning */
+    #section7>h5{
+        color: lightgoldenrodyellow;
+        font-size: 12px;
+        font-family: "Playwrite DE Grund", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 209%;
+        left: 20%;
+        position: absolute;
+        display: none;
+
+
     }
 
-    #section7 > h6 {
-        font-size: 8px; /* Smaller font size for subheadings */
-        top: 195%; /* Adjust positioning */
-        left: 10%; /* Adjust positioning */
+    #section7>h6{
+        color: #00224d;
+        font-size: 15px;
+        font-family: "Playwrite DE Grund", cursive;
+        font-optical-sizing: auto;
+        font-weight: 0;
+        font-style: normal;
+        top: 209%;
+        left: 10%;
+        position: absolute;
+        display: none;
     }
 
-    #section7 > div {
-        width: 10px; /* Reduce size of divs */
-        height: 10px; /* Reduce size of divs */
-        top: 200%; /* Adjust positioning */
+    .transparent-skills {
+        font-size: 5vw;
+        font-weight: bold;
+        position: absolute;
+        top: 170%;
+        right: 10%;
+        color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
     }
 
+    #section7>div{
+        width: 1.3vw;
+        height: 1.3vw;
+        background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
+        left: 7%;
+        top: 209%;
+        position: absolute;
+        margin: 0;
+        display: none;
+    }
+
+    /* Parent container for the carousel */
     .section8 {
-        height: 35vw; /* Further reduce height for small screens */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50vw;
+        top: 10%;
+        overflow: hidden; /* Hide overflowing logos */
+        position: relative;
     }
 
+    /* Carousel slide container */
     .logo-slide {
-        gap: 10px; /* Reduce spacing between logos */
-        animation: scroll 15s linear infinite; /* Speed up scroll for small screens */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: max-content;
+        animation: scroll 5s linear infinite; /* Infinite scroll animation */
     }
 
-    #skill-section {
-        top: 180%; /* Adjust positioning */
+    /* The carousel item styling */
+    #python, #java, #PHOTOShop, #react, #mysql, #lr, #js, #FI ,#html{
+        width: 9vw;
+        height: 9vw;
+        align-self: center;
+        opacity: 0.8;
+        transition: transform 0.5s ease, opacity 0.5s ease;
     }
 
+    /*!* Center logo styling (HTML logo) *!
+    #html {
+        width: 15vw; !* Larger size for the center logo *!
+        height: 15vw;
+        z-index: 10;
+        opacity: 1;
+    }*/
+
+    /* Infinite scrolling animation */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    /* Logo slide container to make the logos move continuously */
+    .logo-slide {
+        display: flex;
+        gap: 30px; /* Adds spacing between the logos */
+        animation: scroll 30s linear infinite; /* Continuous scroll effect */
+    }
+
+
+    #skill-section{
+        width: 80%;
+        top: 200%;
+        margin: 0;
+        height: auto;
+        padding: 0 15%;
+
+    }
     .skill-main {
-        top: 220%; /* Adjust positioning */
-        grid-template-columns: 1fr; /* Single column layout on very small screens */
-        grid-row-gap: 20px; /* Adjust gap */
+        width: 50%;
+        top: 180%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px; /* Changed column gap to 10px */
+        grid-row-gap: 20px;
+        position: absolute;
     }
 
-    #names > h5 {
-        font-size: 6px; /* Adjust font size to 6px */
-        top: -20%; /* Adjust positioning */
+    .skill-main>.skills-bar>.info>p{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0 10px;
     }
 
-    #percentage > h6 {
-        font-size: 1rem; /* Adjust font size to 6px */
-        top: -25px; /* Adjust positioning */
+    .skill-main>.skills-bar{
+        right: 10%;
+        width: 80%;
+        height: 10px;
+        top: -120%;
+        position: relative;
+        border-radius: 25px;
+        margin-top: 5px;
+
     }
 
-    .skills-bar {
-        width: 95%; /* Adjust width of skills bar */
+    #names>h5:nth-child(1){
+        color: #d9d9d9;
+        font-size: 17px;
+        position: absolute;
+        font-family: Ebrima;
+        left: -3%;
+        top: -60px;
+
+    }
+
+    #names>h5:nth-child(2){
+        color: #d9d9d9;
+        font-size: 17px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 31%;
+        top: -60px;
+
+    }
+    #names>h5:nth-child(3){
+        color: #d9d9d9;
+        font-size: 17px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 65%;
+        top: -60px;
+
+    }
+
+    #names>h5:nth-child(4){
+        color: #d9d9d9;
+        font-size: 17px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 65%;
+        top: 20px;
+
+    }
+    #names>h5:nth-child(5){
+        color: #d9d9d9;
+        font-size: 15px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 31%;
+        top: 20px;
+
+    }
+    #names>h5:nth-child(6){
+        color: #d9d9d9;
+        font-size: 15px;
+        position: absolute;
+        font-family: Ebrima;
+        left: -3%;
+        top: 20px;
+
+    }
+
+    #percentage>h6:nth-child(1){
+        color: #d9d9d9;
+        font-size: 15px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 20%;
+        top: -60px;
+    }
+
+    #percentage>h6:nth-child(2){
+        color: #d9d9d9;
+        font-size: 15px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 53%;
+        top: -60px;
+    }
+    #percentage>h6:nth-child(3){
+        color: #d9d9d9;
+        font-size: 15px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 87%;
+        top: -60px;
+    }
+    #percentage>h6:nth-child(4){
+        color: #d9d9d9;
+        font-size: 15px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 20%;
+        top: 20px;
+    }
+    #percentage>h6:nth-child(5){
+        color: #d9d9d9;
+        font-size: 15px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 53%;
+        top: 20px;
+    }
+    #percentage>h6:nth-child(6){
+        color: #d9d9d9;
+        font-size: 15px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 87%;
+        top: 20px;
+    }
+
+
+    .skills-bar{
+        width: 100px;
+        color: black;
+    }
+
+    .skills-bar>div{
+
+    }
+    .bar{
+        background-color: #737373;
+        display: block;
+        width: 80px;
+        height: 13px;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 3px;
+        overflow:hidden ;
+        box-shadow: 0 0 10px #00224d;
+    }
+
+    .bar>span{
+        height: 15px;
+        float: left;
+        background: #d9d9d9;
+    }
+
+    .html{
+        width: 98%;
+        animation: html 2s;
+
+    }
+
+    @keyframes html {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 98%;
+        }
+
+    }
+    .css{
+        width: 95%;
+        animation: css 2s;
+
+    }
+
+    @keyframes css {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 95%;
+        }
+
+    }
+    .java{
+        width: 90%;
+        animation: java 2s;
+
+    }
+
+    @keyframes java {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 90%;
+        }
+
+    }
+    .mysql{
+        width: 90%;
+        animation: mysql 2s;
+
+    }
+
+    @keyframes mysql {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 90%;
+        }
+
+    }
+    .js{
+        width: 85%;
+        animation: js 2s;
+
+    }
+
+    @keyframes js {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 85%;
+        }
+
+    }
+
+    .react{
+        width: 70%;
+        animation: react 2s;
+
+    }
+
+    @keyframes react {
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 70%;
+        }
+
     }
 }
 

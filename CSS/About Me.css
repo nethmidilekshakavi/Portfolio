@@ -388,7 +388,7 @@
 
     #div02{
         height:120vh;
-        width: 110%;
+        width: 120%;
         background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
         background-size: cover;
     }
@@ -413,6 +413,7 @@
         top: 125%;
         left: 21%;
         position: absolute;
+        display: none;
     }
 
     #div02>#section4>h6 {
@@ -425,6 +426,7 @@
         top: 106%;
         left: 10%;
         position: absolute;
+        display: none;
     }
 
     #div02>#section4>div {
@@ -434,6 +436,7 @@
         position: absolute;
         left: 7%;
         top: 107%;
+        display: none;
 
     }
 
