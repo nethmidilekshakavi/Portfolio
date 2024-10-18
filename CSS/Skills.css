@@ -862,7 +862,7 @@
         font-weight: bold;
         position: absolute;
         top: 170%;
-        right: 10%;
+        right: 7%;
         color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
     }
 
@@ -870,7 +870,7 @@
         width: 1.3vw;
         height: 1.3vw;
         background: linear-gradient(to right, #d9d9d9 1%, #356aa0 98%);
-        left: 7%;
+        left: -10%;
         top: 209%;
         position: absolute;
         margin: 0;
