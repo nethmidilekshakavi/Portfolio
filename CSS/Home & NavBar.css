@@ -592,52 +592,210 @@ header {
 }
 
 @media screen and (max-width: 425px) {
-    /* Further adjustments for mobile */
-    #section3 {
-        flex-direction: row;
-        top: auto;
-        bottom: 60px;
-        right: 50%;
-        transform: translateX(50%);
-    }
-
-    #section3 a {
-        width: 40px;
-        height: 40px;
-    }
-
-    .menu-toggle .bar {
-        width: 20px;
-    }
-
+    /* Navigation */
     #outline ul {
-        width: 100%;
-        height: calc(100% - var(--navbar-height));
-        position: fixed;
-        top: var(--navbar-height);
-        left: 0;
         flex-direction: column;
+        background: rgba(0,0,0,0.9);
+        position: fixed;
+        left: 20%;
+        width: 320px;
+        height: calc(50% - var(--navbar-height));
+        transform: translateX(80%);
+        transition: transform var(--transition-speed);
         align-items: center;
-        background: rgba(0,0,0,0.95);
+        top: 0;
     }
 
-    #outline ul a {
-        font-size: 1.2rem;
-        padding: 15px;
+    *{
+        width: 325px;
     }
 
-    /* Hide some elements if necessary */
-    #profile {
+    #srilanka, #desc {
+        text-align: left;
+        margin-right: 80px;
+    }
+
+    #outline ul.active {
+        transform: translateX(0);
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    /* Main Section */
+    #section1 {
+        padding: calc(var(--navbar-height) + 20px) 20px 20px;
+    }
+
+
+    #circle1{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background-color: #2ecc71;
+        position: relative;
+        left: 20%;
+        bottom: 450px;
+    }
+
+    #circle2{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        position: relative;
+        left: 0px;
+        bottom: 450px;
+    }
+
+    #circle3{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        position: relative;
+        left: 320px;
+        bottom: 470px;
+    }
+
+    #massage{
+        width: 60px;
+        height: 60px;
+        left: 210px;
+        position: relative;
+        top: -120px;
+    }
+
+    #section2 h1 {
+        font-size: 3rem;
+        left: 20px;
+        position: relative;
+        text-align: left;
+        color: white;
+
+    }
+
+    #section2>div:nth-child(1){
+        color: #d9d9d9;
+        left: 170px;
+        font-size: 20px;
+        top:-20px;
+        position: relative;
+
+    }
+
+    #section2 h4{
+        font-size: 20px;
+        position: relative;
+        left: 20px;
+        top: 10px;
+        color: #d9d9d9;
+    }
+
+    #section2 h6:nth-child(1){
+        font-size: 10px;
+        left: 25px;
+        top: 20px;
+        position: relative;
+        color: #d9d9d9;
+    }
+
+    #section2 h6:nth-child(1){
+        color: #d9d9d9;
+    }
+
+    #cv {
+        padding: 10px 20px;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 0.6rem;
+        left: 70px;
+        top: 30px;
+        position: relative;
+        font-family: "Klee One", cursive;
+        cursor: pointer;
+        transition: background-color var(--transition-speed), transform var(--transition-speed);
+        margin-right: 10px;
+    }
+
+    #explore{
+        padding: 10px 20px;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 0.6rem;
+        left: 70px;
+        top: 30px;
+        position: relative;
+        font-family: "Klee One", cursive;
+        cursor: pointer;
+        transition: background-color var(--transition-speed), transform var(--transition-speed);
+        margin-right: 10px;
+    }
+
+    /* Adjusting #srilanka and #desc */
+    #srilanka {
+        display: block;
+        text-align: left; /* Align text to the right */
+        left: 160px; /* Adjust the right margin for spacing */
+        font-size: 9px;
+        color: #d9d9d9;
+        position: absolute;
+        top: 120%;
+        width: 300px; /* Ensure no width limit */
+
+    }
+    #desc{
+        display: block;
+        right: 0;
+        position: absolute;
+        font-size: 8px;
+        display: none;
+        color: #d9d9d9;
+        top: 140%;
+        width: 120px;
+
+    }
+
+    /* Social Media Section */
+    #section3 {
+        right: 10px;
         display: none;
     }
 
-    #arrow {
-        display:none;
-        }
+    .followme {
+        display: none;
+    }
 
-    #srilanka, #desc {
-        text-align: right;
-        margin-right: 5px;
+    /* Arrow */
+    #arrow {
+        width: 30px;
+        height: 30px;
+        display: none;
+    }
+
+    /* Profile Image */
+    #profile {
+        width: 150px;
+        height: 150px;
+        top: 130%;
+        position: absolute;
+        right: 50%;
+    }
+
+    header {
+        background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+        padding: 10px 20px;
+        position: fixed;
+        border-top: #0C9463 2px solid;
+        border-bottom: #0090F9 2px solid;
+        border-radius: 5px;
+        width: 70%;
+        top: 0;
+        z-index: 1000;
     }
 }
+
 
