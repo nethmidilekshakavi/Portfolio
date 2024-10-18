@@ -785,7 +785,7 @@ textarea:focus {
     @media (max-width: 425px) {
     #section23{
         height:150vh;
-        width: 100%;
+        width: 120%;
         background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
         background-size: cover;
 
