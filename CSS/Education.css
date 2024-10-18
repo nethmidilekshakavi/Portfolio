@@ -493,18 +493,21 @@ input:checked + label .description {
         font-size: 6px; /* Smaller font size for headings */
         top: 200%; /* Adjust positioning */
         left: 20%; /* Adjust positioning */
+        display: none;
     }
 
     #section9 > h6 {
         font-size: 8px; /* Smaller font size for subheadings */
         top: 195%; /* Adjust positioning */
         left: 10%; /* Adjust positioning */
+        display: none;
     }
 
     #section9 > div {
         width: 10px; /* Reduce size of divs */
         height: 10px; /* Reduce size of divs */
         top: 200%; /* Adjust positioning */
+        display: none;
     }
     .section10 > div:nth-child(2) {
         width: 13px;
@@ -513,7 +516,7 @@ input:checked + label .description {
 
         background-color: #0C9463;
         left: 47.3%;
-        top: 312%;
+        top: 255%;
         position: absolute;
     }
 
@@ -524,7 +527,7 @@ input:checked + label .description {
         border-radius: 100%;
         background-color: #0C9463;
         left: 47.3%;
-        top: 320%;
+        top: 265%;
         position: absolute;
     }
 
@@ -534,7 +537,7 @@ input:checked + label .description {
         border-radius: 100%;
         background-color: #0C9463;
         left: 47.3%;
-        top: 328%;
+        top: 275%;
         position: absolute;
     }
 
@@ -544,7 +547,7 @@ input:checked + label .description {
         border-radius: 100%;
         background-color: #0C9463;
         left: 47.3%;
-        top: 336%;
+        top: 285%;
         position: absolute;
     }
 
@@ -554,7 +557,7 @@ input:checked + label .description {
         background-color: #00224d;
         border-radius: 20%;
         left: 48.9%;
-        top: 310%;
+        top: 255%;
         position: absolute;
     }
 
@@ -563,7 +566,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 312%;
+        top: 255%;
         position: absolute;
     }
 
@@ -572,7 +575,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
-        top: 314%;
+        top: 257%;
         position: absolute;
 
 
@@ -583,7 +586,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 320%;
+        top: 265%;
         position: absolute;
     }
 
@@ -592,7 +595,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 322%;
+        top: 267%;
         position: absolute;
 
 
@@ -603,7 +606,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 328%;
+        top: 275%;
         position: absolute;
     }
 
@@ -612,7 +615,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 330%;
+        top: 277%;
         position: absolute;
 
 
@@ -623,7 +626,7 @@ input:checked + label .description {
         font-size: 2vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 336%;
+        top: 285%;
         position: absolute;
     }
 
@@ -632,7 +635,7 @@ input:checked + label .description {
         font-size: 1.5vw;
         font-family: "Edu VIC WA NT Beginner", cursive;
         color: #d9d9d9;
-        top: 338%;
+        top: 287%;
         position: absolute;
     }
 
@@ -649,6 +652,15 @@ input:checked + label .description {
 
     .card {
         display: none;
+    }
+
+    .transparent-education {
+        font-size: 5vw;
+        font-weight: bold;
+        position: absolute;
+        top: 245%;
+        right: 5%;
+        color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
     }
 
 }
