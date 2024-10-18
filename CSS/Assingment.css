@@ -413,7 +413,6 @@
         background-size: cover;
         display: grid;
         color: #d9d9d9;
-        overflow-x: hidden;
     }
 
     #section14{
@@ -438,6 +437,7 @@
         height: 55px;
         position: absolute;
         top: -15%;
+        right: 10%;
         transform: translate(35%, -50%);
         box-shadow: 10px 10px 10px black;
         border-radius: 20px;
