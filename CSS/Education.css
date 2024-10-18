@@ -571,8 +571,8 @@ input:checked + label .description {
     }
 
     #section11 > div:nth-child(1) {
-        left: 16%;
-        font-size: 2vw;
+        left: 10%;
+        font-size: 2.3vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
         top: 255%;
@@ -580,7 +580,7 @@ input:checked + label .description {
     }
 
     #section12 > div:nth-child(1) {
-        left: 16%;
+        left: 10%;
         font-size: 1.5vw;
         font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
@@ -592,8 +592,8 @@ input:checked + label .description {
 
     #section11 > div:nth-child(2) {
         left: 55%;
-        font-size: 2vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-size: 2.3vw;
+        font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
         top: 265%;
         position: absolute;
@@ -602,7 +602,7 @@ input:checked + label .description {
     #section12 > div:nth-child(2) {
         left: 55%;
         font-size: 1.5vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
         top: 267%;
         position: absolute;
@@ -611,18 +611,18 @@ input:checked + label .description {
     }
 
     #section11 > div:nth-child(3) {
-        left: 18%;
-        font-size: 2vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
+        left: 10%;
+        font-size: 2.3vw;
+        font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
         top: 275%;
         position: absolute;
     }
 
     #section12 > div:nth-child(3) {
-        left: 18%;
+        left: 10%;
         font-size: 1.5vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
         top: 277%;
         position: absolute;
@@ -632,8 +632,8 @@ input:checked + label .description {
 
     #section11 > div:nth-child(4) {
         left: 55%;
-        font-size: 2vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-size: 2.3vw;
+        font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
         top: 285%;
         position: absolute;
@@ -642,7 +642,7 @@ input:checked + label .description {
     #section12 > div:nth-child(4) {
         left: 55%;
         font-size: 1.5vw;
-        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-family: "Fredoka", sans-serif;
         color: #d9d9d9;
         top: 287%;
         position: absolute;
