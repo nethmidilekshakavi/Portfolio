@@ -882,6 +882,8 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        height: 50vw;
+        top: 10%;
         overflow: hidden; /* Hide overflowing logos */
         position: relative;
     }
