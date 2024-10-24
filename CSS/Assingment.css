@@ -458,17 +458,17 @@
     }
 
     .slide > .item:nth-child(3) {
-        right: 10%;
+        right: 80%;
     }
 
     .slide > .item:nth-child(4) {
         position: absolute;
-        left: calc(53% + 220px);
+        left: calc(-40% + 220px);
     }
 
     .slide > .item:nth-child(5) {
         position: absolute;
-        left: calc(53% + 440px);
+        left: calc(-80% + 440px);
     }
 
     .slide > .item:nth-child(n + 6) {
