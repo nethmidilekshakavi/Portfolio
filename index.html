@@ -19,7 +19,13 @@
 
 
 <!--Annimation link-->
-    <link rel="stylesheet"href="../https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+            rel="stylesheet"
+            href="../https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--stroll animation link-->
+    <link rel="stylesheet" href="../https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
 
     <!-- Fonts -->
@@ -31,9 +37,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- AOS Animations -->
     <link href="../https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="../https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 
     <style>
@@ -42,9 +55,14 @@
             height: 100vh;
             width: 100%;
         }
+
+
+
     </style>
 </head>
 <body>
+
+
 
 <div id="div01">
 
@@ -76,22 +94,25 @@
     </header>
 
     <!-- Main Content -->
+
+
+
     <section id="section1">
         <img id="massage" src="Assert/home/icons8-message-50.png" alt="Message Icon">
 
         <section id="section2">
             <div data-aos="flip-left">Hi</div>
-            <div><h1>I'm</h1></div>
-            <div><h1>Dileksha </h1></div>
+            <div><h1 class="animate__animated animate__flip">I'm ...</h1></div>
+            <div><h1 class="animate__animated animate__flip">Dileksha </h1></div>
             <img src="Assert/About/WhatsApp%20Image%202024-07-24%20at%2014.48.13_ba221dbc.jpg" alt="Profile Image" id="profile">
-            <div><h4>Front-end Developer</h4></div>
-            <div><h6>With 1+ years of experience</h6></div>
+            <div><h4 class="animate__animated animate__bounceIn">Front-end Developer</h4></div>
+            <div><h6 class="animate__animated animate__bounceIn">With1+ years of experience</h6></div>
 
             <a href="#"><button id="cv">Download CV<span></span></button></a>
             <a href="#"><button id="explore">Explore<span></span></button></a>
 
-            <h6 id="srilanka">Based in Sri Lanka, I am a developer</h6>
-            <h6 id="desc">"Welcome to my portfolio! Discover my work as a front-end developer, where creativity and functionality come together to craft seamless web experiences."</h6>
+            <h6 id="srilanka" class="animate__animated animate__backInRight">Based in Sri Lanka, I am a developer</h6>
+            <h6 id="desc" class="animate__animated animate__backInRight">"Welcome to my portfolio! Discover my work as a front-end developer, where creativity and functionality come together to craft seamless web experiences."</h6>
 
             <!-- Decorative Elements -->
             <div id="homeO"></div>
@@ -117,37 +138,51 @@
     <div id="circle2"></div>
     <div id="circle3"></div>
 
+ <!--   <div class="wrapper">
+        <div class="content">
+            <section class="section hero"></section>
+            <section class="section gradient-purple"></section>
+            <section class="section gradient-blue"></section>
+        </div>
+        <div class="image-container">
+            <img src="https://assets-global.website-files.com/63ec206c5542613e2e5aa784/643312a6bc4ac122fc4e3afa_main%20home.webp" alt="image">
+        </div>
+    </div>-->
+
 </div>
 
 <!-------------------------------------------------------------About Me------------------------------------------------------------>
 
 
-<div id="div02">
+<div id="div02" >
 <!--!--wadan section-->
 <section id="section4">
-    <h6>Nelson Mandela -</h6>
-    <h5>
+    <h6 data-aos="fade-up">Nelson Mandela -</h6>
+    <h5 data-aos="fade-up">
         "The greatest glory in living lies not in never falling,
         <br> but in rising every time we fall."
     </h5>
-    <div></div>
+    <div data-aos="fade-up"></div>
 </section>
 
     <h1 class="transparent-about">About Me</h1>
 
-<!--About me images section&ndash;&gt;-->
+<!--About me images section-->
 <section id="section5">
 
 </section>
 
-    <img src="Assert/About/WhatsApp Image 2024-08-21 at 10.52.39_be03e441.jpg">
+    <img src="Assert/About/WhatsApp Image 2024-08-21 at 10.52.39_be03e441.jpg" data-aos="flip-left"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000">
 
     <section id="section6">
-        <div>ABOUT ME</div>
+        <div data-aos="fade-right"
+        >ABOUT ME</div>
     </section>
 
 <!--About me para section-->
-<p id="about">My name is Nethmi Dileksha Kavindi, a 21-year-old full-stack <br>developer from Sri Lanka, studying Software Engineering at IJSE.
+<p id="about" data-aos="fade-left">My name is Nethmi Dileksha Kavindi, a 21-year-old full-stack <br>developer from Sri Lanka, studying Software Engineering at IJSE.
     <br> In my second semester, I am eager to learn new technologies and <br> improve my skills.
 
     <br><br><br><br><br>
@@ -158,10 +193,10 @@
     detail.
 </p>
 
-<!--    <img id="f" src="Assert/Contact/icons8-facebook-48.png">-->
-<!--    <img id="g" src="Assert/Contact/icons8-github-50%20(2).png">-->
-<!--    <img id="l" src="Assert/Contact/icons8-linkedin-48.png">-->
-<!--    <img id="ins" src="Assert/Contact/icons8-instagram-48.png">-->
+    <!--<img id="f" src="Assert/Contact/icons8-facebook-48.png">
+    <img id="g" src="Assert/Contact/icons8-github-50%20(2).png">
+    <img id="l" src="Assert/Contact/icons8-linkedin-48.png">
+    <img id="ins" src="Assert/Contact/icons8-instagram-48.png">&ndash;&gt;-->
 
 
 </div>
@@ -172,9 +207,9 @@
 <div id="div03">
 <section id="section7">
     <!--wadan section-->
-    <div></div>
-    <h6>Maya Angelou -</h6>
-    <h5>
+    <div data-aos="fade-up"></div>
+    <h6 data-aos="fade-up">Maya Angelou -</h6>
+    <h5 data-aos="fade-up">
         "You will face many defeats in life, but never let yourself be defeated."
     </h5>
 </section>
@@ -332,12 +367,12 @@
 
     </section>
 
-        <section id="section12">
-            <div>[ 2023-2024 ]</div>
-            <div>[ 2023 ]</div>
-            <div>[ 2014-2022 ]</div>
-            <div>[ 2009-2013 ]</div>
-        </section>
+    <section id="section12">
+        <div>[ 2023-2024 ]</div>
+        <div>[ 2023 ]</div>
+        <div>[ 2014-2022 ]</div>
+        <div>[ 2009-2013 ]</div>
+    </section>
 
     <div class="wrapper">
         <div class="container">
@@ -390,7 +425,7 @@
                 <p>"In 2023, I began my higher education at the Institute of Software  Engineering (IJSE),  taking a significant
                     <br> step towards pursuing
                     my passion for technology and
-                     software development."</p>
+                    software development."</p>
             </div>
         </div>
     </label>
@@ -488,7 +523,6 @@
 <section id="section15">
 
     <div id="section16">
-        wadan section
         <div></div>
         <h6>Martin Luther King Jr. -</h6>
         <h5>
@@ -632,8 +666,6 @@
 
         </section>
 
-<!--animation-->
-
 <script>
     AOS.init();
 </script>
@@ -654,6 +686,10 @@
 <script src="JS/Assignment.js"></script>
 <script src="JS/My%20Works.js"></script>
 <script src="JS/Gallery.js"></script>
+
+
+
+
 
 </body>
 </html>
