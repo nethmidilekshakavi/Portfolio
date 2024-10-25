@@ -53,21 +53,216 @@
     </script>
 
 
-
-
     <style>
         #div01{
             background-size: cover;
             height: 100vh;
             width: 100%;
         }
+        #div01 {
+            display: none; /* Hide the main content initially */
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
 
+        .container {
+            opacity: 0;
+            transition: opacity 1s ease-out;
+            pointer-events: none; /* Disable pointer events */
+        }
+
+        .container {
+            display: none;
+        }
+
+
+        :root{
+            --main-color: #ABA1FF;
+            --main-color-dark: #675FB2;
+            --ray-color: #FFD6BB;
+            --spark-color: #70B268;
+            --back-color: #2f2e4e;
+        }
+        body{
+            margin:0;
+            padding: 0;
+            background: var(--back-color);
+        }
+        .container{
+            max-width: 800px;
+            margin: auto;
+        }
+        #lastray{
+            margin: auto;
+            border-radius: 100%;
+            border: 0px solid;
+            border-color: var(--ray-color);
+            opacity: 1;
+            width: 0px;
+            height: 0px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+        }
+        #loading-page{
+            background: var(--back-color);
+            border-radius: 100%;
+            top:50%;
+            left: 50vw;
+            transform: translate(-50%,-50%);
+            width: 400vh;
+            height: 400vh;
+            position: fixed;
+            overflow: hidden;
+            transition-duration: 1s;
+        }
+        #loader{
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            max-width: 200px;
+            position: absolute;
+            max-height: 200px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+        }
+        .element{
+            margin: auto;
+            position: absolute;
+        }
+        .sphere{
+            background: radial-gradient(circle, var(--main-color), var(--main-color-dark));
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            animation: pump 4s infinite ease-in-out;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            box-shadow: 0px 0px 15px 0px rgba(200, 230, 255, 0.5);
+        }
+        .ray{
+            margin: auto;
+            border-radius: 100%;
+            border: 5px solid;
+            border-color: var(--ray-color);
+            opacity: 1;
+            width: 10px;
+            height: 10px;
+            animation: ray 4s infinite ease-out;
+            animation-delay: 2.5s;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            box-shadow: 0px 0px 15px 0px rgba(255, 230, 200, 0.5);
+        }
+        .spark{
+            width: 200px;
+            height: 200px;
+        }
+        .particles{
+            transform: translate(-50%, -50%);
+        }
+        .particle{
+            background-color: var(--spark-color);
+            width:5px;
+            height:5px;
+            border-radius: 100%;
+            opacity: 0;
+            animation: particle 1s infinite ease-in;
+            left: 0%;
+            top: 0%;
+        }
+        .spark1{transform: rotate(20deg);}
+        .spark2{transform: rotate(40deg);}
+        .spark3{transform: rotate(66deg);}
+        .spark4{transform: rotate(172deg);}
+        .spark5{transform: rotate(110deg);}
+        .spark6{transform: rotate(130deg);}
+        .spark7{transform: rotate(-100deg);}
+        .spark8{transform: rotate(-50deg);}
+        .spark9{transform: rotate(-80deg);}
+        .spark10{transform: rotate(-173deg);}
+        .spark11{transform: rotate(-7deg);}
+        .spark12{transform: rotate(-133deg);}
+
+        .particle1{animation-delay: .5s;}
+        .particle2{animation-delay: 0s;}
+        .particle3{animation-delay: 2.2s;}
+        .particle4{animation-delay: .2s;}
+        .particle5{animation-delay: 2s;}
+        .particle6{animation-delay: 1.2s;}
+        .particle7{animation-delay: 2.5s;}
+        .particle8{animation-delay: 1.5s;}
+        .particle9{animation-delay: 1s;}
+        .particle10{animation-delay: 2.5s;}
+        .particle11{animation-delay: .7s;}
+        .particle12{animation-delay: 1.7s;}
+
+        .loaded{
+            width: 0px !important;
+            height: 0px !important;
+            transition: 1.2s ease-out;
+        }
+        .whitebk{
+            background:#fff!important;
+        }
+        .opzero{
+            opacity: 0;
+            transition: 1s ease-out;
+        }
+        .finalray{
+            animation: ray 2s ease-out;
+            animation-delay: .3s;
+            border: 1px solid;
+        }
+        /*ANIMATIONS*/
+        @keyframes pump {
+            0% {width: 50px; height: 50px;}
+            83% {width: 88px; height: 88px;}
+            85% {width: 90px; height: 90px;}
+            100% {width: 50px; height: 50px;}
+        }
+        @keyframes ray {
+            0% {width: 10px; height: 10px; opacity: 1; border-width: 1px;}
+            100% {width: 200px; height: 200px; opacity: 0; border-width: 5px;}
+        }
+        @keyframes particle {
+            0% {left:0%; top:0%; opacity: 0;}
+            70% {opacity: 1;}
+            100% {left:50%; top:50%; opacity: 1;}
+        }
 
 
     </style>
 </head>
 <body>
 
+<div class="container">
+</div>
+<div id="loading-page">
+    <div id="loader">
+        <div class="particles element">
+            <div class="spark1 spark element"><div class="particle1 particle element"></div></div>
+            <div class="spark2 spark element"><div class="particle2 particle element"></div></div>
+            <div class="spark3 spark element"><div class="particle3 particle element"></div></div>
+            <div class="spark4 spark element"><div class="particle4 particle element"></div></div>
+            <div class="spark5 spark element"><div class="particle5 particle element"></div></div>
+            <div class="spark6 spark element"><div class="particle6 particle element"></div></div>
+            <div class="spark7 spark element"><div class="particle7 particle element"></div></div>
+            <div class="spark8 spark element"><div class="particle8 particle element"></div></div>
+            <div class="spark9 spark element"><div class="particle9 particle element"></div></div>
+            <div class="spark10 spark element"><div class="particle10 particle element"></div></div>
+            <div class="spark11 spark element"><div class="particle11 particle element"></div></div>
+            <div class="spark12 spark element"><div class="particle12 particle element"></div></div>
+        </div>
+        <div class="ray element"></div>
+        <div class="sphere element"></div>
+    </div>
+</div>
+<div id="lastray" class="element"></div>
 
 
 <div id="div01">
@@ -151,7 +346,7 @@
 <!-------------------------------------------------------------About Me------------------------------------------------------------>
 
 
-<div id="div02" >
+<div id="div02">
 <!--!--wadan section-->
 <section id="section4">
     <h6 data-aos="fade-up">Nelson Mandela -</h6>
@@ -567,14 +762,14 @@
 
 
         <div class="gallery">
-            <img src="Assert/Gallery/WhatsApp%20Image%202024-07-24%20at%2020.52.35_49256e09.jpg" alt="Image 1" class="gallery-item" onclick="openLightbox(this)">
-            <img src="Assert/Gallery/WhatsApp%20Image%202024-07-24%20at%2020.55.28_3fcb5fbb.jpg" alt="Image 2" class="gallery-item" onclick="openLightbox(this)">
-            <img src="Assert/Gallery/WhatsApp Image 2024-07-24 at 14.48.13_ba221dbc.jpg" alt="Image 3" class="gallery-item" onclick="openLightbox(this)">
-            <img src="Assert/Gallery/WhatsApp%20Image%202024-07-24%20at%2017.39.33_927c58fb.jpg" alt="Image 4" class="gallery-item" onclick="openLightbox(this)">
-            <img src="Assert/Gallery/WhatsApp%20Image%202024-07-24%20at%2014.48.14_241e2c78.jpg" alt="Image 5" class="gallery-item" onclick="openLightbox(this)">
-            <img src="Assert/Gallery/WhatsApp Image 2024-10-10 at 20.56.58_2a3f978a.jpg"  alt="Image 6" class="gallery-item" onclick="openLightbox(this)">
-            <img src="Assert/Gallery/WhatsApp Image 2024-10-10 at 20.58.32_44610bac.jpg"  alt="Image 6" class="gallery-item" onclick="openLightbox(this)">
-            <img src="Assert/Gallery/WhatsApp Image 2024-10-10 at 20.58.42_3f363b77.jpg"  alt="Image 6" class="gallery-item" onclick="openLightbox(this)">
+            <img src="Assert/Gallery/WhatsApp%20Image%202024-07-24%20at%2020.52.35_49256e09.jpg" alt="Image 1" class="gallery-item" onclick="openLightbox(this)" data-aos="fade-right">
+            <img src="Assert/Gallery/WhatsApp%20Image%202024-07-24%20at%2020.55.28_3fcb5fbb.jpg" alt="Image 2" class="gallery-item" onclick="openLightbox(this)" data-aos="fade-right">
+            <img src="Assert/Gallery/WhatsApp Image 2024-07-24 at 14.48.13_ba221dbc.jpg" alt="Image 3" class="gallery-item" onclick="openLightbox(this)"data-aos="fade-left">
+            <img src="Assert/Gallery/WhatsApp%20Image%202024-07-24%20at%2017.39.33_927c58fb.jpg" alt="Image 4" class="gallery-item" onclick="openLightbox(this)"data-aos="fade-left">
+            <img src="Assert/Gallery/WhatsApp%20Image%202024-07-24%20at%2014.48.14_241e2c78.jpg" alt="Image 5" class="gallery-item" onclick="openLightbox(this)" data-aos="fade-up-left">
+            <img src="Assert/Gallery/WhatsApp Image 2024-10-10 at 20.56.58_2a3f978a.jpg"  alt="Image 6" class="gallery-item" onclick="openLightbox(this)" data-aos="fade-up-left">
+            <img src="Assert/Gallery/WhatsApp Image 2024-10-10 at 20.58.32_44610bac.jpg"  alt="Image 6" class="gallery-item" onclick="openLightbox(this)" data-aos="fade-up-right">
+            <img src="Assert/Gallery/WhatsApp Image 2024-10-10 at 20.58.42_3f363b77.jpg"  alt="Image 6" class="gallery-item" onclick="openLightbox(this)" data-aos="fade-up-right">
         </div>
 
         <div id="lightbox" class="lightbox" onclick="closeLightbox()">
@@ -590,14 +785,14 @@
 <section id="section23">
 <section id="section25">
 
-            <h1>Have a project?
+            <h1 data-aos="flip-down">Have a project?
                 <br>
                 Let’s talk.</h1>
 
-            <p>Let’s chat and turn your ideas into reality!<br>
+            <p data-aos="flip-down">Let’s chat and turn your ideas into reality!<br>
                 whether it’s a website redesign,mobile app <br> development!</p>
 
-             <a href=""><button>make a call</button></a>
+             <a href=""><button data-aos="flip-down">make a call</button></a>
 
         </section>
 
@@ -612,7 +807,9 @@
                     <h6>If you have any suggestion,project re even you want <br> to say Hi...please fill out the form below and i will
                         <br> reply you shortly</h6>
 
-                    <img src="Assert/home/Screenshot_2.png" alt="">
+                    <img src="Assert/home/Screenshot_2.png" alt="" data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">>
 
                     <h5>Kavi....</h5>
 
@@ -650,12 +847,17 @@
 
             <section id="footer">
 
-                <div>©️ 2024 by Nethmi K. All right reserved.</div>
+                <div data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom">©️ 2024 by Nethmi K. All right reserved.</div>
 
-                <img src="Assert/Contact/icons8-facebook-48.png">
-                <img src="Assert/Contact/icons8-github-50%20(2).png">
-                <img src="Assert/Contact/icons8-linkedin-48.png">
-                <img src="Assert/Contact/icons8-instagram-48.png">
+                <img src="Assert/Contact/icons8-facebook-48.png" data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom">
+                <img src="Assert/Contact/icons8-github-50%20(2).png"  data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom">
+                <img src="Assert/Contact/icons8-linkedin-48.png"  data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom">
+                <img src="Assert/Contact/icons8-instagram-48.png"  data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom">
 
             </section>
 
@@ -690,6 +892,33 @@
 <script>
     AOS.init();
 </script>
+
+<script src="js/master.js" charset="utf-8"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        // Simulate a loading duration using a timeout (you can set this according to your animation duration)
+        setTimeout(() => {
+            // Fade out the loading screen
+            const loadingPage = document.getElementById('loading-page');
+            loadingPage.classList.add('opzero');
+
+            // Show the main content smoothly
+            const mainContent = document.getElementById('div01');
+            mainContent.style.display = 'block'; // Show the main content
+            setTimeout(() => {
+                mainContent.style.opacity = '1'; // Fade in the main content
+
+                // Completely hide the loading page after the fade-out effect
+                setTimeout(() => {
+                    loadingPage.classList.add('hidden'); // Add hidden class to fully hide the loading page
+                }, 1000); // Match the duration of the fade-out transition (1 second)
+            }, 100); // Delay slightly to allow the element to be displayed before the fade effect
+        }, 4000); // Adjust this time based on your loading animation duration
+    });
+</script>
+
+
 
 </body>
 </html>
