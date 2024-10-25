@@ -476,7 +476,8 @@ header {
         background-color: #2ecc71;
         position: relative;
         left: 400px;
-        bottom: 450px;
+        bottom: 30%;
+        display: none;
     }
 
     #circle2{
@@ -484,8 +485,8 @@ header {
         height: 50px;
         border-radius: 100%;
         position: relative;
-        left: 20px;
-        bottom: 450px;
+        left: 60%;
+        bottom: 10%;
     }
 
     #circle3{
@@ -494,7 +495,7 @@ header {
         border-radius: 100%;
         position: relative;
         left: 320px;
-        bottom: 470px;
+        bottom: 10%;
     }
 
     #massage{

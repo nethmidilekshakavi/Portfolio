@@ -338,6 +338,15 @@ input:checked + label .description {
         left: 23%;
     }
 
+    .transparent-education {
+        font-size: 5vw;
+        font-weight: bold;
+        position: absolute;
+        top: 250%;
+        right: 15%;
+        color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+    }
+
     #section9 > h6 {
         font-size: 10px;
         top: 232%;
@@ -347,7 +356,7 @@ input:checked + label .description {
     #section9 > div {
         width: 12px;
         height: 12px;
-        top: 235.5%;
+        top: 232%;
     }
 
     .section10>div:nth-child(2){

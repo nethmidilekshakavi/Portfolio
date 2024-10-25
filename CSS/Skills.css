@@ -759,6 +759,28 @@
     }
 }
 @media screen and (max-width: 768px) {
+
+    #div03>#section7>h6 {
+        font-size: 10px; /* Adjusted font size for tablets */
+        left: 12%; /* Adjusted left position for tablets */
+        top: 165%; /* Adjusted top position for tablets */
+    }
+
+    #div03>#section7>h5 {
+        font-size: 8px; /* Adjusted font size for tablets */
+        left: 30%; /* Adjusted left position for tablets */
+        top: 165%; /* Adjusted top position for tablets */
+    }
+
+    .transparent-skills {
+        font-size: 5vw;
+        font-weight: bold;
+        position: absolute;
+        top: 190%;
+        right: 37%;
+        color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+    }
+
     #div03 {
         height: 70vh;
         background-color: #00224d;
@@ -803,19 +825,121 @@
         grid-row-gap: 35px;
     }
 
-    #names > h5 {
-        font-size: 10px;
-        top: -30%;
-    }
-
-    #percentage > h6 {
-        font-size: 9px;
-        top: -33px;
-    }
-
     .skills-bar {
         width: 90%; /* Adjust width of skills bar */
     }
+
+
+    #names>h5:nth-child(1){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: -5%;
+        top: -25%;
+
+    }
+
+
+    #names>h5:nth-child(2){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 45%;
+        top: -25%;
+
+    }
+    #names>h5:nth-child(3){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: -5%;
+        top: 10%;
+
+    }
+
+    #names>h5:nth-child(4){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 45%;
+        top: 10%;
+
+    }
+    #names>h5:nth-child(5){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: -5%;
+        top: 45%;
+
+    }
+    #names>h5:nth-child(6){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 45%;
+        top: 45%;
+
+    }
+
+    #percentage>h6:nth-child(1){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 30%;
+        top: -23%;
+    }
+
+    #percentage>h6:nth-child(2){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 80%;
+        top: -23%;
+    }
+
+    #percentage>h6:nth-child(3){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 30%;
+        top: 45%;
+
+    }
+    #percentage>h6:nth-child(4){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 80%;
+        top: 13%;
+    }
+    #percentage>h6:nth-child(5){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 30%;
+        top: 13%;
+    }
+    #percentage>h6:nth-child(6){
+        color: #d9d9d9;
+        font-size: 12px;
+        position: absolute;
+        font-family: Ebrima;
+        left: 80%;
+        top: 45%;
+    }
+
 }
 
 

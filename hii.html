@@ -1,209 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/Home%20&%20NavBar.css">
-
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
 
     <style>
-        :root{
-            --main-color: #ABA1FF;
-            --main-color-dark: #675FB2;
-            --ray-color: #FFD6BB;
-            --spark-color: #70B268;
-            --back-color: #2f2e4e;
+        /* type js style  */
+        .typeJsWrapper {
+            padding: 50px;
         }
-        body{
-            margin:0;
+        .typeJsWrapper .typeJsText {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 48px;
+            display: inline-block;
             padding: 0;
-            background: var(--back-color);
-        }
-        .container{
-            max-width: 800px;
-            margin: auto;
-        }
-        #lastray{
-            margin: auto;
-            border-radius: 100%;
-            border: 0px solid;
-            border-color: var(--ray-color);
-            opacity: 1;
-            width: 0px;
-            height: 0px;
-            transform: translate(-50%, -50%);
-            left: 50%;
-            top: 50%;
-        }
-        #loading-page{
-            background: var(--back-color);
-            border-radius: 100%;
-            top:50%;
-            left: 50vw;
-            transform: translate(-50%,-50%);
-            width: 400vh;
-            height: 400vh;
-            position: fixed;
-            overflow: hidden;
-            transition-duration: 1s;
-        }
-        #loader{
-            margin: auto;
-            width: 100%;
-            height: 100%;
-            max-width: 200px;
-            position: absolute;
-            max-height: 200px;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            display: flex;
-        }
-        .element{
-            margin: auto;
-            position: absolute;
-        }
-        .sphere{
-            background: radial-gradient(circle, var(--main-color), var(--main-color-dark));
-            width: 50px;
-            height: 50px;
-            border-radius: 100%;
-            animation: pump 4s infinite ease-in-out;
-            transform: translate(-50%, -50%);
-            left: 50%;
-            top: 50%;
-            box-shadow: 0px 0px 15px 0px rgba(200, 230, 255, 0.5);
-        }
-        .ray{
-            margin: auto;
-            border-radius: 100%;
-            border: 5px solid;
-            border-color: var(--ray-color);
-            opacity: 1;
-            width: 10px;
-            height: 10px;
-            animation: ray 4s infinite ease-out;
-            animation-delay: 2.5s;
-            transform: translate(-50%, -50%);
-            left: 50%;
-            top: 50%;
-            box-shadow: 0px 0px 15px 0px rgba(255, 230, 200, 0.5);
-        }
-        .spark{
-            width: 200px;
-            height: 200px;
-        }
-        .particles{
-            transform: translate(-50%, -50%);
-        }
-        .particle{
-            background-color: var(--spark-color);
-            width:5px;
-            height:5px;
-            border-radius: 100%;
-            opacity: 0;
-            animation: particle 1s infinite ease-in;
-            left: 0%;
-            top: 0%;
-        }
-        .spark1{transform: rotate(20deg);}
-        .spark2{transform: rotate(40deg);}
-        .spark3{transform: rotate(66deg);}
-        .spark4{transform: rotate(172deg);}
-        .spark5{transform: rotate(110deg);}
-        .spark6{transform: rotate(130deg);}
-        .spark7{transform: rotate(-100deg);}
-        .spark8{transform: rotate(-50deg);}
-        .spark9{transform: rotate(-80deg);}
-        .spark10{transform: rotate(-173deg);}
-        .spark11{transform: rotate(-7deg);}
-        .spark12{transform: rotate(-133deg);}
-
-        .particle1{animation-delay: .5s;}
-        .particle2{animation-delay: 0s;}
-        .particle3{animation-delay: 2.2s;}
-        .particle4{animation-delay: .2s;}
-        .particle5{animation-delay: 2s;}
-        .particle6{animation-delay: 1.2s;}
-        .particle7{animation-delay: 2.5s;}
-        .particle8{animation-delay: 1.5s;}
-        .particle9{animation-delay: 1s;}
-        .particle10{animation-delay: 2.5s;}
-        .particle11{animation-delay: .7s;}
-        .particle12{animation-delay: 1.7s;}
-
-        .loaded{
-            width: 0px !important;
-            height: 0px !important;
-            transition: 1.2s ease-out;
-        }
-        .whitebk{
-            background:#fff!important;
-        }
-        .opzero{
-            opacity: 0;
-            transition: 1s ease-out;
-        }
-        .finalray{
-            animation: ray 2s ease-out;
-            animation-delay: .3s;
-            border: 1px solid;
-        }
-        /*ANIMATIONS*/
-        @keyframes pump {
-            0% {width: 50px; height: 50px;}
-            83% {width: 88px; height: 88px;}
-            85% {width: 90px; height: 90px;}
-            100% {width: 50px; height: 50px;}
-        }
-        @keyframes ray {
-            0% {width: 10px; height: 10px; opacity: 1; border-width: 1px;}
-            100% {width: 200px; height: 200px; opacity: 0; border-width: 5px;}
-        }
-        @keyframes particle {
-            0% {left:0%; top:0%; opacity: 0;}
-            70% {opacity: 1;}
-            100% {left:50%; top:50%; opacity: 1;}
+            border-right: 1px solid #414141;
         }
 
     </style>
 
 </head>
+
+
 <body>
-<div class="container">
-
-
-</div>
-<div id="loading-page">
-    <div id="loader">
-        <div class="particles element">
-            <div class="spark1 spark element"><div class="particle1 particle element"></div></div>
-            <div class="spark2 spark element"><div class="particle2 particle element"></div></div>
-            <div class="spark3 spark element"><div class="particle3 particle element"></div></div>
-            <div class="spark4 spark element"><div class="particle4 particle element"></div></div>
-            <div class="spark5 spark element"><div class="particle5 particle element"></div></div>
-            <div class="spark6 spark element"><div class="particle6 particle element"></div></div>
-            <div class="spark7 spark element"><div class="particle7 particle element"></div></div>
-            <div class="spark8 spark element"><div class="particle8 particle element"></div></div>
-            <div class="spark9 spark element"><div class="particle9 particle element"></div></div>
-            <div class="spark10 spark element"><div class="particle10 particle element"></div></div>
-            <div class="spark11 spark element"><div class="particle11 particle element"></div></div>
-            <div class="spark12 spark element"><div class="particle12 particle element"></div></div>
-        </div>
-        <div class="ray element"></div>
-        <div class="sphere element"></div>
+<div class="typeJsWrapper">
+    <div class="container">
+        <h1 class="typeJsText" data-typetext="I can hack Nasa! Ask me how?"></h1>
+        <h1 class="typeJsText" data-typetext="this is the second"></h1>
     </div>
 </div>
-<div id="lastray" class="element"></div>
-<script src="js/master.js" charset="utf-8"></script>
+
+
 
 <script>
-    setTimeout(function() {
-        document.getElementById("loading-page").className += "loaded";
-        document.getElementById("loader").className += "opzero";
-        document.getElementById("lastray").className += " finalray";
-        document.body.className += "whitebk";
-    },6500);
+    // type js plugin
+    let typeJsText = document.querySelector(".typeJsText");
+    let textArray = typeJsText.dataset.typetext.split("");
+    let counter = -1;
+
+    typeJsText.innerHTML = "";
+
+    function typeJs() {
+        if (counter < typeJsText.dataset.typetext.length) {
+            counter++;
+            typeJsText.innerHTML += typeJsText.dataset.typetext.charAt(counter);
+            textArray = typeJsText.dataset.typetext.split("");
+        } else {
+            textArray.pop();
+            typeJsText.innerHTML = textArray.join("");
+            if (textArray.length == 0) {
+                counter = -1;
+            }
+        }
+    }
+
+    setInterval(() => {
+        typeJs();
+    }, 100);
+
 </script>
+
+
 </body>
+
+
 </html>
