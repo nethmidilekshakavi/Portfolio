@@ -626,9 +626,7 @@ header {
 
 @media screen and (max-width: 425px) {
 
-    .container{
-        display: none;
-    }
+
 
     /* Navigation */
     #outline ul {
@@ -697,7 +695,7 @@ header {
         height: 60px;
         left: 210px;
         position: relative;
-        top: -120px;
+        top: -50px;
     }
 
     #section2 h1 {
@@ -705,6 +703,7 @@ header {
         right: 80px;
         position: relative;
         text-align: left;
+        top: 25px;
         color: white;
 
     }
@@ -713,8 +712,8 @@ header {
         color: #d9d9d9;
         left: 170px;
         font-size: 20px;
-        top:-5px;
-        position: relative;
+        top:50px;
+        position: absolute;
 
     }
 
@@ -722,14 +721,14 @@ header {
         font-size: 20px;
         position: relative;
         right: 80px;
-        top: 10px;
+        top: 40px;
         color: #d9d9d9;
     }
 
     #section2 h6:nth-child(1){
         font-size: 10px;
         right: 80px;
-        top: 20px;
+        top: 50px;
         position: relative;
         color: #d9d9d9;
     }
@@ -737,6 +736,8 @@ header {
     #section2 h6:nth-child(1){
         color: #d9d9d9;
     }
+
+
 
     #cv {
         padding: 10px 20px;
@@ -746,7 +747,7 @@ header {
         border-radius: 5px;
         font-size: 0.6rem;
         left: -50px;
-        top: 30px;
+        top: 70px;
         position: relative;
         font-family: "Klee One", cursive;
         cursor: pointer;
@@ -762,7 +763,7 @@ header {
         border-radius: 5px;
         font-size: 0.6rem;
         left: -30px;
-        top: 30px;
+        top: 70px;
         position: relative;
         font-family: "Klee One", cursive;
         cursor: pointer;
@@ -816,7 +817,7 @@ header {
     #profile {
         width: 150px;
         height: 150px;
-        top: 120%;
+        top: 150%;
         position: absolute;
         right: 50%;
     }
@@ -828,7 +829,7 @@ header {
         border-top: #0C9463 2px solid;
         border-bottom: #0090F9 2px solid;
         border-radius: 5px;
-        width: 70%;
+        width: 55%;
         top: 0;
         z-index: 1000;
 

@@ -219,7 +219,7 @@
     }
 
     .transparent-works {
-        font-size: 4vw;
+        font-size: 8vw;
         font-weight: bold;
         position: absolute;
         top: 380%;
@@ -403,11 +403,11 @@
 
 
     .transparent-works {
-        font-size: 4vw;
+        font-size: 8vw;
         font-weight: bold;
         position: absolute;
         top: 370%;
-        left: -30%;
+        left: -20%;
         width: 500px;
         color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
         transform: rotate(0deg);
@@ -433,7 +433,7 @@
         font-weight: 500;
         font-family: "Klee One", cursive;
         font-style: normal;
-        left: 40%; /* Align to left */
+        left: 0%; /* Align to left */
         top: 380%; /* Set top position to 490% */
         border: none; /* Remove border on mobile */
         font-size: 12px; /* Smaller font size */

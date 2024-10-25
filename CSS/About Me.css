@@ -341,17 +341,17 @@
     }
 
     .transparent-about {
-        font-size: 5vw;
+        font-size: 8vw;
         font-weight: bold;
         position: absolute;
-        top: 125%;
+        top: 105%;
         right: 20%;
         color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
     }
 
     #div02>img{
-        height: 35vw;
-        width: 35vw;
+        height: 40vw;
+        width: 40vw;
         border-radius: 60%;
         border: #00224d solid 2px;
         left: 10%;
@@ -365,7 +365,7 @@
         font-size: 8px; /* Set default font size for #about */
         color: white;
         font-family: "Fredoka", sans-serif;
-        left: 28%;
+        left: 10%;
         top: 140%;
         width: 600px;
         font-weight: 400;

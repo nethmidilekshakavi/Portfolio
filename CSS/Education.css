@@ -675,11 +675,11 @@ input:checked + label .description {
     }
 
     .transparent-education {
-        font-size: 5vw;
+        font-size: 8vw;
         font-weight: bold;
         position: absolute;
-        top: 245%;
-        right: 5%;
+        top: 240%;
+        right: 35%;
         color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
     }
 

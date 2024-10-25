@@ -90,7 +90,7 @@ h1 {
 
 @media (max-width: 480px) {
     .gallery-item {
-        width: 100%; /* One image per row */
+        width: 50%; /* One image per row */
     }
 }
 
@@ -273,7 +273,7 @@ h1 {
 @media screen and (max-width: 425px) {
 
     #section21{
-        height:400vh;
+        height:410vh;
         width: 120%;
         background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
         background-size: cover;
@@ -294,7 +294,7 @@ h1 {
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px; /* Adjust gap for better spacing */
-        top: 10%; /* Set top position to 530% */
+        top: -5%; /* Set top position to 530% */
         position: relative; /* Ensure it can position itself according to the top value */
     }
 
@@ -308,8 +308,8 @@ h1 {
     }
 
     .gallery-item img {
-        width: 100%; /* Make the image responsive */
-        height: auto; /* Maintain aspect ratio */
+        width: 30%; /* Make the image responsive */
+        height: 30%; /* Maintain aspect ratio */
         top: 400%;
         border-radius: 5px; /* Add border radius for the images */
     }
@@ -334,7 +334,7 @@ h1 {
     .lightbox {
         display: none;
         position: fixed;
-        top: 0;
+        top: 20%;
         left: 0;
         width: 100%;
         height: 100%;
@@ -383,5 +383,6 @@ h1 {
         display: none;
         color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
         transform: rotate(0deg);
+        display: none;
     }
 }

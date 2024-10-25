@@ -784,7 +784,7 @@ textarea:focus {
 
     @media (max-width: 425px) {
     #section23{
-        height:150vh;
+        height:200vh;
         width: 120%;
         background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
         background-size: cover;
@@ -799,7 +799,7 @@ textarea:focus {
 
     #section25>h1{
         left: 7%;
-        top: 960%;
+        top: 1025%;
         margin: 0;
         font-size: 6vw;
         color: #d9d9d9;
@@ -812,7 +812,7 @@ textarea:focus {
         font-optical-sizing: auto;
         font-weight: 0;
         font-style: normal;
-        top: 960%;
+        top: 1025%;
         left: 55%;
     }
 
@@ -839,7 +839,7 @@ textarea:focus {
         background: linear-gradient(to right, #00224d 0%,#737373 100%);
         box-shadow: 10px 10px 10px ;
         left: 7%;
-        top: 980%;
+        top: 1040%;
         position: absolute;
     }
 
@@ -1018,7 +1018,7 @@ textarea:focus {
          width: 30px;
          height: 30px;
          left: 92%;
-         top: 735%;
+         top: 75%;
      }
 
 
@@ -1103,7 +1103,7 @@ textarea:focus {
             position: absolute;
             font-size: 10px;
             left: 10%;
-            top: 1035%;
+            top: 1095%;
         }
 
         #footer > img:nth-child(2) {
@@ -1112,7 +1112,7 @@ textarea:focus {
             width: 30px;
             height: 30px;
             left: 55%;
-            top: 1040%;
+            top: 1100%;
         }
 
         #footer > img:nth-child(3) {
@@ -1121,7 +1121,7 @@ textarea:focus {
             width: 30px;
             height: 30px;
             left: 65%;
-            top: 1040%;
+            top: 1100%;
         }
 
         #footer > img:nth-child(4) {
@@ -1130,7 +1130,7 @@ textarea:focus {
             width: 30px;
             height: 30px;
             left: 75%;
-            top: 1040%;
+            top: 1100%;
         }
 
         #footer > img:nth-child(5) {
@@ -1139,6 +1139,6 @@ textarea:focus {
             width: 30px;
             height: 30px;
             left: 85%;
-            top: 1040%;
+            top: 1100%;
         }
 }
