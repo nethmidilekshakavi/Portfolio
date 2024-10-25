@@ -54,6 +54,12 @@
 
 
     <style>
+
+        body{
+            background: linear-gradient(to right, #0c9463 0%,#00224d 100%);
+
+        }
+
         #div01{
             background-size: cover;
             height: 100vh;
@@ -65,10 +71,16 @@
             transition: opacity 1s ease-in-out;
         }
 
-        .container {
+        body.loading {
+            overflow: hidden; /* Hide scroll bar */
+        }
+
+
+        container {
             opacity: 0;
             transition: opacity 1s ease-out;
             pointer-events: none; /* Disable pointer events */
+            overflow-y: hidden;
         }
 
         .container {
@@ -76,8 +88,10 @@
         }
 
 
+
+
         :root{
-            --main-color: #ABA1FF;
+            --main-color: #0090F9;
             --main-color-dark: #675FB2;
             --ray-color: #FFD6BB;
             --spark-color: #70B268;
@@ -622,6 +636,8 @@
         </div>
     </label>
 
+
+
 </div>
 
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -895,28 +911,36 @@
 
 <script src="js/master.js" charset="utf-8"></script>
 
+<!--loading page-->
 <script>
     window.addEventListener('load', () => {
-        // Simulate a loading duration using a timeout (you can set this according to your animation duration)
+        // Add the 'loading' class to the body to hide the scroll bar
+        document.body.classList.add('loading');
+
+        // Set a timeout to simulate a loading duration (e.g., 4 seconds)
         setTimeout(() => {
-            // Fade out the loading screen
+            // Fade out the loading container
             const loadingPage = document.getElementById('loading-page');
             loadingPage.classList.add('opzero');
 
-            // Show the main content smoothly
+            // Display the main container after a short delay
             const mainContent = document.getElementById('div01');
-            mainContent.style.display = 'block'; // Show the main content
             setTimeout(() => {
-                mainContent.style.opacity = '1'; // Fade in the main content
+                mainContent.style.display = 'block'; // Display the main container
+                mainContent.style.opacity = '1'; // Fade in the main container
 
-                // Completely hide the loading page after the fade-out effect
+                // Hide the loading container completely after the fade-out effect
                 setTimeout(() => {
-                    loadingPage.classList.add('hidden'); // Add hidden class to fully hide the loading page
-                }, 1000); // Match the duration of the fade-out transition (1 second)
-            }, 100); // Delay slightly to allow the element to be displayed before the fade effect
+                    loadingPage.classList.add('hidden'); // Hide the loading container using `display: none;`
+                    // Remove the 'loading' class to restore the scroll bar
+                    document.body.classList.remove('loading');
+                }, 1000); // Adjust this duration to match the fade-out duration
+            }, 500); // Short delay to ensure `#div01` is visible before applying fade-in
         }, 4000); // Adjust this time based on your loading animation duration
     });
 </script>
+
+
 
 
 

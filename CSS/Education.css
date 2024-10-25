@@ -293,7 +293,9 @@ input:checked + label .description {
     position: absolute;
     left: 5%;
     top: 320%;
-    background: linear-gradient(to right,#0C9463 0%, #00224d  100%);      }
+    background: linear-gradient(to right,#0C9463 0%, #00224d  100%);}
+
+
 
 
 
